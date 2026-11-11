@@ -1,0 +1,96 @@
+{
+  "workstreamID": "qumode_qsk_main",
+  "authorization": [
+    "pt3487u",
+    "main_approved_after_pilot_eta"
+  ],
+  "cohort": "MAIN",
+  "coupling_variance": "1/N",
+  "shanghai": "2026-11-10 22:59:19 CST",
+  "pid": 2726767,
+  "state": "running",
+  "stage": "bfgs_N6",
+  "started_shanghai": "2026-11-10 22:50:02 CST",
+  "resume": true,
+  "protocol": "/workspace/qumode_qsk/protocol/PROTOCOL_FROZEN.json",
+  "protocol_sha256": "f32a96d4af337525edbbeea903b848d9b8c6163af3efa214f4ca71cd143cbb81",
+  "note": "frozen protocol reused; conservative admission; N=21 single-worker; 1/N; no extra arms",
+  "allocated_cpus": {
+    "allocated_cpus": 8,
+    "allocated_cpus_float": 8.0,
+    "cap_source": "cgroup_cpuset.cpus.effective",
+    "quota_cpus": null,
+    "cpuset": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "host_os_cpu_count": 8,
+    "host_count_not_used_as_cap": true,
+    "sources": [
+      {
+        "file": "/sys/fs/cgroup/agent/cpu.max",
+        "value": "max 100000"
+      },
+      {
+        "file": "/sys/fs/cgroup/agent/cpuset.cpus.effective",
+        "value": "0-7",
+        "n": 8
+      }
+    ],
+    "cgroup": "/sys/fs/cgroup/agent"
+  },
+  "memory": {
+    "MemTotal_kib": 16386368,
+    "MemAvailable_kib": 7889960,
+    "SwapTotal_kib": 0,
+    "cgroup": {
+      "memory_max_bytes": null,
+      "memory_current_bytes": 6611140608,
+      "memory_max_file": "/sys/fs/cgroup/agent/memory.max",
+      "memory_current_file": "/sys/fs/cgroup/agent/memory.current",
+      "memory_max_unlimited": true
+    },
+    "usable_kib": 7889960,
+    "reserve_kib": 524288,
+    "headroom_kib": 7365672
+  },
+  "n_tasks": 38400,
+  "class_rss_kib": 88812,
+  "config_max": 4,
+  "reserve_kib": 524288,
+  "N": 6,
+  "task_kind": "bfgs",
+  "entropy_done": 200,
+  "spsa_done": 2400,
+  "bfgs_done": 0,
+  "entropy_todo": 0,
+  "spsa_todo": 0,
+  "bfgs_todo": 0,
+  "errors": 0,
+  "last_wave": {
+    "wave": "spsa_N6",
+    "wall_s": 546.9103264808655,
+    "n": 2400,
+    "n_error": 0,
+    "class_rss_kib": 93276,
+    "config_max": 4,
+    "reserve_kib": 524288,
+    "reused_note": null
+  }
+}

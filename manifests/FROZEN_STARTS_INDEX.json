@@ -1,0 +1,2886 @@
+{
+  "frozen_shanghai": "2026-11-10 20:22:07 +08",
+  "files": [
+    {
+      "N": 6,
+      "L": 1,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N6_L1_nov3_spsa_starts.npz",
+      "spsa_sha256": "b362abef7e8b385b1542f65c15fff2522aaa15d7c52f663d7139f89b0c9f36eb",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N6_L1_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "ab621a2a794f5eee8813d7b31992af040db9fa3449b439e267a01b8302aad4cb",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 6,
+      "L": 1,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N6_L1_qaoa_spsa_starts.npz",
+      "spsa_sha256": "92c45f859bb58a7c8671635699ce9ef0448a928d5e56d3f3f9155890708fbe14",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N6_L1_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "d6cc326f2f56f1b05c34c18bd6c5972c6e872631f2e325de26711bbcc45ebe15",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        2
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        2
+      ]
+    },
+    {
+      "N": 6,
+      "L": 2,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N6_L2_nov3_spsa_starts.npz",
+      "spsa_sha256": "c0c52b5b387000d6a97400be92f7a204319c673fc0b4f013d508d713d2233471",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N6_L2_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "3f5afa22879a2170e9972d44226b434df27a48f3ccabeaf7f927376b68317a55",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        9
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        9
+      ]
+    },
+    {
+      "N": 6,
+      "L": 2,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N6_L2_qaoa_spsa_starts.npz",
+      "spsa_sha256": "411ef761798e7f17822d0db1bc71fe2c99fc7e33177f0d937602c6fad8e779fa",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N6_L2_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "d8a06a3b068ffcb4962cced410036ce55238b15327ab6f02cabecdbdf037b42e",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        4
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        4
+      ]
+    },
+    {
+      "N": 6,
+      "L": 3,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N6_L3_nov3_spsa_starts.npz",
+      "spsa_sha256": "b917c29380aad7f405ce97bd4d3efb8d4f6f5788ec052baae9f072f26f947ed2",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N6_L3_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "ed2797194225c62f28ea27bd43d594ccf22527f911a2e97d62cebb7ba7e6621b",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 6,
+      "L": 3,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N6_L3_qaoa_spsa_starts.npz",
+      "spsa_sha256": "748d7644d94701d0915c9fa54bdd4821bd5f9637166aaa5e25d41bf11fcf3acd",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N6_L3_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "6c5211799957274b8476e497a10afa27def9871261b969ac3cd432fda876cb1e",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 6,
+      "L": 4,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N6_L4_nov3_spsa_starts.npz",
+      "spsa_sha256": "6cb2b26f00339cdc0c838a899282f73d1734b14a514a0d2d033a92136564b6aa",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N6_L4_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "cf32ba33b69a23231f506a47ed9549120691bb7a94a2f9fc00bd71ba33fc500d",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        15
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        15
+      ]
+    },
+    {
+      "N": 6,
+      "L": 4,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N6_L4_qaoa_spsa_starts.npz",
+      "spsa_sha256": "5d4a45dcf247b07ecab146dc10117d46dc8f5ccb739dcd6fa180fabdcbd563fc",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N6_L4_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "ed656509645d46f35d10fe6c797acb23ba09035716d3271f94d32aff6f44ca58",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        8
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        8
+      ]
+    },
+    {
+      "N": 6,
+      "L": 5,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N6_L5_nov3_spsa_starts.npz",
+      "spsa_sha256": "43b185678b7c38175cf0ff6536696d820712b99c7449e5d3017ddbf38b7c2d4c",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N6_L5_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "b4c88e9ad5f3eb03912c06e6da91ed3eba1bf034550a26f26422d460d686d1ec",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        18
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        18
+      ]
+    },
+    {
+      "N": 6,
+      "L": 5,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N6_L5_qaoa_spsa_starts.npz",
+      "spsa_sha256": "d4396089fa2aa2483143bf4ba7180cb34d34f9b8e716871a9addb56eb36bf5a2",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N6_L5_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "2a6c57d5ad205eb893b738d09a7b49782d3ff9901dd2011fb0e378f178bf28ae",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        10
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        10
+      ]
+    },
+    {
+      "N": 6,
+      "L": 6,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N6_L6_nov3_spsa_starts.npz",
+      "spsa_sha256": "3ad3053178b02dde9d36f98fc7a19fcf3523a709ac4594755c79eb5407d7b9f3",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N6_L6_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "b57d376cd514090eb988995b67d54160239bde84590aa60eec8e6c03828eaf3e",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        21
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        21
+      ]
+    },
+    {
+      "N": 6,
+      "L": 6,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N6_L6_qaoa_spsa_starts.npz",
+      "spsa_sha256": "227d0c02f740ade772c04559d1a089de8f896865436eb80b90bff52f00caa4b0",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N6_L6_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "697a34e0245c518e9f9bb582c5fdf5d2bc4d321074c2f58d464b068aa89829a2",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 6,
+      "L": 1,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L1_nov3_spsa_starts.npz",
+      "spsa_sha256": "150e035766dd9ef19de4ea73f1f8c10b604bc4afa1062dc284b1dbd16f7a9e77",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L1_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "c70b6038a4c5ef1ea3a9a94029067190172079b3c8a932ca1c8d8abb2c800ad2",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 6,
+      "L": 1,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L1_qaoa_spsa_starts.npz",
+      "spsa_sha256": "980ae97cd9a328f4d1e7ec09ca54876620b3afb3c215b8021a1f837bd4ee55db",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L1_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "f520bfdf7525a38041266ba3eba5c13f8cb9541d1ec852958ef3cdeef40d86c4",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        2
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        2
+      ]
+    },
+    {
+      "N": 6,
+      "L": 2,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L2_nov3_spsa_starts.npz",
+      "spsa_sha256": "6e8e804bfe81674fc55e09b4704ee451febb906c5fea89d074f9afd51b025062",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L2_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "4479a07120d028f4ad59f7f0fd2122bcf9430159b20b365856bf1a70ebf0ef0e",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        9
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        9
+      ]
+    },
+    {
+      "N": 6,
+      "L": 2,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L2_qaoa_spsa_starts.npz",
+      "spsa_sha256": "0ece1e902ed3a885ecf1ec0aaf883132a4ac445f8c65d2d7993a440c26828547",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L2_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "419b3aa3bfa66678185467a70b5b1cf64734540fa465307ac86096238f8e37c0",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        4
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        4
+      ]
+    },
+    {
+      "N": 6,
+      "L": 3,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L3_nov3_spsa_starts.npz",
+      "spsa_sha256": "049d7ee684f33b5f4fb898a34b3a5951698bba461d918828c8bb51ee0518f795",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L3_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "361fe37f356f847bea4d46213305e7afea98822d3172961feafe44de05a58145",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 6,
+      "L": 3,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L3_qaoa_spsa_starts.npz",
+      "spsa_sha256": "08f04568b8b73937d0d471fde1c84939d7702298a84efc27e985c52dc2eafc3e",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L3_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "40478c5fc538d67c6fd1b5e036aff12644ed0ae3e94ae2672348e40a5e55255d",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 6,
+      "L": 4,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L4_nov3_spsa_starts.npz",
+      "spsa_sha256": "b4ea71e0c8fa512f10e16782c17578b592623a80cf9e371e2d6b054abdd4024a",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L4_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "96bc2fb19d179afb311ffe9cc1997d62f57d124e41b864d3a2fa913b7a7a04f1",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        15
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        15
+      ]
+    },
+    {
+      "N": 6,
+      "L": 4,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L4_qaoa_spsa_starts.npz",
+      "spsa_sha256": "d0542616dc26e0b31ebfeaddc706ac4467deacacdab4dc5db3796d2edf1b19af",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L4_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "02dc3ef8dd7c0f7deca62e8d5ce10d131c76c996636d8b3de010d0e4797600f3",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        8
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        8
+      ]
+    },
+    {
+      "N": 6,
+      "L": 5,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L5_nov3_spsa_starts.npz",
+      "spsa_sha256": "88a2effd83ba19bccf0b308c635e5c2b58b123a2ae345162abd91c7059698c3f",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L5_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "f5839811b145eb75d3532c2686d2fa7ed1790bda2cb81cf4c8675ae24d4b2e0f",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        18
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        18
+      ]
+    },
+    {
+      "N": 6,
+      "L": 5,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L5_qaoa_spsa_starts.npz",
+      "spsa_sha256": "838681f8eafecb4a146c764c4576282dd02388c7f7f8b5bdbbddb1c06c53fa50",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L5_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "2373bd87c380eac79397968fcc3b8d7dd2672bc038148b9302b5274d425de6ce",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        10
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        10
+      ]
+    },
+    {
+      "N": 6,
+      "L": 6,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L6_nov3_spsa_starts.npz",
+      "spsa_sha256": "38982c44c2aa2643113666ded5c640ba3bd2d36866de8e46bc11a7289c11c787",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L6_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "034172c6b017032666c5bace194e901526d32a27a95ff82551ed402e595150f5",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        21
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        21
+      ]
+    },
+    {
+      "N": 6,
+      "L": 6,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L6_qaoa_spsa_starts.npz",
+      "spsa_sha256": "372f087c5319eb46ad0d5884bafed136beb8df4d619951c22d515266c46c2bbf",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N6_L6_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "60bee2d4afd206e2be5151c9bdaf97076489da2e95dc7bef7ad7f91c79b7e326",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 9,
+      "L": 1,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N9_L1_nov3_spsa_starts.npz",
+      "spsa_sha256": "ebc8f28bcfdc95f2a031cf6a515dbeb1dbc31f17bcaba2ae47596b692156eb74",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N9_L1_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "61b6a63f0c5d8a9577bafea5e8ea624104d0e1588db989fe77c7729e1773fb25",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 9,
+      "L": 1,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N9_L1_qaoa_spsa_starts.npz",
+      "spsa_sha256": "af94fe2fa26b0e7f462867c45eb0b438fca43b86452b457fa15871ba7d978652",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N9_L1_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "e55a0c8c746dc2cf36e232e65d8dfa0a2a7993ff6d5238f4a0db3dd5a74bdae8",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        2
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        2
+      ]
+    },
+    {
+      "N": 9,
+      "L": 2,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N9_L2_nov3_spsa_starts.npz",
+      "spsa_sha256": "288ff2cfab3e5754b2c09b5a02dfc804fb5f83526ee99359c579d8690b28584e",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N9_L2_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "630ef291df3948e11678192bd8b5188442876d8cfc8fbf0707781b37f6a8464a",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        9
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        9
+      ]
+    },
+    {
+      "N": 9,
+      "L": 2,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N9_L2_qaoa_spsa_starts.npz",
+      "spsa_sha256": "ba07a4f05d9222241a25fcfb860eed3f9b8a568544cb2befea40be5c280982d5",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N9_L2_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "99576bd68ff0c5e844a9c8b65943c7ddb3998fadf78b326361e177c90b79fbe4",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        4
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        4
+      ]
+    },
+    {
+      "N": 9,
+      "L": 3,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N9_L3_nov3_spsa_starts.npz",
+      "spsa_sha256": "0021a3916f09e0122daef129e0e34d5eff0fa71fcde24dff26f87fa11232ed7c",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N9_L3_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "dd58e539b2afd726f10ed1f7dbc18a583abd08d61e7c7a56b8cdf9618654924e",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 9,
+      "L": 3,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N9_L3_qaoa_spsa_starts.npz",
+      "spsa_sha256": "541921a9fa7b0861de2d5ecbbad52cbf61fe4c629ed220663bf8249071d8fd89",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N9_L3_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "4138ff36f19f35c6984f72fccdbbb5d52064a26377b06cb5e736d4e0f1ae0efd",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 9,
+      "L": 4,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N9_L4_nov3_spsa_starts.npz",
+      "spsa_sha256": "295489355a2618a5f95fd3b1a8a24cb13735ef3c04739680561fe6527b0fa43e",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N9_L4_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "9122425e38831a34482bdad70f75ad5a356969ae1588caf647e8c2d19e0dcb31",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        15
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        15
+      ]
+    },
+    {
+      "N": 9,
+      "L": 4,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N9_L4_qaoa_spsa_starts.npz",
+      "spsa_sha256": "0bc59b5c50ce135653d16c452cf74b5e22d7e3955a96f9a43a4a87c44899f94d",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N9_L4_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "285f9628bd9b9d08c3dd891cf927017e458d19d24fa569817fc9f40033378a40",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        8
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        8
+      ]
+    },
+    {
+      "N": 9,
+      "L": 5,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N9_L5_nov3_spsa_starts.npz",
+      "spsa_sha256": "a59fe696c777e721a21ef9b0a8f3de704ecaee9ea7d45a74001d9ae18d2de2a2",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N9_L5_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "144347bc73daf752b8f089999bd8a5a350ea5e667870e21dd8f97d1794f50367",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        18
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        18
+      ]
+    },
+    {
+      "N": 9,
+      "L": 5,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N9_L5_qaoa_spsa_starts.npz",
+      "spsa_sha256": "9ffd93b128518413d16ab7a719f27cd6ff3164d6821e374d42854319a9667347",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N9_L5_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "9fb1b0ea1e89242dcec97c3557c58a7ece13d4920c479b47f72f2575c545b4f4",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        10
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        10
+      ]
+    },
+    {
+      "N": 9,
+      "L": 6,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N9_L6_nov3_spsa_starts.npz",
+      "spsa_sha256": "26b0c919961b013ca25f17c80f87bee239110edb7a45850aba77181fb00562a2",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N9_L6_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "3b2fe01d1d6e8b7d43918b53fbeaa98d51effebd364c7f1d00087755261ed322",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        21
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        21
+      ]
+    },
+    {
+      "N": 9,
+      "L": 6,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N9_L6_qaoa_spsa_starts.npz",
+      "spsa_sha256": "b29addfcabdeb6e875072587c129cac700be970821d91dcc17d3959bbf08e26e",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N9_L6_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "b3053b0f7b8d48d1b5524b8c2e2424e54ced8009e824f5998c53be1007077745",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 9,
+      "L": 1,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L1_nov3_spsa_starts.npz",
+      "spsa_sha256": "39307bf6d96bd4050334ff300a22fd1fbbb5caf2a0ad9b8d97fb2fc33b0cbf37",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L1_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "670a262852fbc019f0fecf644f01d46d256837798baffda5ceaaf0c88eeed952",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 9,
+      "L": 1,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L1_qaoa_spsa_starts.npz",
+      "spsa_sha256": "086d851e27948610e989302ba13931000a71560080d8fc6de0f1656e6321c0a7",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L1_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "370e191211c36e149abd8d66210c8caa8bd8aff2bba08c973a72316e3a8fa294",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        2
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        2
+      ]
+    },
+    {
+      "N": 9,
+      "L": 2,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L2_nov3_spsa_starts.npz",
+      "spsa_sha256": "ef1196b0d55df887a0cf36dcba202b35d53993ae5f4a7d5a3b713a22903b450c",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L2_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "595d1d25fc81c8076b2d33118c8f4cbdbc61fb96d31b97e2123c5169ccf88588",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        9
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        9
+      ]
+    },
+    {
+      "N": 9,
+      "L": 2,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L2_qaoa_spsa_starts.npz",
+      "spsa_sha256": "8325c191188182f63730e4b7b1977a51f359133069e4d11fc4b8ca82f30cd342",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L2_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "203d2a742e5d0579f3d2edc7c5a11152111d0687a07a07908d5a23d0176c5a44",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        4
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        4
+      ]
+    },
+    {
+      "N": 9,
+      "L": 3,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L3_nov3_spsa_starts.npz",
+      "spsa_sha256": "1fd7e98526273a952015d0ff42fdab52f5b91b97bde8b2bc2b5e4f150f3455f3",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L3_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "61ca2665028d523cdedd103541046f1ca070ae1ed481062c8e5dee3c8213845e",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 9,
+      "L": 3,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L3_qaoa_spsa_starts.npz",
+      "spsa_sha256": "f9e5a7fbca8df65c28c45981471797aa8c5db521f0221de3ca168549fea4e12d",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L3_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "35f97bc25373367f34da03f9d3e87d125853225606cd5850f26755a1a10fe7b3",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 9,
+      "L": 4,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L4_nov3_spsa_starts.npz",
+      "spsa_sha256": "68023bd11e6bedaa58671e29cf25a12e518a4aa88c444fd660cefae97789dd64",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L4_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "64d06617e7adbf5096bc6a3d0ba106c21169e461021885cc77ce0d55eced8e01",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        15
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        15
+      ]
+    },
+    {
+      "N": 9,
+      "L": 4,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L4_qaoa_spsa_starts.npz",
+      "spsa_sha256": "33744518562890ba2a2ae643ee4833d4ac0c132ee6ef7ff8f861d2e7eb2029b2",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L4_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "1f000a3c75e54a10eb833e841c94bcf96e1b4251934f872b7551e705b0ee327d",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        8
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        8
+      ]
+    },
+    {
+      "N": 9,
+      "L": 5,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L5_nov3_spsa_starts.npz",
+      "spsa_sha256": "4348ad06e75fd7efebacf29c95034ca1f389587468b52cfa45cf9fd9611c4b23",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L5_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "b83d71a066f700f30baca08fed2be6d3671bda4727a1dd17338e419d159657f4",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        18
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        18
+      ]
+    },
+    {
+      "N": 9,
+      "L": 5,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L5_qaoa_spsa_starts.npz",
+      "spsa_sha256": "e8b5a670d6b62ad6de04bcd0b18029abf79af066ae3be8d0b9f16c1b9bfe01bb",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L5_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "899af3f7419d2b5cd2a49acda2047ad29caf047afd2b8ab2690df2b43fdf6e75",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        10
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        10
+      ]
+    },
+    {
+      "N": 9,
+      "L": 6,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L6_nov3_spsa_starts.npz",
+      "spsa_sha256": "3bb2690e9197535a474f6257d0f889bdaf6459686debf9f808d770fb77175843",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L6_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "a771fdd1117dd1eb3a7a5595af9a0dc80d0ac6e76ae84fdad6d346432b4b6efd",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        21
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        21
+      ]
+    },
+    {
+      "N": 9,
+      "L": 6,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L6_qaoa_spsa_starts.npz",
+      "spsa_sha256": "372d5016039c15154a5969800951fb10d8dbc0f452a6d1b10ad517329cd98c32",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N9_L6_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "36c065c3475a8d752478a095fbf8715e19486f462c3dbc3fc88ac2ee4959146a",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 12,
+      "L": 1,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N12_L1_nov3_spsa_starts.npz",
+      "spsa_sha256": "4b3afebec2a7c0fd865baf4280a0668c1e9c3dafb72cd0f2e96550f92fb64093",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N12_L1_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "9a86b02400e14203784010d40acc861c288e48b38886db0f815b92bdbf0624b9",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 12,
+      "L": 1,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N12_L1_qaoa_spsa_starts.npz",
+      "spsa_sha256": "69499c9cf1b2ae0ebe3b1d6e00c712254a077f49381dda6a055ecdf328173027",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N12_L1_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "1e812e6e83381fca6e48d79e3d129f5c9abb4d074d0c3f830d12651f2906a672",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        2
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        2
+      ]
+    },
+    {
+      "N": 12,
+      "L": 2,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N12_L2_nov3_spsa_starts.npz",
+      "spsa_sha256": "2cb904c5513069ad359bc97120abb36abb9afe2053c7759a81855262ac4756e2",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N12_L2_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "ddaa7bd5329608ce624c717a831e06f044d82020fce3866439d6bee4052f907a",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        9
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        9
+      ]
+    },
+    {
+      "N": 12,
+      "L": 2,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N12_L2_qaoa_spsa_starts.npz",
+      "spsa_sha256": "19633651be75cf5472f8169f60c877b07deb833a032e2d2e931f69a2903dd3c9",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N12_L2_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "de86a022ed285eff10603b1763ef0da25b430468dc90623b0d6404980c11750c",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        4
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        4
+      ]
+    },
+    {
+      "N": 12,
+      "L": 3,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N12_L3_nov3_spsa_starts.npz",
+      "spsa_sha256": "5f87c55334acc66e2869712056c720a0e3557eabd8b2683d6eb20007ad58d774",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N12_L3_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "a6e0f07b832e674125b64f5dfa919aadfe5c42c7e38e1d68e819933a567694f2",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 12,
+      "L": 3,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N12_L3_qaoa_spsa_starts.npz",
+      "spsa_sha256": "d5d539cf2ff998dd6e4497ad9c2f18312a1c59a3dcbae116d80b532b01ee04fb",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N12_L3_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "7b760b850e60fb79c54ac02dd70b8d9df6f43b1fe9195ded8bfe665ed798edc8",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 12,
+      "L": 4,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N12_L4_nov3_spsa_starts.npz",
+      "spsa_sha256": "1bd1b57830adb22b9b6caab02155ee5dc83ba9319ead7bc8cdd76ac5c8979775",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N12_L4_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "08f1a27ca9cb02bbac51a52d306daf9ae69bd890b3b16661af270715d8d4e0e3",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        15
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        15
+      ]
+    },
+    {
+      "N": 12,
+      "L": 4,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N12_L4_qaoa_spsa_starts.npz",
+      "spsa_sha256": "6ae20abb2a865cf8b140faeecb5abb6fb29bedfd1d59a086105bbbeb4f5d2bd2",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N12_L4_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "e3c74389ef4e6cb933732708cea8bf3c2e63646dbe3035c6f0585fd7fe3d1361",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        8
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        8
+      ]
+    },
+    {
+      "N": 12,
+      "L": 5,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N12_L5_nov3_spsa_starts.npz",
+      "spsa_sha256": "b97e1bb5a057dab1571c3285d90da222711a71b03351005869f1400927b43f80",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N12_L5_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "4ce09df41b41d7947af77ceb77013b301f80bbb2f7d016395214d6ba9032c0f5",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        18
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        18
+      ]
+    },
+    {
+      "N": 12,
+      "L": 5,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N12_L5_qaoa_spsa_starts.npz",
+      "spsa_sha256": "568d6054ccb0d1a68443a5b96920385455e93def47381095e7efb53887498074",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N12_L5_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "4fc1778048b9ce3be1a55923cb38a659c2a313d028c02b09dcde11796bb95c3e",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        10
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        10
+      ]
+    },
+    {
+      "N": 12,
+      "L": 6,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N12_L6_nov3_spsa_starts.npz",
+      "spsa_sha256": "68583a8c2029d01b4f757e228ce39ac05897cc4c8ff828a733dc51dfe9160e97",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N12_L6_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "993affbc0c8d2f1ed53bcdf99fa33385a16b2a1cb1d84e2f45d9867fc403ff27",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        21
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        21
+      ]
+    },
+    {
+      "N": 12,
+      "L": 6,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N12_L6_qaoa_spsa_starts.npz",
+      "spsa_sha256": "4d93502d143822449a4c67bd8bc551a5aaa0e4641f1cde2b824836d204c2abe2",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N12_L6_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "70e28a6b59ab0c24f187fc654ca953e011158df8fe0c273b53a790d5843e7ee4",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 12,
+      "L": 1,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L1_nov3_spsa_starts.npz",
+      "spsa_sha256": "c5367bbc541bc4bf579619160ab666beee8031f057743116ac92ea4b07747fe7",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L1_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "5c311e6d9a32c4019ee29acef84bc1d5e8b5f72df724cf38e3f2c8170d38cffd",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 12,
+      "L": 1,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L1_qaoa_spsa_starts.npz",
+      "spsa_sha256": "889dd9451a5baf8ce20b1c7609e1d615727af972ffc06d02c6064e9e618c0629",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L1_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "fa5da62cd7534914348a801987b3f09aa85b1334b4144601e3639a7568b5ca3f",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        2
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        2
+      ]
+    },
+    {
+      "N": 12,
+      "L": 2,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L2_nov3_spsa_starts.npz",
+      "spsa_sha256": "e92fb8fad6d728be67cca7205fd963c34df9a77ff6eb54fee2b5e237eb6729e8",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L2_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "5372ce3daae9bdb516095034f275979fc58627ed7ccfc402ab87c574ca1243a4",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        9
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        9
+      ]
+    },
+    {
+      "N": 12,
+      "L": 2,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L2_qaoa_spsa_starts.npz",
+      "spsa_sha256": "fd323be28c663cacaf9cdb29f00de2bba04d9dac3ccb4d5d8b6028706d6c738d",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L2_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "15291f6fce3a1a391934f259444b0c2268b216992a7e06ac75514a29039cf144",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        4
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        4
+      ]
+    },
+    {
+      "N": 12,
+      "L": 3,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L3_nov3_spsa_starts.npz",
+      "spsa_sha256": "c77c0706fd9f05d61984ba4ddb2f3c772c03a1bf53a26a397f1db8e6ff072ea2",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L3_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "5a83ae286762091bf8f26cdcd9414f16645caaeaa52c5fb127139cbf388705bf",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 12,
+      "L": 3,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L3_qaoa_spsa_starts.npz",
+      "spsa_sha256": "2c77cca6cd5d058541eaf076c3cca55d9102a592695eccc10808ab0200f08bfa",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L3_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "a624e311bbaa9226a82279dad5c935f4b5c5b95866db44d876881c6dbb44a9a0",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 12,
+      "L": 4,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L4_nov3_spsa_starts.npz",
+      "spsa_sha256": "0b760d6f99150b2998529ff8666a31d5f64ea07c86f1b174020accd18cb65677",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L4_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "0c67d0f456b65279e556e11a25d97e234f950eed2dbe5cb9df9d28f9360e3be0",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        15
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        15
+      ]
+    },
+    {
+      "N": 12,
+      "L": 4,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L4_qaoa_spsa_starts.npz",
+      "spsa_sha256": "c67f83f314238f0db24059bdd5220a262886bada1e485a9fe09ec832faa6c6c7",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L4_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "d0cbf7eb5410de0fe0bf29ec5340e0d5cdd182820e5165960480402cabab3ae2",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        8
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        8
+      ]
+    },
+    {
+      "N": 12,
+      "L": 5,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L5_nov3_spsa_starts.npz",
+      "spsa_sha256": "3a61db87f14c1066cd205ded246dfdba940508d53acfb8cac607dedb4cff2f9f",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L5_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "283a11e9962c30478ba2baaf8b21e502032a2cfde3900d594e6f91bfac6cbade",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        18
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        18
+      ]
+    },
+    {
+      "N": 12,
+      "L": 5,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L5_qaoa_spsa_starts.npz",
+      "spsa_sha256": "7211dcbb8d600f6d4259c256423758e5bc51cf612432142ff0a11bf9c51a9eaf",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L5_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "49668b2140c68f5bdb56497f780159ae8ad229b89e71d5ef9e5cdf656d937919",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        10
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        10
+      ]
+    },
+    {
+      "N": 12,
+      "L": 6,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L6_nov3_spsa_starts.npz",
+      "spsa_sha256": "d7bf30c4972987090e008320c2072d3efd60f0baa7f7c606f9e7e69893c4a540",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L6_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "c767c216a1a2765012e18ca3f2c7984650c2fc84041dce8e867fb609a7479290",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        21
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        21
+      ]
+    },
+    {
+      "N": 12,
+      "L": 6,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L6_qaoa_spsa_starts.npz",
+      "spsa_sha256": "2779e7e6cbbd6e937b2248efb4abba9be891a78fff2848d67eceb6940aef980c",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N12_L6_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "ba012ef4d5307e86ec2df4b568cb371eb245727c73ff2b9ab9fc10d8fe7c4f77",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 15,
+      "L": 1,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N15_L1_nov3_spsa_starts.npz",
+      "spsa_sha256": "c24ae3e8dc6c816c583eb20ae2fbee877f4f7dc237705a02a0b039ce98e78efc",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N15_L1_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "1dbecd8e9a0da804462527592eabaf42de75cfb7f181c9356ff91c1b53303fb7",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 15,
+      "L": 1,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N15_L1_qaoa_spsa_starts.npz",
+      "spsa_sha256": "aa0338c3d5a6252dfe8ad7e92cdc06c9a11ac5c4d1942a4420168b159056447a",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N15_L1_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "d3f9bb7ee6622f14d227c180d37cf675850c11811891ad4c306ec000ab4ab4d4",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        2
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        2
+      ]
+    },
+    {
+      "N": 15,
+      "L": 2,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N15_L2_nov3_spsa_starts.npz",
+      "spsa_sha256": "3db1081582d5fca541a0093453da05623d25e41553fda4ba2f1473514f694535",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N15_L2_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "35f52283e98a7642c7edf70a4a50ee7ab3d761d53d0e8fcc061fa26648706622",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        9
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        9
+      ]
+    },
+    {
+      "N": 15,
+      "L": 2,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N15_L2_qaoa_spsa_starts.npz",
+      "spsa_sha256": "9d47d071d040cb51fa5d0fcb92df2df2f3d5b618d365182db6e8fb58fc7fffe3",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N15_L2_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "dd02d51370546b5f8e2b24d43d7ad3d7ea6b63a058d98616e28af718cb195281",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        4
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        4
+      ]
+    },
+    {
+      "N": 15,
+      "L": 3,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N15_L3_nov3_spsa_starts.npz",
+      "spsa_sha256": "b0bc18b3b144ce6e59759f2c41c042e138ecb2e31fb5977445a40a34c46b38f8",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N15_L3_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "1f2ef3ba8b17f999b91c9fe4debe5ee2a449fd2c1fe8cee4d7b339b4134867f3",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 15,
+      "L": 3,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N15_L3_qaoa_spsa_starts.npz",
+      "spsa_sha256": "59c1a8cb801fa9aab96574727cdf26180b5551823f4a34b126f1bbdf9ab20161",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N15_L3_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "c6239a9a3fccf6c0801a11dd176785e93918eba8bedbec179e529a04a77f975c",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 15,
+      "L": 4,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N15_L4_nov3_spsa_starts.npz",
+      "spsa_sha256": "75ea59ebab1e1e8b5feea63d32e48721c765042d785d9a7c09d7efb650e2c4c1",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N15_L4_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "2329f9ecd4f58887712d3444515c8bb29fa4d344d36470b63216b74d4fc0f5e5",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        15
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        15
+      ]
+    },
+    {
+      "N": 15,
+      "L": 4,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N15_L4_qaoa_spsa_starts.npz",
+      "spsa_sha256": "46c0e3f5942a9ededc2fa3264f05f62461be5882c629ee3f54d079136f61d5d5",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N15_L4_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "20f3c754e6785cc31d3825fbcb74bddb88f59b9b8811334148588047d0fd02e5",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        8
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        8
+      ]
+    },
+    {
+      "N": 15,
+      "L": 5,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N15_L5_nov3_spsa_starts.npz",
+      "spsa_sha256": "9adbf9428f09bd02f41d67fa5e111b650ec8ec8f2fd64f480449f34f68c2f393",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N15_L5_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "569d98777b4b078b89bea7e9710ada7b18c629fd0873deaea7f754d55a20b654",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        18
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        18
+      ]
+    },
+    {
+      "N": 15,
+      "L": 5,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N15_L5_qaoa_spsa_starts.npz",
+      "spsa_sha256": "e038e5424627a05028755c4c12c68c93f84674660dfd6fb25cf5a1d857bcff01",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N15_L5_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "0363fd413ccbf190bb5772118b3c758e8161c99be84c781d2855139643c8dc9d",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        10
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        10
+      ]
+    },
+    {
+      "N": 15,
+      "L": 6,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N15_L6_nov3_spsa_starts.npz",
+      "spsa_sha256": "20e935eba15aedb7833dcaed226b96501c97651d14a477d891fa6aac69badb34",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N15_L6_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "3a30248fd1c1a7ff95511ec5afa76be0fd2bc40dc921a1a4d93512c95d289bdf",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        21
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        21
+      ]
+    },
+    {
+      "N": 15,
+      "L": 6,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N15_L6_qaoa_spsa_starts.npz",
+      "spsa_sha256": "251f2ff5ef7033c5a4c4adb6e92ee94fe851d8f3d259dc498ce468ec7e44e824",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N15_L6_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "5950f977f01e7d03b05ddbe634cbe268ba9b3ccafb00660fb7917c96c02b2d44",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 15,
+      "L": 1,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L1_nov3_spsa_starts.npz",
+      "spsa_sha256": "34fe878c810e5490f7bc8607e024ee95f9ece1b120b19dc52771ca390ed159e8",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L1_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "42d11a0365ccbac2750da1470a0d578634a68081a7e9fca6f639556ecef76497",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 15,
+      "L": 1,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L1_qaoa_spsa_starts.npz",
+      "spsa_sha256": "321b511c2d8c53b3d44a8d584797c3ee6bf97bd5342bfadddcd1594a81d4dc28",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L1_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "1e65d8d18a70ecb4e6e3e087a4052f5f8762be91b2dab5d769da9c5c1ac5ccd4",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        2
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        2
+      ]
+    },
+    {
+      "N": 15,
+      "L": 2,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L2_nov3_spsa_starts.npz",
+      "spsa_sha256": "003952e802526784bf5b2de3b2849a528534b7f009ae6be078b9a181fb12bb06",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L2_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "8f0033b7bfe79eab1d465f85a284f611f70f7e5236c11c2515ca78b12d6888ae",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        9
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        9
+      ]
+    },
+    {
+      "N": 15,
+      "L": 2,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L2_qaoa_spsa_starts.npz",
+      "spsa_sha256": "33ea00cb6e0d7164ede67afe83ab6647665aa493dfe8326c31915f8f90499e09",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L2_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "93d15ec5b75f5883fdf3d41bb39d5a6424bbb214ec29050677b85a5cef3a20df",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        4
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        4
+      ]
+    },
+    {
+      "N": 15,
+      "L": 3,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L3_nov3_spsa_starts.npz",
+      "spsa_sha256": "4b7f73d41623b56922520833660b6f450e76499fd981bdee7f29aafaf6693e94",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L3_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "4dd7dc3fbbe71228a8d2dde6d0565320c01003b7d3673f0ad433bb0cae442279",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 15,
+      "L": 3,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L3_qaoa_spsa_starts.npz",
+      "spsa_sha256": "222f003a47ef234bc70e370a8bca53188f52dc083adbd19e3ac66bc9edd62f9b",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L3_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "deea60f7bc11b50e3056a3767bbd6a91b039dbb2c614f7961c4ca9859f213fe4",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 15,
+      "L": 4,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L4_nov3_spsa_starts.npz",
+      "spsa_sha256": "0d01565db9eb23cd16342e2374902397b82c03d7c2ac4734dc316553eaf5baec",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L4_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "36e5c43b104db6418dff4411a81ab0a37cc67da976a86c052f18db2456a1edbb",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        15
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        15
+      ]
+    },
+    {
+      "N": 15,
+      "L": 4,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L4_qaoa_spsa_starts.npz",
+      "spsa_sha256": "ae7c9e662508056caa8ea58851abc8c93c8ec12f3dffe4b3e47da77c3caf0042",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L4_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "3e33f4715ec013b34250089b60714d96df91387b131e533aa0377e3438dc1af2",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        8
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        8
+      ]
+    },
+    {
+      "N": 15,
+      "L": 5,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L5_nov3_spsa_starts.npz",
+      "spsa_sha256": "94e1b6d877af0796c2a583ddb958c33db2dcbc492fc466c2ad141c279b436499",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L5_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "6bcfb2b16663d5e051690e7a7a02b54d0b82e0476f9004a9471578f684d90ea5",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        18
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        18
+      ]
+    },
+    {
+      "N": 15,
+      "L": 5,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L5_qaoa_spsa_starts.npz",
+      "spsa_sha256": "f74614805e9bc68fb5bf1478335d1e43bafb6a13b1083122a653d1191e505094",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L5_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "0585a1652708d151f7d7a3b1ab0462ffd70f367563a9fb39cbf0eb5d97cc0abb",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        10
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        10
+      ]
+    },
+    {
+      "N": 15,
+      "L": 6,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L6_nov3_spsa_starts.npz",
+      "spsa_sha256": "a908369cd902256cb391ce5586b738f40ebc7f981ac1e852bfadef7e0d78e651",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L6_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "3577114725f4164a24aab01e15c8c0703752dacfd4f014b51889a4d69e3c26a7",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        21
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        21
+      ]
+    },
+    {
+      "N": 15,
+      "L": 6,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L6_qaoa_spsa_starts.npz",
+      "spsa_sha256": "73ceb260dc7a6026c1ff5d2a999e1e9ca4fd87fdf4045dc6254f42404f073fe1",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N15_L6_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "4eb0143c72aaf1befd3960cc1e940fd1b9f5e4a5a485769e2b58242a6dca29b0",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 18,
+      "L": 1,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N18_L1_nov3_spsa_starts.npz",
+      "spsa_sha256": "98554633f36100d45a700215e5fb96341dfea24980f4dd7d28ad24c3672bd2b9",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N18_L1_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "67f15023de36d322ef76824850f8086e13e35bc0517904a62eb0c47bb436956e",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 18,
+      "L": 1,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N18_L1_qaoa_spsa_starts.npz",
+      "spsa_sha256": "4b56b6d85f33efefe5a11894d420eae7cfab174250f303e94ac349210411954d",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N18_L1_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "f39cec44ca57ca66a694550287e7b71681597b4a1d1504358b79cb463f64fae6",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        2
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        2
+      ]
+    },
+    {
+      "N": 18,
+      "L": 2,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N18_L2_nov3_spsa_starts.npz",
+      "spsa_sha256": "752706448fd5f185ebe0dcf08427f136b14bd303a6cc66dc58357bf25230f9f2",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N18_L2_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "7ad1c454ade81b9bdcd80faefa572986a752264abb1ffc2fd6ad7d9aaa547fc9",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        9
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        9
+      ]
+    },
+    {
+      "N": 18,
+      "L": 2,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N18_L2_qaoa_spsa_starts.npz",
+      "spsa_sha256": "180e33993f7c66b360eac0bc6b684484fcbadfdbaa73c44f8493b0f483c0ec62",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N18_L2_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "f74f4e3c62e1a1a2719214495feff0d9713f079bfddc0b62dab8df4f78ce2bd1",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        4
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        4
+      ]
+    },
+    {
+      "N": 18,
+      "L": 3,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N18_L3_nov3_spsa_starts.npz",
+      "spsa_sha256": "4bc7131183b438ce3f37e99d878af612adf57e8525805c328f0c267cac129723",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N18_L3_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "141f3d74d6435c060e3c5057f608fbe09abf422bc7189c229c5dd235598c5d45",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 18,
+      "L": 3,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N18_L3_qaoa_spsa_starts.npz",
+      "spsa_sha256": "af5c22b2960abbcbd99555943273fc5eb601a3e03ba690aeab6b6ab3e7d91850",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N18_L3_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "50f5d9d86e287c78a0882564d8452b0568c0ef3a2ddafa5debb7bc617d94b5ef",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 18,
+      "L": 4,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N18_L4_nov3_spsa_starts.npz",
+      "spsa_sha256": "8f8f145014f2d518a733d2d7acdc48a627bd347faea8cab26dad043c8563efd7",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N18_L4_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "c7b1aa6cce0e64f82bbe01a07bada8b1a997a65f9fb1ace3f4f2d0c06e3ef38a",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        15
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        15
+      ]
+    },
+    {
+      "N": 18,
+      "L": 4,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N18_L4_qaoa_spsa_starts.npz",
+      "spsa_sha256": "6d83119326cd30c9b297a8458ca7361cd9a24449a8893db2c2eeebf886893285",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N18_L4_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "8865e704fc481f6856ade744ad23008c20a0754a51786f0241f77fbd1df0b259",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        8
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        8
+      ]
+    },
+    {
+      "N": 18,
+      "L": 5,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N18_L5_nov3_spsa_starts.npz",
+      "spsa_sha256": "180f3583f7aa7ef7d3d6a2c8a31dfe1ec9256eabf9d08bf1a7c86385de5d722b",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N18_L5_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "792e39cd393297f6706b002ad5e1950ee0681b0021f23c07a665f6e7ab8e0d99",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        18
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        18
+      ]
+    },
+    {
+      "N": 18,
+      "L": 5,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N18_L5_qaoa_spsa_starts.npz",
+      "spsa_sha256": "5c8e21efd9c11865537e3218512613b80b9b7aadd2593243bca1443804abc119",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N18_L5_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "e9d26310ebb4470b05f047b6b6a254bac7bca45d415ab86113a87f785305527e",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        10
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        10
+      ]
+    },
+    {
+      "N": 18,
+      "L": 6,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N18_L6_nov3_spsa_starts.npz",
+      "spsa_sha256": "54bc8d0f9ab2b7d0aa46a287ede2cf80f2a838895c71e88bd633d25773f82681",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N18_L6_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "88a7b7e74564c234e0ff7699e5cc3f4bf887b45cfb351a52ebeb63de44317e7c",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        21
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        21
+      ]
+    },
+    {
+      "N": 18,
+      "L": 6,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N18_L6_qaoa_spsa_starts.npz",
+      "spsa_sha256": "02748325bc962b026e13b54bb4f0f549875e912e6359e550afbaa4b916ed5886",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N18_L6_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "4dad220292c39d5639d9a357677e7ebd016b86fba12aa1c365ad76f7b5fc51f7",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 18,
+      "L": 1,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L1_nov3_spsa_starts.npz",
+      "spsa_sha256": "9b56628da6c9824c1381528bd53292f2ddfd6550115a47d07bc06ddf3806e97f",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L1_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "4d05db977b11becd6c81f6641318060edc65e00b1d4c3803e9156bb3d459ca4c",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 18,
+      "L": 1,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L1_qaoa_spsa_starts.npz",
+      "spsa_sha256": "8dfd1f840c97ba77efdc6c232ae3efbc8d4b9f834789ee7a3e2059fe6b178f11",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L1_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "c23b5c8c2fc9586728b1cd47d0170fcb59b1a59d2dcca3607c6fa4c4912a0379",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        2
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        2
+      ]
+    },
+    {
+      "N": 18,
+      "L": 2,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L2_nov3_spsa_starts.npz",
+      "spsa_sha256": "5193573a5a9386a5330b07ed7d35ed4a83499f9e841419c23717560530b95908",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L2_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "d3b16893bf210208228c36276943372b4409d4da15a1cd467f52d159a684b91b",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        9
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        9
+      ]
+    },
+    {
+      "N": 18,
+      "L": 2,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L2_qaoa_spsa_starts.npz",
+      "spsa_sha256": "c404a3d4b23413f3dbd02926b504e122b8428a018405d82271169f8dafce62f8",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L2_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "24b1a0150bfcd96f7e786740e4b9c66558b76dc757b482e45859cd95c54a6b1f",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        4
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        4
+      ]
+    },
+    {
+      "N": 18,
+      "L": 3,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L3_nov3_spsa_starts.npz",
+      "spsa_sha256": "e4ef84b669e76320fb8994c14597ed4889519df9814b463ad5ccafeb20569ec1",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L3_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "7bb89b08997f197d34a6ac53f3b7d6f7abfee439d1ef3de2d94a8ba244cb81d4",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 18,
+      "L": 3,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L3_qaoa_spsa_starts.npz",
+      "spsa_sha256": "1987d68d53e90e39165e9e2b0a3a63ec2daea3a5ede5fbca0ca4bf07cf27530c",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L3_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "042528f454b60f2f2e29cef6e99b861180973ac8225c3fb6d0fd3d51784fed52",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 18,
+      "L": 4,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L4_nov3_spsa_starts.npz",
+      "spsa_sha256": "5c7a05ef09cd93a258c0d56a80f93f1118037b599099160d4e4d3ee4cc879fd9",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L4_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "61be8fcf2d5920252028341cc35ba2854d2c9fc3336bf764c601d1f0f7a1ac8f",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        15
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        15
+      ]
+    },
+    {
+      "N": 18,
+      "L": 4,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L4_qaoa_spsa_starts.npz",
+      "spsa_sha256": "76d47a10975bc4475604e483a7dd3b861eaa067c580aa412b0da059e75be2d2d",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L4_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "21eaac89d3e57aa4361474ef9ada59a7c7aa9ac570ad48485f28f8e908fcef0d",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        8
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        8
+      ]
+    },
+    {
+      "N": 18,
+      "L": 5,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L5_nov3_spsa_starts.npz",
+      "spsa_sha256": "c29428876f481cffc0bda42b3cae0d0eee3e0f91085b60ec0895084fc4bdb8a7",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L5_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "6fd3486c1a25965e2c3f7a96012a7432bdb67b539274f021563a23de74572948",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        18
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        18
+      ]
+    },
+    {
+      "N": 18,
+      "L": 5,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L5_qaoa_spsa_starts.npz",
+      "spsa_sha256": "08c8d96378a634e1e98ab0fbff166537f9e0cba86b073ddef9dc66cd8395cd51",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L5_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "22ef064d265930500b64e289f7c60fa6aa38b9d03bd6a9356e86e084dd3291cb",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        10
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        10
+      ]
+    },
+    {
+      "N": 18,
+      "L": 6,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L6_nov3_spsa_starts.npz",
+      "spsa_sha256": "6314ecf05bf9fc4cfb06e5a7031aae7a9ea8a3d6231ac81b1cb1f1cfb2b16384",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L6_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "abdcd225a3093d3749824fce697b848025e51c928ace39986f4a50fcaceddbcd",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        21
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        21
+      ]
+    },
+    {
+      "N": 18,
+      "L": 6,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L6_qaoa_spsa_starts.npz",
+      "spsa_sha256": "b1475dd9e040b7790cc9bb9bc18b18e1b2bc10ab529ef0593464fe1d9ff7e766",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N18_L6_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "1f3bd6a06ccd0f3bfd421efaca654862c54ea0518a8c5b7f27f95f087166e11a",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 21,
+      "L": 1,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N21_L1_nov3_spsa_starts.npz",
+      "spsa_sha256": "5481f142fdd021317dbc9b88edb0ed5b0e61fce1cd26d1835ec31c0d01427309",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N21_L1_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "1660ac02f70fbb4764d43733d3b4d037ef3b0aedd0e76ceeb195833cc9723b05",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 21,
+      "L": 1,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N21_L1_qaoa_spsa_starts.npz",
+      "spsa_sha256": "0a63be417eb4be1973930f8ec0b9456cab00563385e02147aa54e0acb55994c9",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N21_L1_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "8a152cddcb4661855f9cbeb18136daab9fa509041aaf0e909a3b1d78d2aece95",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        2
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        2
+      ]
+    },
+    {
+      "N": 21,
+      "L": 2,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N21_L2_nov3_spsa_starts.npz",
+      "spsa_sha256": "fa6489f9cf477c49b344b7ad47ee57f3e2bbd8f1aa93ba0fbaf4366023c8c804",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N21_L2_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "190035aac5fd77923ef1bff97c654cefb5e30e8ab13efea27380b8a59d1f4189",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        9
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        9
+      ]
+    },
+    {
+      "N": 21,
+      "L": 2,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N21_L2_qaoa_spsa_starts.npz",
+      "spsa_sha256": "ea45033e8375a36086ac6dbb76c308683f35c25a3fe661857d32c1ba3ed8cb13",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N21_L2_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "62475583771e62025bb3d1cb8ab069bc8d5473bdf2c8e90b80bbcb8f05561804",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        4
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        4
+      ]
+    },
+    {
+      "N": 21,
+      "L": 3,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N21_L3_nov3_spsa_starts.npz",
+      "spsa_sha256": "bcb1413a94a71c1195dc6c35ca1481209c2eb7b1a312af0b96e8903489848fae",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N21_L3_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "a20acadc3a1d0f80bcf8ec7c91d166490c0b4bf6277e26533087792a77b9e735",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 21,
+      "L": 3,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N21_L3_qaoa_spsa_starts.npz",
+      "spsa_sha256": "dc1df240198dc725970ea37deb2b56eec37c4a083db0e47957f31f79ebc60b8d",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N21_L3_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "78a39ce51e356312901c7d6c76371a2cd4ceb2c32781675916b8002d4142e50f",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 21,
+      "L": 4,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N21_L4_nov3_spsa_starts.npz",
+      "spsa_sha256": "a6db05368cdb7743fd9cbbf3ff64e921e5cc2d21f88d2890cd38cb388f31dbd4",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N21_L4_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "608b72971d32209ebea719d15336da53320df57b1a75aaa704a26f5637b99c01",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        15
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        15
+      ]
+    },
+    {
+      "N": 21,
+      "L": 4,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N21_L4_qaoa_spsa_starts.npz",
+      "spsa_sha256": "47bb855ae452723b5c7a6b25e871e3e3fe495774eecab00c21fb47c0f10a37ea",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N21_L4_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "3e57bc999e363d99137e0de8e000d5a18c99bf0371db16a8a30cb2f389210056",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        8
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        8
+      ]
+    },
+    {
+      "N": 21,
+      "L": 5,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N21_L5_nov3_spsa_starts.npz",
+      "spsa_sha256": "7e9c3b44d145d3db604017d7efb4b8625131a7b0c55b110468c38c6ce4b3a6c9",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N21_L5_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "77413afd5fbab6d89a44fd6f898b758ff2370de5e9a82916fb74d3daac934d5c",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        18
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        18
+      ]
+    },
+    {
+      "N": 21,
+      "L": 5,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N21_L5_qaoa_spsa_starts.npz",
+      "spsa_sha256": "95d9a33e4c1731c27725f058d778164c30c1563909295a81fdce6f42869aca04",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N21_L5_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "c3d653cae574db1735a5c99cc2447618168550ddffa7eddd23ecbf5d11d5389a",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        10
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        10
+      ]
+    },
+    {
+      "N": 21,
+      "L": 6,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N21_L6_nov3_spsa_starts.npz",
+      "spsa_sha256": "57c761cd01b0aa24c29749a8cc24501d220a6364f35e1a7cae8cefae6d3c6096",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N21_L6_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "b7c317453e67ec995dc7ce23878270f8947fc18475406c1c2e97c5c227010941",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        21
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        21
+      ]
+    },
+    {
+      "N": 21,
+      "L": 6,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/main/N21_L6_qaoa_spsa_starts.npz",
+      "spsa_sha256": "07b0470ab2ed20b83201c665e45d96962eb824de2d4e1ee64a904b726abe2736",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/main/N21_L6_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "45243b33a83afb1a635743a816c5c30423affd2f2b2bd364337d66ee9641e977",
+      "n_instances": 200,
+      "spsa_shape": [
+        200,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        200,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 21,
+      "L": 1,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L1_nov3_spsa_starts.npz",
+      "spsa_sha256": "2789147b6acd4dfce2587955f05df3baf6bfab2765ba14faa08b8994e438cb63",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L1_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "fb9e291d64524456d31dfd4c3a026d00314cc16621d29b9ccab7448adc3fdfeb",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 21,
+      "L": 1,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L1_qaoa_spsa_starts.npz",
+      "spsa_sha256": "43aba38f70470ddce664bdb9e1aabf65d37abd2a1638e0ff72ec1f6732b3b9d5",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L1_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "6c1f8fcbf13a480abdc984b39aa59b8f06abdfe2c989252d7fec5648b5fe78ca",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        2
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        2
+      ]
+    },
+    {
+      "N": 21,
+      "L": 2,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L2_nov3_spsa_starts.npz",
+      "spsa_sha256": "2ec0e17d04b6e668456419eccbc8b1f72c6de06515d280e5e57bde2ddea43f04",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L2_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "534786f079fe32ced124d3bac87e7464a6d75c68bb6ac36991ff887e6ae81e7e",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        9
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        9
+      ]
+    },
+    {
+      "N": 21,
+      "L": 2,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L2_qaoa_spsa_starts.npz",
+      "spsa_sha256": "a7d791f2664eb3e05c6759222e0114df5249c0a4cc02a3b06beb67c0bb792877",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L2_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "f318a2579f2feef11cd4a0b0bb424f0b29c84c72ea4337abc2592cba9a98e4ac",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        4
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        4
+      ]
+    },
+    {
+      "N": 21,
+      "L": 3,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L3_nov3_spsa_starts.npz",
+      "spsa_sha256": "b44f58f7fbc773664faaa5b529887cd1b4004fb84e75afd8b1ac5ae81e7e734b",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L3_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "769e4f2a5cc85c1eb2f8f9c3c172fd43c86c953e60bc1811824001ce9a037cd6",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        12
+      ]
+    },
+    {
+      "N": 21,
+      "L": 3,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L3_qaoa_spsa_starts.npz",
+      "spsa_sha256": "f795e5747e585d5683a10225262e56935ce442d60aa23ad87fcfc9e7dc17e0ff",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L3_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "008086b2816c08923e701894531de9941763f54cb59d28c7a262051a2e7c4ba1",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        6
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        6
+      ]
+    },
+    {
+      "N": 21,
+      "L": 4,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L4_nov3_spsa_starts.npz",
+      "spsa_sha256": "1cb00b4e8e586b65c82bd56fd2b21a70517186ec4c380efb4f46c26785d1e90f",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L4_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "dc12fb46cf8467cca3b9a99bf18bf6c60fff19784966aa76fee9dcf1cca84afc",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        15
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        15
+      ]
+    },
+    {
+      "N": 21,
+      "L": 4,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L4_qaoa_spsa_starts.npz",
+      "spsa_sha256": "bf3629fb5cc0e3195afafd8c755c99b1b4fea0b9c682f075cc46b11cd9c8f342",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L4_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "eb1b3b0893a5b2023a8082a585e0e3e096695b22663c6d9f5713bf095d8febd5",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        8
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        8
+      ]
+    },
+    {
+      "N": 21,
+      "L": 5,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L5_nov3_spsa_starts.npz",
+      "spsa_sha256": "9528f18b3244afe8da2c0dc8c43e1c6307bf21a468bcb2977aa5c3f613beb55e",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L5_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "bc3d2b648643d7f6d4749f2f7121b9e7674a7544d2e67806ed6dad5b9623778e",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        18
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        18
+      ]
+    },
+    {
+      "N": 21,
+      "L": 5,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L5_qaoa_spsa_starts.npz",
+      "spsa_sha256": "392c0974233f9275451a44f2df4939d4b771f9e86dcf46a7e7315b83e9e27f3e",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L5_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "416f389844a579f62a13d664b137a089cdb027e5dfd73f24ab256b68a0ec5dd2",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        10
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        10
+      ]
+    },
+    {
+      "N": 21,
+      "L": 6,
+      "method": "nov3",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L6_nov3_spsa_starts.npz",
+      "spsa_sha256": "6e24089713064ff04d163bd221064a8cd25fad11693aa8870ccb29892fe9c9fb",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L6_nov3_bfgs_starts.npz",
+      "bfgs_sha256": "13a9acc3783e359ee1ee3c8e05930560719f7297b9b475cf23bb3a15524f08e6",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        21
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        21
+      ]
+    },
+    {
+      "N": 21,
+      "L": 6,
+      "method": "qaoa",
+      "spsa_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L6_qaoa_spsa_starts.npz",
+      "spsa_sha256": "ca087e5a729dcd2c179881738b79af85b6169c5e8b1dee7a4aafb0205269d677",
+      "bfgs_file": "/workspace/qumode_qsk/data/starts/pilot/N21_L6_qaoa_bfgs_starts.npz",
+      "bfgs_sha256": "d9162997482b1719319bee2bf695b7c1af44437ef7030d7d4e46418c41caba21",
+      "n_instances": 1,
+      "spsa_shape": [
+        1,
+        2,
+        12
+      ],
+      "bfgs_shape": [
+        1,
+        16,
+        12
+      ]
+    }
+  ],
+  "note": "Starts frozen from the RNG recipes before any ansatz fits."
+}

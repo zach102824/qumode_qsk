@@ -1,0 +1,118 @@
+{
+  "verdict": "PASS",
+  "cut": "A=lowest floor(N/2) logical spin labels, natural-log entropy",
+  "not_cavity_partition": true,
+  "tests": [
+    {
+      "n": 6,
+      "test": "product",
+      "entropy": -0.0,
+      "expected": 0.0
+    },
+    {
+      "n": 6,
+      "test": "crossing_bell",
+      "entropy": 0.6931471805599454,
+      "expected": 0.6931471805599453
+    },
+    {
+      "n": 6,
+      "test": "within_A_bell",
+      "entropy": 2.2204460492503126e-16,
+      "expected": 0.0
+    },
+    {
+      "n": 9,
+      "test": "product",
+      "entropy": -0.0,
+      "expected": 0.0
+    },
+    {
+      "n": 9,
+      "test": "crossing_bell",
+      "entropy": 0.6931471805599454,
+      "expected": 0.6931471805599453
+    },
+    {
+      "n": 9,
+      "test": "within_A_bell",
+      "entropy": 2.2204460492503126e-16,
+      "expected": 0.0
+    },
+    {
+      "n": 12,
+      "test": "product",
+      "entropy": -0.0,
+      "expected": 0.0
+    },
+    {
+      "n": 12,
+      "test": "crossing_bell",
+      "entropy": 0.6931471805599454,
+      "expected": 0.6931471805599453
+    },
+    {
+      "n": 12,
+      "test": "within_A_bell",
+      "entropy": 2.2204460492503126e-16,
+      "expected": 0.0
+    },
+    {
+      "n": 15,
+      "test": "product",
+      "entropy": -0.0,
+      "expected": 0.0
+    },
+    {
+      "n": 15,
+      "test": "crossing_bell",
+      "entropy": 0.6931471805599454,
+      "expected": 0.6931471805599453
+    },
+    {
+      "n": 15,
+      "test": "within_A_bell",
+      "entropy": 2.2204460492503126e-16,
+      "expected": 0.0
+    },
+    {
+      "n": 18,
+      "test": "product",
+      "entropy": -0.0,
+      "expected": 0.0
+    },
+    {
+      "n": 18,
+      "test": "crossing_bell",
+      "entropy": 0.6931471805599454,
+      "expected": 0.6931471805599453
+    },
+    {
+      "n": 18,
+      "test": "within_A_bell",
+      "entropy": 2.2204460492503126e-16,
+      "expected": 0.0
+    },
+    {
+      "n": 21,
+      "test": "product",
+      "entropy": -0.0,
+      "expected": 0.0
+    },
+    {
+      "n": 21,
+      "test": "crossing_bell",
+      "entropy": 0.6931471805599454,
+      "expected": 0.6931471805599453
+    },
+    {
+      "n": 21,
+      "test": "within_A_bell",
+      "entropy": 2.2204460492503126e-16,
+      "expected": 0.0
+    }
+  ],
+  "old_oddN_wrong_reshape_demonstration_entropy": -0.0,
+  "correct_oddN_crossing_Bell_entropy": 0.6931471805599454,
+  "shanghai": "2026-11-10 20:22:11 +08"
+}

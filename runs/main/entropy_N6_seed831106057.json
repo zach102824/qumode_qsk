@@ -1,0 +1,38 @@
+{
+  "task": "entropy",
+  "N": 6,
+  "seed": 831106057,
+  "cohort": "MAIN",
+  "index": 57,
+  "b": 0.007,
+  "S": 0.6931471930511257,
+  "E0": -2.3936633816732553,
+  "gap": 3.801678971626643e-10,
+  "even_gap": 0.056699774195794195,
+  "label": "interior_even_branch_peak_near_degenerate",
+  "valid_for_fits": false,
+  "residual": 1.3415434755526841e-15,
+  "parity": 1.0,
+  "E_apply_H_abs_err": 4.440892098500626e-16,
+  "scan_resource": {
+    "eigensolves": 162,
+    "matrices_built": 162,
+    "wall_s": 0.041948556900024414,
+    "CPU_s": 0.04194988300000002,
+    "peak_fields_stored": 1
+  },
+  "wall_s": 0.04438662528991699,
+  "CPU_s": 0.044388541999999975,
+  "peak_RSS_kib": 128616,
+  "rss_before_kib": 128616,
+  "pid": 2726780,
+  "paths": {
+    "instance": "/workspace/qumode_qsk/data/instances/main/N6_seed831106057.json",
+    "scan": "/workspace/qumode_qsk/data/entropy/main/N6_seed831106057_scan.json",
+    "reference": "/workspace/qumode_qsk/data/references/main/N6_seed831106057_reference.npz",
+    "reference_sha256": "3dce4b0fe02fe51aec69443674978f5e0c9f42129e72c9902df85720a4061a5a",
+    "reference_bytes": 2202
+  },
+  "threads_env": 1,
+  "coupling_variance": "1/N"
+}

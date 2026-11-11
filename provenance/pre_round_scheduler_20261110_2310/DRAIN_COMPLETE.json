@@ -1,0 +1,18 @@
+{
+  "shanghai": "2026-11-10 23:17:27 +0800",
+  "event": "owned_orchestrator_drained_and_exited",
+  "parent_pid": 2726767,
+  "workers": [
+    2733086,
+    2733087,
+    2733088,
+    2733089
+  ],
+  "method": "SIGSTOP parent (halt admits); wait until workers CPU ticks frozen (cells written); SIGTERM idle owned tree; SIGCONT parent; remove owned lock after /proc gone",
+  "result_counts": {
+    "spsa_N6": 2400,
+    "bfgs_N6": 6327,
+    "entropy_N6": 200
+  },
+  "historical_jobs_untouched": true
+}

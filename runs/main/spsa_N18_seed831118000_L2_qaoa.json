@@ -1,0 +1,85 @@
+{
+  "calls": 2048,
+  "L": 2,
+  "method": "qaoa",
+  "x": [
+    0.2052675100025266,
+    -0.5884223394440795,
+    0.36524448262173675,
+    -0.2799761346755702
+  ],
+  "best_E": -17.650054626817617,
+  "F": 0.6668070146654039,
+  "norm": 0.9999999999999987,
+  "updates_per_trajectory": 460,
+  "prefix_padding_queries": 0,
+  "prefix_best_E": -17.650054626817617,
+  "gain_multiplier": 1.0,
+  "query_roles": {
+    "initial": 2,
+    "calibration_plus": 8,
+    "calibration_minus": 8,
+    "spsa_plus": 920,
+    "spsa_minus": 920,
+    "candidate_monitor": 184,
+    "readout_late_iterate": 6
+  },
+  "initial_points": [
+    [
+      0.08561854211266104,
+      -0.5203045325528598,
+      0.2600329333750575,
+      -0.03461151640174168
+    ],
+    [
+      0.3754945453015085,
+      0.1269873932265079,
+      -0.03734481596685871,
+      -0.5093353008501645
+    ]
+  ],
+  "direction_hashes": [
+    "ae17fc798622cb5ff1f2aca489a63cd79196322bf70d8334985f5fe47702a4a5",
+    "b12df4ea477a5a01f4fc7d6969148f314295033522ee9bfdffcca2aad32416eb"
+  ],
+  "parameter_count": 4,
+  "schedule": {
+    "Q": 2048,
+    "T": 460,
+    "prefix_queries": 2042,
+    "padding": 0,
+    "readouts": 6,
+    "L": 2,
+    "roles": {
+      "initial": 2,
+      "calibration_plus": 8,
+      "calibration_minus": 8,
+      "spsa_plus": 920,
+      "spsa_minus": 920,
+      "candidate_monitor": 184,
+      "charged_prefix_padding_remeasurement": 0,
+      "readout_late_iterate": 6
+    },
+    "total": 2048
+  },
+  "fidelity_only_after_all_energy_selection": true,
+  "init_scheme": "TWO_COLD_NARROW_0.16_BROAD_0.6_NO_WARM_NO_LAYER_TRANSFER",
+  "task": "spsa",
+  "N": 18,
+  "seed": 831118000,
+  "cohort": "MAIN",
+  "index": 0,
+  "b": 0.836,
+  "E0": -18.128396353162785,
+  "plus_E": -15.048000000000183,
+  "plus_F": 0.23801139562400547,
+  "energy_error": 0.4783417263451675,
+  "energy_error_over_N": 0.026574540352509304,
+  "wall_s": 73.57762098312378,
+  "CPU_s": 70.67892249600001,
+  "peak_RSS_kib": 200920,
+  "pid": 2768485,
+  "query_log_sha256": "8c7c3b91b98a0fc0b393f113034a08e96f75e4759bb4c6f4d7f9d603c8757cb5",
+  "coupling_variance": "1/N",
+  "valid_for_fits": true
+}

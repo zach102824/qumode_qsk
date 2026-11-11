@@ -1,0 +1,16 @@
+{
+  "shanghai": "2026-11-11 07:22:22 CST",
+  "old_parent": 2751854,
+  "new_popen_pid": 2768474,
+  "new_lock_pid": 2768474,
+  "n21_result": "/workspace/qumode_qsk/runs/main/entropy_N21_seed831121000.json",
+  "note": "drained staged runner after first N=21 entropy cell landed; relaunched mixed entropy+optimize queue",
+  "historical_untouched": [
+    1615751,
+    1744891,
+    1822112,
+    1832860,
+    1906430,
+    1906431
+  ]
+}

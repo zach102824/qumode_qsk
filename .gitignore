@@ -1,0 +1,12 @@
+# Local caches and locks — not part of the published campaign snapshot
+__pycache__/
+*.pyc
+*.pyo
+*.nbc
+*.nbi
+.venv/
+venv/
+.env
+.env.*
+*.lock
+.DS_Store

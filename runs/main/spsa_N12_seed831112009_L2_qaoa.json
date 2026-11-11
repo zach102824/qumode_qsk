@@ -1,0 +1,85 @@
+{
+  "calls": 2048,
+  "L": 2,
+  "method": "qaoa",
+  "x": [
+    0.32260629515779554,
+    -0.6177872669228542,
+    0.52559834279727,
+    1.25912791100256
+  ],
+  "best_E": -9.061002865397862,
+  "F": 0.8242024482419031,
+  "norm": 0.9999999999999991,
+  "updates_per_trajectory": 460,
+  "prefix_padding_queries": 0,
+  "prefix_best_E": -9.061002865397862,
+  "gain_multiplier": 1.0,
+  "query_roles": {
+    "initial": 2,
+    "calibration_plus": 8,
+    "calibration_minus": 8,
+    "spsa_plus": 920,
+    "spsa_minus": 920,
+    "candidate_monitor": 184,
+    "readout_late_iterate": 6
+  },
+  "initial_points": [
+    [
+      -0.1377764029971118,
+      -0.33094007782334633,
+      -0.13245260123679942,
+      0.06325209137865892
+    ],
+    [
+      0.9354039936513829,
+      -0.5751906942242963,
+      -0.09464775784972196,
+      1.0979408864661924
+    ]
+  ],
+  "direction_hashes": [
+    "184dee1d8f2b0d55d00065769c2aa10d38c5d0d2fd394e6b0a5b5e036cc45b1e",
+    "140dcf1b79f359aa2920c1f2b17c6e308f8feb15c2771cd9c8dbee2bf07b5470"
+  ],
+  "parameter_count": 4,
+  "schedule": {
+    "Q": 2048,
+    "T": 460,
+    "prefix_queries": 2042,
+    "padding": 0,
+    "readouts": 6,
+    "L": 2,
+    "roles": {
+      "initial": 2,
+      "calibration_plus": 8,
+      "calibration_minus": 8,
+      "spsa_plus": 920,
+      "spsa_minus": 920,
+      "candidate_monitor": 184,
+      "charged_prefix_padding_remeasurement": 0,
+      "readout_late_iterate": 6
+    },
+    "total": 2048
+  },
+  "fidelity_only_after_all_energy_selection": true,
+  "init_scheme": "TWO_COLD_NARROW_0.16_BROAD_0.6_NO_WARM_NO_LAYER_TRANSFER",
+  "task": "spsa",
+  "N": 12,
+  "seed": 831112009,
+  "cohort": "MAIN",
+  "index": 9,
+  "b": 0.547,
+  "E0": -9.43213918216693,
+  "plus_E": -6.5640000000000205,
+  "plus_F": 0.20094134263907953,
+  "energy_error": 0.3711363167690678,
+  "energy_error_over_N": 0.030928026397422315,
+  "wall_s": 0.8013002872467041,
+  "CPU_s": 0.6763448410000024,
+  "peak_RSS_kib": 245740,
+  "pid": 2768490,
+  "query_log_sha256": "3ccf2f38edfcf97ec46cfa99069173b63df516a7799f77d0167423c43bb712ef",
+  "coupling_variance": "1/N",
+  "valid_for_fits": true
+}

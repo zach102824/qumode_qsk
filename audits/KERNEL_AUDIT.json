@@ -1,0 +1,329 @@
+{
+  "verdict": "PASS",
+  "shanghai": "2026-11-10 23:21:13 CST",
+  "wall_s": 8.269226312637329,
+  "authorization": [
+    "pt3496u",
+    "pt3497u",
+    "pt3498u"
+  ],
+  "fastmath": false,
+  "numba_threads": 1,
+  "blas_threads": 1,
+  "findings": [
+    {
+      "name": "numba_warmup",
+      "detail": {
+        "n": 9,
+        "compiled": true,
+        "cache": false
+      },
+      "wall_s": 2.238377094268799,
+      "pass": true
+    },
+    {
+      "name": "dense_pauli_fwht_state_grad",
+      "n": 30,
+      "worst_fd": 1.695613027763443e-08,
+      "worst_state": 4.742874840267547e-16,
+      "sample": [
+        {
+          "n": 3,
+          "L": 1,
+          "method": "nov3",
+          "state_err": 1.153297605929378e-16,
+          "dE": 0.0,
+          "dE_grad": 0.0,
+          "norm": 0.9999999999999989,
+          "fd_inf": 2.6638988237515093e-09,
+          "overlap": 0.9999999999999987,
+          "fwd_inf": 5.551115123125783e-17,
+          "dE_fwd": 2.220446049250313e-16
+        },
+        {
+          "n": 3,
+          "L": 1,
+          "method": "qaoa",
+          "state_err": 0.0,
+          "dE": 2.220446049250313e-16,
+          "dE_grad": 0.0,
+          "norm": 0.9999999999999996,
+          "fd_inf": 1.421308404303545e-09,
+          "overlap": 0.9999999999999996
+        },
+        {
+          "n": 3,
+          "L": 2,
+          "method": "nov3",
+          "state_err": 5.721958498152797e-17,
+          "dE": 2.220446049250313e-16,
+          "dE_grad": 0.0,
+          "norm": 0.9999999999999979,
+          "fd_inf": 3.1459804761269083e-09,
+          "overlap": 0.9999999999999979,
+          "fwd_inf": 1.1102230246251565e-16,
+          "dE_fwd": 0.0
+        },
+        {
+          "n": 3,
+          "L": 2,
+          "method": "qaoa",
+          "state_err": 0.0,
+          "dE": 0.0,
+          "dE_grad": 0.0,
+          "norm": 0.9999999999999997,
+          "fd_inf": 4.1247836257696235e-09,
+          "overlap": 0.9999999999999997
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "snapshot_vs_new",
+      "rows": [
+        {
+          "n": 6,
+          "L": 1,
+          "method": "nov3",
+          "state": 9.469747252991003e-17,
+          "energy": 4.440892098500626e-16,
+          "diag0": 0.0,
+          "grad_inf": 2.220446049250313e-15,
+          "dE": 4.440892098500626e-16
+        },
+        {
+          "n": 6,
+          "L": 1,
+          "method": "qaoa",
+          "state": 0.0,
+          "energy": 1.1102230246251565e-16,
+          "diag0": 0.0,
+          "grad_inf": 8.881784197001252e-16,
+          "dE": 1.1102230246251565e-16
+        },
+        {
+          "n": 6,
+          "L": 6,
+          "method": "nov3",
+          "state": 3.7238012298709097e-16,
+          "energy": 1.9984014443252818e-15,
+          "diag0": 0.0,
+          "grad_inf": 3.1086244689504383e-15,
+          "dE": 2.3314683517128287e-15
+        },
+        {
+          "n": 9,
+          "L": 2,
+          "method": "nov3",
+          "state": 5.625327361508482e-17,
+          "energy": 3.1086244689504383e-15,
+          "diag0": 0.0,
+          "grad_inf": 3.552713678800501e-15,
+          "dE": 3.1086244689504383e-15
+        },
+        {
+          "n": 12,
+          "L": 1,
+          "method": "qaoa",
+          "state": 0.0,
+          "energy": 1.1657341758564144e-15,
+          "diag0": 0.0,
+          "grad_inf": 2.220446049250313e-15,
+          "dE": 1.1657341758564144e-15
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "starts_and_1024L_ledger",
+      "start_rows": [
+        {
+          "L": 1,
+          "method": "nov3",
+          "p": 6,
+          "Q": 1024,
+          "T": 227
+        },
+        {
+          "L": 1,
+          "method": "qaoa",
+          "p": 2,
+          "Q": 1024,
+          "T": 227
+        },
+        {
+          "L": 2,
+          "method": "nov3",
+          "p": 9,
+          "Q": 2048,
+          "T": 460
+        },
+        {
+          "L": 2,
+          "method": "qaoa",
+          "p": 4,
+          "Q": 2048,
+          "T": 460
+        },
+        {
+          "L": 3,
+          "method": "nov3",
+          "p": 12,
+          "Q": 3072,
+          "T": 693
+        },
+        {
+          "L": 3,
+          "method": "qaoa",
+          "p": 6,
+          "Q": 3072,
+          "T": 693
+        },
+        {
+          "L": 4,
+          "method": "nov3",
+          "p": 15,
+          "Q": 4096,
+          "T": 925
+        },
+        {
+          "L": 4,
+          "method": "qaoa",
+          "p": 8,
+          "Q": 4096,
+          "T": 925
+        },
+        {
+          "L": 5,
+          "method": "nov3",
+          "p": 18,
+          "Q": 5120,
+          "T": 1158
+        },
+        {
+          "L": 5,
+          "method": "qaoa",
+          "p": 10,
+          "Q": 5120,
+          "T": 1158
+        },
+        {
+          "L": 6,
+          "method": "nov3",
+          "p": 21,
+          "Q": 6144,
+          "T": 1391
+        },
+        {
+          "L": 6,
+          "method": "qaoa",
+          "p": 12,
+          "Q": 6144,
+          "T": 1391
+        }
+      ],
+      "N6_L1_nov3_calls": 1024,
+      "query_kinds": {
+        "initial": 2,
+        "calibration_plus": 8,
+        "calibration_minus": 8,
+        "spsa_plus": 454,
+        "spsa_minus": 454,
+        "candidate_monitor": 90,
+        "charged_prefix_padding_remeasurement": 2,
+        "readout_late_iterate": 6
+      },
+      "Q_ok": true,
+      "pass": true
+    },
+    {
+      "name": "entropy_odd_partition_and_E0_residual",
+      "conformance": "PASS",
+      "rows": [
+        {
+          "n": 9,
+          "S_campaign": 0.6931471805599454,
+          "S_independent": 0.6931471805599454,
+          "S_wrong_Corder": -0.0,
+          "expected": 0.6931471805599453
+        },
+        {
+          "n": 6,
+          "E0": -3.444908885008741,
+          "residual": 3.4550396497436848e-15,
+          "gap": 0.5500948850555831
+        }
+      ],
+      "pass": true
+    },
+    {
+      "name": "frozen_protocol_pin",
+      "sha256": "f32a96d4af337525edbbeea903b848d9b8c6163af3efa214f4ca71cd143cbb81",
+      "variance": "1/N",
+      "pass": true
+    },
+    {
+      "name": "benchmarks_pre_post",
+      "rows": [
+        {
+          "n": 6,
+          "L": 1,
+          "method": "nov3",
+          "reps": 40,
+          "new_state_s": 1.2169100227765738e-05,
+          "new_grad_s": 3.404774906812236e-05,
+          "new_rss_kib": 370688,
+          "rss0": 370688,
+          "old_state_s": 8.14704253571108e-05,
+          "old_grad_s": 0.00047846180095802995,
+          "speedup_state": 6.694860247039716,
+          "speedup_grad": 14.05267055982846
+        },
+        {
+          "n": 6,
+          "L": 6,
+          "method": "nov3",
+          "reps": 20,
+          "new_state_s": 3.981015033787117e-05,
+          "new_grad_s": 0.00018277640047017484,
+          "new_rss_kib": 370688,
+          "rss0": 370688,
+          "old_state_s": 0.00040373160009039567,
+          "old_grad_s": 0.008290061401203275,
+          "speedup_state": 10.141423648589644,
+          "speedup_grad": 45.35630081278482
+        },
+        {
+          "n": 12,
+          "L": 1,
+          "method": "nov3",
+          "reps": 8,
+          "new_state_s": 0.0003807093744399026,
+          "new_grad_s": 0.0008693217459949665,
+          "new_rss_kib": 370688,
+          "rss0": 370688,
+          "old_state_s": 0.0007969738726387732,
+          "old_grad_s": 0.0043758125029853545,
+          "speedup_state": 2.0933917737415224,
+          "speedup_grad": 5.033593744945489
+        },
+        {
+          "n": 18,
+          "L": 1,
+          "method": "nov3",
+          "reps": 2,
+          "new_state_s": 0.03725105899502523,
+          "new_grad_s": 0.08296727301785722,
+          "new_rss_kib": 370688,
+          "rss0": 370688,
+          "old_state_s": 0.0854489704943262,
+          "old_grad_s": 0.5313015720166732,
+          "speedup_state": 2.293866880556004,
+          "speedup_grad": 6.403748763712168
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "note": "Independent dense/naive reference lives in this driver. Snapshot comparison uses provenance pre-rewrite hamiltonian.py. Science protocol pin unchanged."
+}

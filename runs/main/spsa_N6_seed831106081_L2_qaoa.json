@@ -1,0 +1,85 @@
+{
+  "calls": 2048,
+  "L": 2,
+  "method": "qaoa",
+  "x": [
+    0.41565148973746674,
+    -0.5697575218867786,
+    0.6167816360968229,
+    -0.347675573810088
+  ],
+  "best_E": -3.6810699914999345,
+  "F": 0.7216507992098231,
+  "norm": 1.0000000000000004,
+  "updates_per_trajectory": 460,
+  "prefix_padding_queries": 0,
+  "prefix_best_E": -3.6810699914999345,
+  "gain_multiplier": 1.0,
+  "query_roles": {
+    "initial": 2,
+    "calibration_plus": 8,
+    "calibration_minus": 8,
+    "spsa_plus": 920,
+    "spsa_minus": 920,
+    "candidate_monitor": 184,
+    "readout_late_iterate": 6
+  },
+  "initial_points": [
+    [
+      0.05975977640383131,
+      -0.5577417187413092,
+      -0.0485928022615659,
+      -0.3413480739996923
+    ],
+    [
+      0.15144795521314003,
+      -0.35599583192715345,
+      0.09775506622917005,
+      0.28902217936946906
+    ]
+  ],
+  "direction_hashes": [
+    "f47005861e895dec0ae276fa6a32e495e43408f5ba1b8364971ef7b49b40f010",
+    "87b371b4d889f936465895662f2faec3193337c846f20089caee8608a2b177cf"
+  ],
+  "parameter_count": 4,
+  "schedule": {
+    "Q": 2048,
+    "T": 460,
+    "prefix_queries": 2042,
+    "padding": 0,
+    "readouts": 6,
+    "L": 2,
+    "roles": {
+      "initial": 2,
+      "calibration_plus": 8,
+      "calibration_minus": 8,
+      "spsa_plus": 920,
+      "spsa_minus": 920,
+      "candidate_monitor": 184,
+      "charged_prefix_padding_remeasurement": 0,
+      "readout_late_iterate": 6
+    },
+    "total": 2048
+  },
+  "fidelity_only_after_all_energy_selection": true,
+  "init_scheme": "TWO_COLD_NARROW_0.16_BROAD_0.6_NO_WARM_NO_LAYER_TRANSFER",
+  "task": "spsa",
+  "N": 6,
+  "seed": 831106081,
+  "cohort": "MAIN",
+  "index": 81,
+  "b": 0.281,
+  "E0": -4.225487574783755,
+  "plus_E": -1.6860000000000004,
+  "plus_F": 0.136936710186563,
+  "energy_error": 0.5444175832838205,
+  "energy_error_over_N": 0.09073626388063676,
+  "wall_s": 0.17769742012023926,
+  "CPU_s": 0.17768072100000154,
+  "peak_RSS_kib": 132344,
+  "pid": 2726857,
+  "query_log_sha256": "299f5c1113131cbf302652166e2669186c28a7467fe4db4ec9314bdd331a43ee",
+  "coupling_variance": "1/N",
+  "valid_for_fits": true
+}

@@ -1,0 +1,15 @@
+{
+  "reproduced_label": "interior_unique_GS_entropy_peak",
+  "historical_label": "interior_unique_GS_entropy_peak",
+  "reproduced_b": 0.296,
+  "historical_b": 0.296,
+  "S_abs_err": 2.220446049250313e-16,
+  "E0_abs_err": 0.0,
+  "peak_b_exact_match": true,
+  "shanghai": "2026-11-10 20:22:26 +08",
+  "not_a_panel_seed": true,
+  "J_identical": true,
+  "GS_overlap_squared": 1.0,
+  "verdict": "PASS",
+  "valid_for_fits_reproduced": true
+}

@@ -1,0 +1,20 @@
+{
+  "shanghai": "2026-11-11 12:09:48 CST",
+  "event": "scheduler_heartbeat",
+  "campaign": "rounds",
+  "action": "backoff_wait_for_completion",
+  "in_flight": 5,
+  "pending": 341,
+  "MemAvailable_kib": 3011704,
+  "headroom_kib": 2487416,
+  "own_pids": [
+    2768484,
+    2768485,
+    2768486,
+    2768487,
+    2768488,
+    2768489,
+    2768490,
+    2768491
+  ]
+}

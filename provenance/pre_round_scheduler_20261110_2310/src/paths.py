@@ -1,0 +1,16 @@
+from pathlib import Path
+ROOT = Path(__file__).resolve().parents[1]
+SRC = ROOT / "src"
+PROTOCOL = ROOT / "protocol"
+DATA = ROOT / "data"
+MANIFESTS = ROOT / "manifests"
+AUDITS = ROOT / "audits"
+LOGS = ROOT / "logs"
+RUNS = ROOT / "runs"
+PILOT_RUNS = RUNS / "pilot"
+SUMMARIES = ROOT / "summaries"
+STATUS = ROOT / "ACTIVE_STATUS.json"
+HEARTBEAT = ROOT / "HEARTBEAT.json"
+PHASE1_STATUS = ROOT / "PHASE1_STATUS.json"
+PILOT_RESULTS = ROOT / "PILOT_RESULTS.json"
+ETA_FILE = ROOT / "ETA_AND_PROBE.json"

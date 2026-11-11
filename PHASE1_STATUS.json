@@ -1,0 +1,35 @@
+{
+  "workstreamID": "qumode_qsk_phase1",
+  "authorization": [
+    "pt3487u",
+    "pt3488u"
+  ],
+  "main_fits_not_started": true,
+  "shanghai": "2026-11-10 22:47:13 +08",
+  "pid": 2684987,
+  "state": "phase1_complete",
+  "stage": "pilot_complete_main_not_started",
+  "note": "reuse completed audits and entropy N<=18; rerun unfinished only",
+  "started_shanghai": "2026-11-10 21:10:14 +08",
+  "resume": true,
+  "freeze": {
+    "protocol": "/workspace/qumode_qsk/protocol/PROTOCOL_FROZEN.json",
+    "reused": true,
+    "shanghai": "2026-11-10 21:10:14 +08"
+  },
+  "audits_verdict": "PASS",
+  "audit_wall_s": 18.40257430076599,
+  "n_tasks": 1,
+  "class_rss_kib": 2513914,
+  "config_max": 1,
+  "verdict": "PASS",
+  "wall_s": 5818.9604115486145,
+  "eta_totals": {
+    "entropy_serial_s": 565014.4553184509,
+    "spsa_serial_s": 22127779.679465815,
+    "bfgs_serial_s": 107388997.06028722,
+    "all_serial_s": 130081791.19507149,
+    "approx_parallel_wall_s": 63137760.5244297
+  },
+  "finished_shanghai": "2026-11-10 22:47:13 +08"
+}

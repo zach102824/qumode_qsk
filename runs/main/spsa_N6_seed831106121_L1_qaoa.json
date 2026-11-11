@@ -1,0 +1,80 @@
+{
+  "calls": 1024,
+  "L": 1,
+  "method": "qaoa",
+  "x": [
+    0.38085232856048323,
+    -0.4004892841469551
+  ],
+  "best_E": -3.620778468092256,
+  "F": 0.7390266441975172,
+  "norm": 1.0000000000000004,
+  "updates_per_trajectory": 227,
+  "prefix_padding_queries": 2,
+  "prefix_best_E": -3.620777975095148,
+  "gain_multiplier": 1.023127418967954,
+  "query_roles": {
+    "initial": 2,
+    "calibration_plus": 8,
+    "calibration_minus": 8,
+    "spsa_plus": 454,
+    "spsa_minus": 454,
+    "candidate_monitor": 90,
+    "charged_prefix_padding_remeasurement": 2,
+    "readout_late_iterate": 6
+  },
+  "initial_points": [
+    [
+      0.03836399895895348,
+      -0.1597021170287039
+    ],
+    [
+      -0.41801347300537217,
+      0.0011218990813932073
+    ]
+  ],
+  "direction_hashes": [
+    "567a62813a8a29e51e10906d15b6f2d53e61dcd5a37f15e2925dac1df51b8db3",
+    "806ff6e56039c855fded72b3d50be7db665a1eca84d3c90cf18c9dabfcb4f2dc"
+  ],
+  "parameter_count": 2,
+  "schedule": {
+    "Q": 1024,
+    "T": 227,
+    "prefix_queries": 1016,
+    "padding": 2,
+    "readouts": 6,
+    "L": 1,
+    "roles": {
+      "initial": 2,
+      "calibration_plus": 8,
+      "calibration_minus": 8,
+      "spsa_plus": 454,
+      "spsa_minus": 454,
+      "candidate_monitor": 90,
+      "charged_prefix_padding_remeasurement": 2,
+      "readout_late_iterate": 6
+    },
+    "total": 1024
+  },
+  "fidelity_only_after_all_energy_selection": true,
+  "init_scheme": "TWO_COLD_NARROW_0.16_BROAD_0.6_NO_WARM_NO_LAYER_TRANSFER",
+  "task": "spsa",
+  "N": 6,
+  "seed": 831106121,
+  "cohort": "MAIN",
+  "index": 121,
+  "b": 0.402,
+  "E0": -4.016887051115476,
+  "plus_E": -2.412,
+  "plus_F": 0.38059855256931335,
+  "energy_error": 0.39610858302321983,
+  "energy_error_over_N": 0.06601809717053664,
+  "wall_s": 0.05760908126831055,
+  "CPU_s": 0.05761099900001909,
+  "peak_RSS_kib": 132196,
+  "pid": 2726855,
+  "query_log_sha256": "4811c95ce7c60b0565c2caf2b7d3108237009d842b0f06e3cdbf0fa1c23050b3",
+  "coupling_variance": "1/N",
+  "valid_for_fits": true
+}

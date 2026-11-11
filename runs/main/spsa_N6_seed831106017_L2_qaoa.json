@@ -1,0 +1,85 @@
+{
+  "calls": 2048,
+  "L": 2,
+  "method": "qaoa",
+  "x": [
+    0.2720719257325259,
+    -0.5652652091617563,
+    0.48151928290469687,
+    -0.29640366684489977
+  ],
+  "best_E": -4.492018137126596,
+  "F": 0.8504667525880463,
+  "norm": 1.0000000000000002,
+  "updates_per_trajectory": 460,
+  "prefix_padding_queries": 0,
+  "prefix_best_E": -4.492018137126596,
+  "gain_multiplier": 1.0,
+  "query_roles": {
+    "initial": 2,
+    "calibration_plus": 8,
+    "calibration_minus": 8,
+    "spsa_plus": 920,
+    "spsa_minus": 920,
+    "candidate_monitor": 184,
+    "readout_late_iterate": 6
+  },
+  "initial_points": [
+    [
+      -0.05868329168816033,
+      -0.27632793730984234,
+      0.03400139594348857,
+      -0.32957597534249095
+    ],
+    [
+      -0.386477155643958,
+      0.07766099348490577,
+      -0.21212706775068835,
+      -1.0627690759588497
+    ]
+  ],
+  "direction_hashes": [
+    "8e85fe9d38fd269083537bcf3fed9ef7cba671e818a98803c6bfd3a4043a0b15",
+    "41bea91b0774c46c818f9c555697efe3b80f3902129360eac38f8fdb82767404"
+  ],
+  "parameter_count": 4,
+  "schedule": {
+    "Q": 2048,
+    "T": 460,
+    "prefix_queries": 2042,
+    "padding": 0,
+    "readouts": 6,
+    "L": 2,
+    "roles": {
+      "initial": 2,
+      "calibration_plus": 8,
+      "calibration_minus": 8,
+      "spsa_plus": 920,
+      "spsa_minus": 920,
+      "candidate_monitor": 184,
+      "charged_prefix_padding_remeasurement": 0,
+      "readout_late_iterate": 6
+    },
+    "total": 2048
+  },
+  "fidelity_only_after_all_energy_selection": true,
+  "init_scheme": "TWO_COLD_NARROW_0.16_BROAD_0.6_NO_WARM_NO_LAYER_TRANSFER",
+  "task": "spsa",
+  "N": 6,
+  "seed": 831106017,
+  "cohort": "MAIN",
+  "index": 17,
+  "b": 0.458,
+  "E0": -4.732821193019549,
+  "plus_E": -2.748,
+  "plus_F": 0.3601570818474839,
+  "energy_error": 0.24080305589295303,
+  "energy_error_over_N": 0.0401338426488255,
+  "wall_s": 0.1776270866394043,
+  "CPU_s": 0.1776325179999958,
+  "peak_RSS_kib": 132088,
+  "pid": 2726856,
+  "query_log_sha256": "a5e8dc1f44b3ba8930ae7d14cc8b7243348ded9c1decc9bf6b3ccef70d6e9ae2",
+  "coupling_variance": "1/N",
+  "valid_for_fits": true
+}

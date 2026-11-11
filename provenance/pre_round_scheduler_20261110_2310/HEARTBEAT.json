@@ -1,0 +1,16 @@
+{
+  "shanghai": "2026-11-10 23:10:43 CST",
+  "event": "scheduler_heartbeat",
+  "action": "admit",
+  "target": 4,
+  "in_flight": 4,
+  "pending": 32074,
+  "MemAvailable_kib": 2682164,
+  "headroom_kib": 2157876,
+  "own_pids": [
+    2733086,
+    2733087,
+    2733088,
+    2733089
+  ]
+}

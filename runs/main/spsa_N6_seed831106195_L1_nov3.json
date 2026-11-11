@@ -1,0 +1,92 @@
+{
+  "calls": 1024,
+  "L": 1,
+  "method": "nov3",
+  "x": [
+    0.33984715900175905,
+    -0.5630161855287801,
+    -0.07277570620588157,
+    1.060438723878374,
+    -0.14775882464512816,
+    0.019062874402925322
+  ],
+  "best_E": -4.317630964886441,
+  "F": 0.6921997534245851,
+  "norm": 0.9999999999999978,
+  "updates_per_trajectory": 227,
+  "prefix_padding_queries": 2,
+  "prefix_best_E": -4.317630964886441,
+  "gain_multiplier": 1.0,
+  "query_roles": {
+    "initial": 2,
+    "calibration_plus": 8,
+    "calibration_minus": 8,
+    "spsa_plus": 454,
+    "spsa_minus": 454,
+    "candidate_monitor": 90,
+    "charged_prefix_padding_remeasurement": 2,
+    "readout_late_iterate": 6
+  },
+  "initial_points": [
+    [
+      0.09785839754211341,
+      -0.11086886752132208,
+      0.21247434657149825,
+      0.3098728270400607,
+      0.08276200452123765,
+      0.13704563479714588
+    ],
+    [
+      -0.7201718982316578,
+      -0.6356507157716479,
+      0.0826974464877586,
+      0.25393689317040274,
+      0.534457178051721,
+      0.14042533154732337
+    ]
+  ],
+  "direction_hashes": [
+    "5390a73d88db5df599d68b212f4abd0b58d5535773225359848251bfce10cfb6",
+    "298285e00462ae1da1047f9e9245e5e1ccd7fb5db0605045dd4eb84dde92da05"
+  ],
+  "parameter_count": 6,
+  "schedule": {
+    "Q": 1024,
+    "T": 227,
+    "prefix_queries": 1016,
+    "padding": 2,
+    "readouts": 6,
+    "L": 1,
+    "roles": {
+      "initial": 2,
+      "calibration_plus": 8,
+      "calibration_minus": 8,
+      "spsa_plus": 454,
+      "spsa_minus": 454,
+      "candidate_monitor": 90,
+      "charged_prefix_padding_remeasurement": 2,
+      "readout_late_iterate": 6
+    },
+    "total": 1024
+  },
+  "fidelity_only_after_all_energy_selection": true,
+  "init_scheme": "TWO_COLD_NARROW_0.16_BROAD_0.6_NO_WARM_NO_LAYER_TRANSFER",
+  "task": "spsa",
+  "N": 6,
+  "seed": 831106195,
+  "cohort": "MAIN",
+  "index": 195,
+  "b": 0.35,
+  "E0": -5.2724061504110065,
+  "plus_E": -2.0999999999999996,
+  "plus_F": 0.152295637069582,
+  "energy_error": 0.9547751855245652,
+  "energy_error_over_N": 0.15912919758742752,
+  "wall_s": 0.10129165649414062,
+  "CPU_s": 0.10128627899996445,
+  "peak_RSS_kib": 132388,
+  "pid": 2726854,
+  "query_log_sha256": "b2aafd8ca4800c25a9e0a937c9e4ad6ed71c3474f04f8354c45554bacf038d5b",
+  "coupling_variance": "1/N",
+  "valid_for_fits": true
+}

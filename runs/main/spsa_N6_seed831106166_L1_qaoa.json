@@ -1,0 +1,80 @@
+{
+  "calls": 1024,
+  "L": 1,
+  "method": "qaoa",
+  "x": [
+    0.5477961053177226,
+    -0.37504905784193154
+  ],
+  "best_E": -2.0461468256286848,
+  "F": 0.6981056159950058,
+  "norm": 0.9999999999999999,
+  "updates_per_trajectory": 227,
+  "prefix_padding_queries": 2,
+  "prefix_best_E": -2.0461468256286848,
+  "gain_multiplier": 1.3293523414901345,
+  "query_roles": {
+    "initial": 2,
+    "calibration_plus": 8,
+    "calibration_minus": 8,
+    "spsa_plus": 454,
+    "spsa_minus": 454,
+    "candidate_monitor": 90,
+    "charged_prefix_padding_remeasurement": 2,
+    "readout_late_iterate": 6
+  },
+  "initial_points": [
+    [
+      0.049310765748274796,
+      -0.29915002524918793
+    ],
+    [
+      1.033246661363378,
+      0.15427102636673926
+    ]
+  ],
+  "direction_hashes": [
+    "970f86286bff6c27405c42f226331408299b4a79531f9e286ed8076561de3b55",
+    "e1dd9c2e2844edd4178cf82814048f323b119b6317202531e4ab89f9b3683467"
+  ],
+  "parameter_count": 2,
+  "schedule": {
+    "Q": 1024,
+    "T": 227,
+    "prefix_queries": 1016,
+    "padding": 2,
+    "readouts": 6,
+    "L": 1,
+    "roles": {
+      "initial": 2,
+      "calibration_plus": 8,
+      "calibration_minus": 8,
+      "spsa_plus": 454,
+      "spsa_minus": 454,
+      "candidate_monitor": 90,
+      "charged_prefix_padding_remeasurement": 2,
+      "readout_late_iterate": 6
+    },
+    "total": 1024
+  },
+  "fidelity_only_after_all_energy_selection": true,
+  "init_scheme": "TWO_COLD_NARROW_0.16_BROAD_0.6_NO_WARM_NO_LAYER_TRANSFER",
+  "task": "spsa",
+  "N": 6,
+  "seed": 831106166,
+  "cohort": "MAIN",
+  "index": 166,
+  "b": 0.223,
+  "E0": -2.333179996841657,
+  "plus_E": -1.338,
+  "plus_F": 0.3872849432327885,
+  "energy_error": 0.28703317121297234,
+  "energy_error_over_N": 0.04783886186882872,
+  "wall_s": 0.05891728401184082,
+  "CPU_s": 0.05889581100001351,
+  "peak_RSS_kib": 132388,
+  "pid": 2726854,
+  "query_log_sha256": "4f6f15ed690ebdeb92891928b11f2d5fefacb4425888d2282e4960206d3ead31",
+  "coupling_variance": "1/N",
+  "valid_for_fits": true
+}

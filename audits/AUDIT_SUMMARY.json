@@ -1,0 +1,36 @@
+{
+  "verdict": "PASS",
+  "failed": [],
+  "results": {
+    "schmidt": {
+      "verdict": "PASS",
+      "wall_s": 3.5930099487304688
+    },
+    "variance": {
+      "verdict": "PASS",
+      "wall_s": 14.49685001373291
+    },
+    "schedule": {
+      "verdict": "PASS",
+      "wall_s": 0.0006818771362304688
+    },
+    "starts": {
+      "verdict": "PASS",
+      "wall_s": 0.003392457962036133
+    },
+    "gradients": {
+      "verdict": "PASS",
+      "wall_s": 0.2647886276245117
+    },
+    "historical_n6_seed10000": {
+      "verdict": "PASS",
+      "wall_s": 0.042310237884521484
+    },
+    "source_pins": {
+      "verdict": "PASS",
+      "wall_s": 0.0015120506286621094
+    }
+  },
+  "wall_s": 18.40257430076599,
+  "shanghai": "2026-11-10 20:22:26 +08"
+}

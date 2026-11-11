@@ -1,0 +1,80 @@
+{
+  "calls": 1024,
+  "L": 1,
+  "method": "qaoa",
+  "x": [
+    0.35425286469335787,
+    -0.3662291399271372
+  ],
+  "best_E": -2.999080840545875,
+  "F": 0.507701656703633,
+  "norm": 1.0,
+  "updates_per_trajectory": 227,
+  "prefix_padding_queries": 2,
+  "prefix_best_E": -2.999080314790588,
+  "gain_multiplier": 1.0,
+  "query_roles": {
+    "initial": 2,
+    "calibration_plus": 8,
+    "calibration_minus": 8,
+    "spsa_plus": 454,
+    "spsa_minus": 454,
+    "candidate_monitor": 90,
+    "charged_prefix_padding_remeasurement": 2,
+    "readout_late_iterate": 6
+  },
+  "initial_points": [
+    [
+      -0.016654941880168278,
+      -0.5093021999990937
+    ],
+    [
+      0.6088805768237284,
+      0.10820494746207496
+    ]
+  ],
+  "direction_hashes": [
+    "415d14debde656bc86bdec3e8460f4a7f5584208d43b4f3d9fb770acc961a7e0",
+    "b25fd70da99c0be4eb4ed5f7496624419e8b0480e1e74a4df1f7037f5544e337"
+  ],
+  "parameter_count": 2,
+  "schedule": {
+    "Q": 1024,
+    "T": 227,
+    "prefix_queries": 1016,
+    "padding": 2,
+    "readouts": 6,
+    "L": 1,
+    "roles": {
+      "initial": 2,
+      "calibration_plus": 8,
+      "calibration_minus": 8,
+      "spsa_plus": 454,
+      "spsa_minus": 454,
+      "candidate_monitor": 90,
+      "charged_prefix_padding_remeasurement": 2,
+      "readout_late_iterate": 6
+    },
+    "total": 1024
+  },
+  "fidelity_only_after_all_energy_selection": true,
+  "init_scheme": "TWO_COLD_NARROW_0.16_BROAD_0.6_NO_WARM_NO_LAYER_TRANSFER",
+  "task": "spsa",
+  "N": 6,
+  "seed": 831106025,
+  "cohort": "MAIN",
+  "index": 25,
+  "b": 0.328,
+  "E0": -3.6150090544183984,
+  "plus_E": -1.968,
+  "plus_F": 0.2575345854724618,
+  "energy_error": 0.6159282138725235,
+  "energy_error_over_N": 0.10265470231208725,
+  "wall_s": 0.05784916877746582,
+  "CPU_s": 0.05784979500000276,
+  "peak_RSS_kib": 131940,
+  "pid": 2726855,
+  "query_log_sha256": "0511540a3dd5ea2d5049a18e49bfed555f73d2f2add65f2615e01c995ca4aa78",
+  "coupling_variance": "1/N",
+  "valid_for_fits": true
+}

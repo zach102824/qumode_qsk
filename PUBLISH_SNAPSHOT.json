@@ -1,0 +1,22 @@
+{
+  "published": true,
+  "snapshot_shanghai": "2026-11-11 12:09:53 +08",
+  "source_root_original": "/workspace/qumode_qsk",
+  "campaign_was_running": true,
+  "point_in_time": true,
+  "n_included": 17969,
+  "bytes_included": 194205511,
+  "n_unstable_live_copies": 0,
+  "excluded": [
+    "rounds.lock (live PID lock; also any other *.lock)",
+    "__pycache__/ directories (not descended)",
+    "*.pyc, Numba *.nbc / *.nbi compiled caches",
+    "No .env, credentials, or browser data were present"
+  ],
+  "largest_files_note": "Largest objects are N=21 reference NPZ files (~17 MiB). No file reached GitHub's 100 MiB limit. No Git LFS. No extra compression.",
+  "git_identity": {
+    "name": "Zekun He",
+    "email": "84730686+zach102824@users.noreply.github.com",
+    "note": "GitHub account zach102824 (id 84730686). No user.name/email was set in existing git config, so the documented GitHub noreply address was used on the staging repo only."
+  }
+}

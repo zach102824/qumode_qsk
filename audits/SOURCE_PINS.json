@@ -1,0 +1,83 @@
+{
+  "verdict": "PASS",
+  "src": [
+    {
+      "path": "src/__init__.py",
+      "sha256": "b94b3e73f2878d146619c0555b2083f4524b4d9a47c44749887b800dac28e7a2",
+      "bytes": 99
+    },
+    {
+      "path": "src/audits.py",
+      "sha256": "68df72a6605b4eedd858c16c5ba129a92c683c40f738119d4aeaacfda611d769",
+      "bytes": 9220
+    },
+    {
+      "path": "src/bfgs.py",
+      "sha256": "8abd2b4b122090da53cab6206384f7ea74c78e3351206afb1e5c916ce796e641",
+      "bytes": 5374
+    },
+    {
+      "path": "src/entropy.py",
+      "sha256": "b157eae821d5a155e3e47d8b89625235364c5c4cbc54eb0e9098fdbda13c30d4",
+      "bytes": 8562
+    },
+    {
+      "path": "src/freeze_all.py",
+      "sha256": "e823cd7392fc4b16e6069f1139b4ae69bec4c19dcfafb47afcacf29867f5ade5",
+      "bytes": 5738
+    },
+    {
+      "path": "src/hamiltonian.py",
+      "sha256": "66efb69cec8b52ebc0c1a9b402a3711c67257ee5de261db3a5b14dd27a6ee0d0",
+      "bytes": 9915
+    },
+    {
+      "path": "src/io_util.py",
+      "sha256": "f75b27bd8ac5fb2241bb52ebe98fec8387bca868cd9a7721c6540bfa18353802",
+      "bytes": 1510
+    },
+    {
+      "path": "src/paths.py",
+      "sha256": "789bbe4fb95d9f52beadfc5b360f82c9a3ada025d0564b3c96c1f5bbf4c571ab",
+      "bytes": 494
+    },
+    {
+      "path": "src/pilot.py",
+      "sha256": "3da30eb4c0741183036c4d9cce55336d8e6044808d82b7e971ddd5627db3605d",
+      "bytes": 8109
+    },
+    {
+      "path": "src/protocol.py",
+      "sha256": "b78a5ebe598719de4c9ae25b2cfcb3d18598e0d116bf94bb4ecf67bcd17439ea",
+      "bytes": 1829
+    },
+    {
+      "path": "src/resources.py",
+      "sha256": "01321b8ddcc28761177a88574a7d4680d0228abd854f319a79d99c3412303608",
+      "bytes": 5305
+    },
+    {
+      "path": "src/scheduler.py",
+      "sha256": "eb845004b44a77203f08343829e8176376146da699960bcedf8b2031cbf1947b",
+      "bytes": 10827
+    },
+    {
+      "path": "src/spsa.py",
+      "sha256": "8d42a22a88e655f814ba002b8b5b69953ca0c3a278194f3709c177061e8e8c51",
+      "bytes": 5663
+    },
+    {
+      "path": "src/starts.py",
+      "sha256": "0a39d54a19c23e8863f764a1f1117939d9fe1e7a3217927139178cd31be5698a",
+      "bytes": 2864
+    }
+  ],
+  "scripts": [
+    {
+      "path": "scripts/run_phase1.py",
+      "sha256": "c4f34218723f661b2d8ddc979685303c2bb4817943c2392cbbf2939837626d23",
+      "bytes": 16302
+    }
+  ],
+  "shanghai": "2026-11-10 20:22:26 +08"
+}

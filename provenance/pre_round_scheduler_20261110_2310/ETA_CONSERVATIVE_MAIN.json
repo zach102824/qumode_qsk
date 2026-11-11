@@ -1,0 +1,520 @@
+{
+  "shanghai": "2026-11-10 22:49:54 +08",
+  "zone": "Asia/Shanghai (CST, UTC+8)",
+  "kind": "conservative_campaign_eta_after_complete_pilot",
+  "official_pilot_eta_file": "/workspace/qumode_qsk/ETA_AND_PROBE.json",
+  "official_pilot_eta_shanghai": "2026-11-10 22:47:13 +08",
+  "official_suggested_workers_by_N": {
+    "6": 8,
+    "9": 8,
+    "12": 8,
+    "15": 8,
+    "18": 7,
+    "21": 2
+  },
+  "official_totals_s": {
+    "entropy_serial_s": 565014.4553184509,
+    "spsa_serial_s": 22127779.679465815,
+    "bfgs_serial_s": 107388997.06028722,
+    "all_serial_s": 130081791.19507149,
+    "approx_parallel_wall_s": 63137760.5244297
+  },
+  "official_approx_parallel_days": 730.7611171808993,
+  "official_serial_days": 1505.5762869799942,
+  "policy": {
+    "stability_over_max_cpu": true,
+    "conservative_workers_entropy": {
+      "6": 4,
+      "9": 4,
+      "12": 3,
+      "15": 2,
+      "18": 1,
+      "21": 1
+    },
+    "conservative_workers_spsa_bfgs": {
+      "6": 4,
+      "9": 4,
+      "12": 3,
+      "15": 2,
+      "18": 2,
+      "21": 1
+    },
+    "N21_single_worker": true,
+    "note": "Official ETA_AND_PROBE suggested 8/8/8/8/7/2 workers from then-current headroom; this file uses the tighter policy (N=21 always 1; small-N capped at 4; N=18 entropy 1, SPSA/BFGS 2)."
+  },
+  "observed_vs_extrapolated": {
+    "entropy": "ALL six sizes measured on disjoint pilot seeds. All six were interior_unique_GS_entropy_peak and valid_for_fits.",
+    "spsa": "Measured: N6 L1 nov3, N6 L1 qaoa, N6 L6 nov3, N12 L1 nov3, N18 L1 nov3, N21 L1 nov3. Extrapolated: N9 and N15 L1 by log-linear interpolation in N between neighbors; L=2..5 by linear interpolation of the measured N6 L6/L1=17.60 ratio; L=6 uses that measured ratio (not 6); qaoa/nov3 wall ratio taken from N6 L1=0.652 and applied to all N (weak).",
+    "bfgs": "Measured: N6 L1 nov3 starts 0 and 1 (mean used), N12/N18/N21 L1 nov3 start 0. Extrapolated: N9 and N15 L1 log-linear in N; L>1 as L*L1_time (weak; nfev may grow); qaoa BFGS unmeasured, assumed same wall as nov3. N=21 start 0 did not tightly converge (precision loss, nfev=78, not iteration cap); other starts may be faster or slower."
+  },
+  "measured_pilot": {
+    "entropy": {
+      "6": {
+        "wall_s": 0.04300689697265625,
+        "CPU_s": 0.043007997,
+        "rss": 66816,
+        "b": 0.362,
+        "S": 0.737385253788341,
+        "source": "measured"
+      },
+      "9": {
+        "wall_s": 0.2752833366394043,
+        "CPU_s": 0.270384991,
+        "rss": 67424,
+        "b": 0.491,
+        "S": 0.7465642202234215,
+        "source": "measured"
+      },
+      "12": {
+        "wall_s": 0.7569727897644043,
+        "CPU_s": 0.749907275,
+        "rss": 72080,
+        "b": 0.474,
+        "S": 0.8897346954818557,
+        "source": "measured"
+      },
+      "15": {
+        "wall_s": 8.66138219833374,
+        "CPU_s": 8.66017329,
+        "rss": 133200,
+        "b": 0.645,
+        "S": 1.081984672408392,
+        "source": "measured"
+      },
+      "18": {
+        "wall_s": 100.45939326286316,
+        "CPU_s": 100.437073094,
+        "rss": 617416,
+        "b": 0.722,
+        "S": 1.3981256352012288,
+        "source": "measured"
+      },
+      "21": {
+        "wall_s": 2714.8762381076813,
+        "CPU_s": 1829.197079114,
+        "rss": 1933780,
+        "b": 0.83,
+        "S": 1.405086977181892,
+        "source": "measured"
+      }
+    },
+    "spsa_extra": {
+      "N6_L1_qaoa_s": 0.09812498092651367,
+      "N6_L1_qaoa_F": 0.6707571026680214,
+      "N6_L6_nov3_s": 2.650714874267578,
+      "N6_L6_nov3_F": 0.883594174760206,
+      "L6_over_L1_N6_nov3": 17.5998353661915,
+      "qaoa_over_nov3_N6_L1": 0.6515161349047419
+    },
+    "spsa_L1_nov3": {
+      "6": {
+        "wall_s": 0.15061020851135254,
+        "F": 0.7953160386520036,
+        "rss": 59220,
+        "source": "measured"
+      },
+      "12": {
+        "wall_s": 0.8940606117248535,
+        "F": 0.5176060204613838,
+        "rss": 60548,
+        "source": "measured"
+      },
+      "18": {
+        "wall_s": 137.81473398208618,
+        "F": 0.6576716486085551,
+        "rss": 114096,
+        "source": "measured"
+      },
+      "21": {
+        "wall_s": 1050.263278245926,
+        "F": 0.6481228179227202,
+        "rss": 470940,
+        "source": "measured"
+      },
+      "9": {
+        "wall_s": 0.3669532056729681,
+        "source": "extrapolated_loglin_N6_N12"
+      },
+      "15": {
+        "wall_s": 11.10021285240612,
+        "source": "extrapolated_loglin_N12_N18"
+      }
+    },
+    "bfgs_L1_nov3": {
+      "6": {
+        "wall_s": 0.04295015335083008,
+        "nfev": 30.5,
+        "rss": 59208,
+        "source": "measured_mean_of_2_starts"
+      },
+      "12": {
+        "wall_s": 0.27952075004577637,
+        "nfev": 54,
+        "rss": 61364,
+        "source": "measured"
+      },
+      "18": {
+        "wall_s": 16.256157398223877,
+        "nfev": 27,
+        "rss": 189484,
+        "source": "measured"
+      },
+      "21": {
+        "wall_s": 780.205427646637,
+        "nfev": 78,
+        "rss": 977972,
+        "source": "measured"
+      },
+      "9": {
+        "wall_s": 0.10956942584135934,
+        "source": "extrapolated_loglin_N6_N12"
+      },
+      "15": {
+        "wall_s": 2.1316503720858475,
+        "source": "extrapolated_loglin_N12_N18"
+      }
+    },
+    "N21_called_out": {
+      "entropy": {
+        "wall_s": 2714.8762381076813,
+        "wall_min": 45.247937301794686,
+        "CPU_s": 1829.197079114,
+        "peak_RSS_kib": 1933780,
+        "Bstar": 0.83,
+        "S": 1.405086977181892,
+        "gap": 0.10265,
+        "even_gap": 0.76116,
+        "label": "interior_unique_GS_entropy_peak",
+        "valid_for_fits": true,
+        "finished_shanghai": "2026-11-10 21:55 +08"
+      },
+      "spsa_L1_nov3": {
+        "wall_s": 1050.263278245926,
+        "wall_min": 17.504387970765432,
+        "CPU_s": 960.760214854,
+        "peak_RSS_kib": 470940,
+        "F": 0.6481228179227202,
+        "finished_shanghai": "2026-11-10 22:24:11 +08"
+      },
+      "bfgs_L1_nov3_start0": {
+        "wall_s": 780.205427646637,
+        "wall_min": 13.003423794110615,
+        "CPU_s": 495.345814914,
+        "peak_RSS_kib": 977972,
+        "F": 0.655075722294647,
+        "nit": 23,
+        "nfev": 78,
+        "success": false,
+        "tightly_converged": false,
+        "message": "Desired error not necessarily achieved due to precision loss.",
+        "hit_iteration_cap": false,
+        "admitted_shanghai": "2026-11-10 22:34:13 +08",
+        "finished_shanghai": "2026-11-10 22:47:13 +08",
+        "note": "Admission waited on memory because class_rss was inherited from the N=21 entropy peak (2.51 GiB class). Actual BFGS RSS stayed ~0.96 GiB. Worker PID 2721227 was a legitimate child of orchestrator 2684987."
+      }
+    }
+  },
+  "entropy": {
+    "seconds_per_instance": {
+      "6": {
+        "seconds": 0.04300689697265625,
+        "source": "measured",
+        "n_instances": 200,
+        "conservative_workers": 4,
+        "conservative_wall_s": 2.1503448486328125
+      },
+      "9": {
+        "seconds": 0.2752833366394043,
+        "source": "measured",
+        "n_instances": 200,
+        "conservative_workers": 4,
+        "conservative_wall_s": 13.764166831970215
+      },
+      "12": {
+        "seconds": 0.7569727897644043,
+        "source": "measured",
+        "n_instances": 200,
+        "conservative_workers": 3,
+        "conservative_wall_s": 50.46485265096029
+      },
+      "15": {
+        "seconds": 8.66138219833374,
+        "source": "measured",
+        "n_instances": 200,
+        "conservative_workers": 2,
+        "conservative_wall_s": 866.138219833374
+      },
+      "18": {
+        "seconds": 100.45939326286316,
+        "source": "measured",
+        "n_instances": 200,
+        "conservative_workers": 1,
+        "conservative_wall_s": 20091.878652572632
+      },
+      "21": {
+        "seconds": 2714.8762381076813,
+        "source": "measured",
+        "n_instances": 200,
+        "conservative_workers": 1,
+        "conservative_wall_s": 542975.2476215363
+      }
+    },
+    "serial_s": 565014.4553184509,
+    "conservative_parallel_s": 563999.6438582739,
+    "serial_days": 6.539519158778368,
+    "conservative_parallel_days": 6.527773655767058
+  },
+  "spsa": {
+    "cells": {
+      "6": {
+        "L1_nov3_s": 0.15061020851135254,
+        "L1_source": "measured",
+        "l_scale": {
+          "1": 1.0,
+          "2": 4.3199670732383,
+          "3": 7.6399341464766,
+          "4": 10.959901219714899,
+          "5": 14.2798682929532,
+          "6": 17.5998353661915
+        },
+        "qaoa_over_nov3": 0.6515161349047419,
+        "serial_nov3_s": 1680.7950496673584,
+        "serial_qaoa_s": 1095.065094326301,
+        "serial_both_s": 2775.860143993659,
+        "conservative_workers": 4,
+        "conservative_wall_s": 693.9650359984148
+      },
+      "9": {
+        "L1_nov3_s": 0.3669532056729681,
+        "L1_source": "extrapolated_loglin_N6_N12",
+        "l_scale": {
+          "1": 1.0,
+          "2": 4.3199670732383,
+          "3": 7.6399341464766,
+          "4": 10.959901219714899,
+          "5": 14.2798682929532,
+          "6": 17.5998353661915
+        },
+        "qaoa_over_nov3": 0.6515161349047419,
+        "serial_nov3_s": 4095.1615275680488,
+        "serial_qaoa_s": 2668.0638102517337,
+        "serial_both_s": 6763.225337819782,
+        "conservative_workers": 4,
+        "conservative_wall_s": 1690.8063344549455
+      },
+      "12": {
+        "L1_nov3_s": 0.8940606117248535,
+        "L1_source": "measured",
+        "l_scale": {
+          "1": 1.0,
+          "2": 4.3199670732383,
+          "3": 7.6399341464766,
+          "4": 10.959901219714899,
+          "5": 14.2798682929532,
+          "6": 17.5998353661915
+        },
+        "qaoa_over_nov3": 0.6515161349047419,
+        "serial_nov3_s": 9977.62811128724,
+        "serial_qaoa_s": 6500.585702582763,
+        "serial_both_s": 16478.213813870003,
+        "conservative_workers": 3,
+        "conservative_wall_s": 5492.737937956667
+      },
+      "15": {
+        "L1_nov3_s": 11.10021285240612,
+        "L1_source": "extrapolated_loglin_N12_N18",
+        "l_scale": {
+          "1": 1.0,
+          "2": 4.3199670732383,
+          "3": 7.6399341464766,
+          "4": 10.959901219714899,
+          "5": 14.2798682929532,
+          "6": 17.5998353661915
+        },
+        "qaoa_over_nov3": 0.6515161349047419,
+        "serial_nov3_s": 123877.27895066208,
+        "serial_qaoa_s": 80708.04598445189,
+        "serial_both_s": 204585.32493511395,
+        "conservative_workers": 2,
+        "conservative_wall_s": 102292.66246755698
+      },
+      "18": {
+        "L1_nov3_s": 137.81473398208618,
+        "L1_source": "measured",
+        "l_scale": {
+          "1": 1.0,
+          "2": 4.3199670732383,
+          "3": 7.6399341464766,
+          "4": 10.959901219714899,
+          "5": 14.2798682929532,
+          "6": 17.5998353661915
+        },
+        "qaoa_over_nov3": 0.6515161349047419,
+        "serial_nov3_s": 1537998.817861368,
+        "serial_qaoa_s": 1002031.0453011006,
+        "serial_both_s": 2540029.8631624687,
+        "conservative_workers": 2,
+        "conservative_wall_s": 1270014.9315812343
+      },
+      "21": {
+        "L1_nov3_s": 1050.263278245926,
+        "L1_source": "measured",
+        "l_scale": {
+          "1": 1.0,
+          "2": 4.3199670732383,
+          "3": 7.6399341464766,
+          "4": 10.959901219714899,
+          "5": 14.2798682929532,
+          "6": 17.5998353661915
+        },
+        "qaoa_over_nov3": 0.6515161349047419,
+        "serial_nov3_s": 11720834.439918477,
+        "serial_qaoa_s": 7636312.752154072,
+        "serial_both_s": 19357147.192072548,
+        "conservative_workers": 1,
+        "conservative_wall_s": 19357147.192072548
+      }
+    },
+    "serial_s": 22127779.679465815,
+    "conservative_parallel_s": 20737332.29542975,
+    "serial_days": 256.1085611049284,
+    "conservative_parallel_days": 240.0154200859925,
+    "L6_over_L1_N6_nov3": 17.5998353661915
+  },
+  "bfgs": {
+    "cells": {
+      "6": {
+        "per_start_L1_nov3_s": 0.04295015335083008,
+        "source": "measured_mean_of_2_starts",
+        "mean_nfev_L1": 30.5,
+        "L_scale_assumption": "time_per_start ~= L * L1_time (weak; nfev may grow; qaoa unmeasured, assumed same wall as nov3)",
+        "serial_all_starts_s": 5772.5006103515625,
+        "per_L_start_s": {
+          "1": 0.04295015335083008,
+          "2": 0.08590030670166016,
+          "3": 0.12885046005249023,
+          "4": 0.1718006134033203,
+          "5": 0.2147507667541504,
+          "6": 0.25770092010498047
+        },
+        "conservative_workers": 4,
+        "conservative_wall_s": 1443.1251525878906
+      },
+      "9": {
+        "per_start_L1_nov3_s": 0.10956942584135934,
+        "source": "extrapolated_loglin_N6_N12",
+        "mean_nfev_L1": null,
+        "L_scale_assumption": "time_per_start ~= L * L1_time (weak; nfev may grow; qaoa unmeasured, assumed same wall as nov3)",
+        "serial_all_starts_s": 14726.130833078696,
+        "per_L_start_s": {
+          "1": 0.10956942584135934,
+          "2": 0.21913885168271868,
+          "3": 0.32870827752407805,
+          "4": 0.43827770336543737,
+          "5": 0.5478471292067967,
+          "6": 0.6574165550481561
+        },
+        "conservative_workers": 4,
+        "conservative_wall_s": 3681.532708269674
+      },
+      "12": {
+        "per_start_L1_nov3_s": 0.27952075004577637,
+        "source": "measured",
+        "mean_nfev_L1": 54,
+        "L_scale_assumption": "time_per_start ~= L * L1_time (weak; nfev may grow; qaoa unmeasured, assumed same wall as nov3)",
+        "serial_all_starts_s": 37567.588806152344,
+        "per_L_start_s": {
+          "1": 0.27952075004577637,
+          "2": 0.5590415000915527,
+          "3": 0.8385622501373291,
+          "4": 1.1180830001831055,
+          "5": 1.3976037502288818,
+          "6": 1.6771245002746582
+        },
+        "conservative_workers": 3,
+        "conservative_wall_s": 12522.529602050781
+      },
+      "15": {
+        "per_start_L1_nov3_s": 2.1316503720858475,
+        "source": "extrapolated_loglin_N12_N18",
+        "mean_nfev_L1": null,
+        "L_scale_assumption": "time_per_start ~= L * L1_time (weak; nfev may grow; qaoa unmeasured, assumed same wall as nov3)",
+        "serial_all_starts_s": 286493.8100083379,
+        "per_L_start_s": {
+          "1": 2.1316503720858475,
+          "2": 4.263300744171695,
+          "3": 6.394951116257543,
+          "4": 8.52660148834339,
+          "5": 10.658251860429237,
+          "6": 12.789902232515086
+        },
+        "conservative_workers": 2,
+        "conservative_wall_s": 143246.90500416895
+      },
+      "18": {
+        "per_start_L1_nov3_s": 16.256157398223877,
+        "source": "measured",
+        "mean_nfev_L1": 27,
+        "L_scale_assumption": "time_per_start ~= L * L1_time (weak; nfev may grow; qaoa unmeasured, assumed same wall as nov3)",
+        "serial_all_starts_s": 2184827.554321289,
+        "per_L_start_s": {
+          "1": 16.256157398223877,
+          "2": 32.512314796447754,
+          "3": 48.76847219467163,
+          "4": 65.02462959289551,
+          "5": 81.28078699111938,
+          "6": 97.53694438934326
+        },
+        "conservative_workers": 2,
+        "conservative_wall_s": 1092413.7771606445
+      },
+      "21": {
+        "per_start_L1_nov3_s": 780.205427646637,
+        "source": "measured",
+        "mean_nfev_L1": 78,
+        "L_scale_assumption": "time_per_start ~= L * L1_time (weak; nfev may grow; qaoa unmeasured, assumed same wall as nov3)",
+        "serial_all_starts_s": 104859609.47570801,
+        "per_L_start_s": {
+          "1": 780.205427646637,
+          "2": 1560.410855293274,
+          "3": 2340.616282939911,
+          "4": 3120.821710586548,
+          "5": 3901.027138233185,
+          "6": 4681.232565879822
+        },
+        "conservative_workers": 1,
+        "conservative_wall_s": 104859609.47570801
+      }
+    },
+    "serial_s": 107388997.06028722,
+    "conservative_parallel_s": 106112917.34533574,
+    "serial_days": 1242.9282067162874,
+    "conservative_parallel_days": 1228.1587655710155,
+    "caveat": "L>1 scaled as L*L1 start time; weak. qaoa unmeasured."
+  },
+  "totals": {
+    "entropy_serial_s": 565014.4553184509,
+    "spsa_serial_s": 22127779.679465815,
+    "bfgs_serial_s": 107388997.06028722,
+    "all_serial_s": 130081791.19507149,
+    "conservative_parallel_s": 127414249.28462376,
+    "entropy_serial_days": 6.539519158778368,
+    "spsa_serial_days": 256.1085611049284,
+    "bfgs_serial_days": 1242.9282067162874,
+    "all_serial_days": 1505.5762869799942,
+    "conservative_parallel_days": 1474.701959312775,
+    "N21": {
+      "entropy_s": 542975.2476215363,
+      "entropy_days": 6.284435736360373,
+      "spsa_s": 19357147.192072548,
+      "spsa_days": 224.04105546380265,
+      "bfgs_s": 104859609.47570801,
+      "bfgs_days": 1213.6528874503242,
+      "all_s": 124759731.91540208,
+      "all_days": 1443.978378650487,
+      "workers": 1,
+      "fraction_of_conservative_campaign": 0.9791662440886664
+    }
+  },
+  "note": "Post-pilot measured ETA for the already-approved 200-instance campaign. Not a guarantee. Observed cells are labeled measured; N=9/15 SPSA/BFGS, SPSA L>1 and qaoa at N>6, and all BFGS L>1 / qaoa are extrapolated. N=21 is called out separately and dominates the wall (single-worker). Memory pressure, other box tasks, invalid entropy peaks, and BFGS nfev variation will change realized wall. Scheduler admits between jobs only and will not signal historical jobs. This is not a reservation."
+}

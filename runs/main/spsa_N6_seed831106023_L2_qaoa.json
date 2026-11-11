@@ -1,0 +1,85 @@
+{
+  "calls": 2048,
+  "L": 2,
+  "method": "qaoa",
+  "x": [
+    0.29959030443839935,
+    -0.5019718976276472,
+    0.5527464165192207,
+    -0.23312899135176413
+  ],
+  "best_E": -3.094372534396341,
+  "F": 0.8356630719906202,
+  "norm": 1.0000000000000007,
+  "updates_per_trajectory": 460,
+  "prefix_padding_queries": 0,
+  "prefix_best_E": -3.094372534396341,
+  "gain_multiplier": 1.0,
+  "query_roles": {
+    "initial": 2,
+    "calibration_plus": 8,
+    "calibration_minus": 8,
+    "spsa_plus": 920,
+    "spsa_minus": 920,
+    "candidate_monitor": 184,
+    "readout_late_iterate": 6
+  },
+  "initial_points": [
+    [
+      0.10434581059365515,
+      -0.2168544605551386,
+      0.305353759425917,
+      0.10666522284909633
+    ],
+    [
+      -0.05036811861863616,
+      0.00732801336677405,
+      0.5953046090433894,
+      0.48657984380184705
+    ]
+  ],
+  "direction_hashes": [
+    "49ea02c811bd035d1cf33d75e71ba1a9f1a966b6ebf56979dd7350ecc360b793",
+    "840d6947a62cd418680bf80009e10a6d52e88d07a92b8e2e542be53cd60b4fd4"
+  ],
+  "parameter_count": 4,
+  "schedule": {
+    "Q": 2048,
+    "T": 460,
+    "prefix_queries": 2042,
+    "padding": 0,
+    "readouts": 6,
+    "L": 2,
+    "roles": {
+      "initial": 2,
+      "calibration_plus": 8,
+      "calibration_minus": 8,
+      "spsa_plus": 920,
+      "spsa_minus": 920,
+      "candidate_monitor": 184,
+      "charged_prefix_padding_remeasurement": 0,
+      "readout_late_iterate": 6
+    },
+    "total": 2048
+  },
+  "fidelity_only_after_all_energy_selection": true,
+  "init_scheme": "TWO_COLD_NARROW_0.16_BROAD_0.6_NO_WARM_NO_LAYER_TRANSFER",
+  "task": "spsa",
+  "N": 6,
+  "seed": 831106023,
+  "cohort": "MAIN",
+  "index": 23,
+  "b": 0.3,
+  "E0": -3.264288932532803,
+  "plus_E": -1.8,
+  "plus_F": 0.4194247872213517,
+  "energy_error": 0.1699163981364622,
+  "energy_error_over_N": 0.028319399689410368,
+  "wall_s": 0.17812657356262207,
+  "CPU_s": 0.1781315850000027,
+  "peak_RSS_kib": 132216,
+  "pid": 2726856,
+  "query_log_sha256": "26a7d35d593f60cd470f0309548f6cb3491e74d6e7a536a67ce6abdf0912473e",
+  "coupling_variance": "1/N",
+  "valid_for_fits": true
+}

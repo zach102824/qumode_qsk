@@ -1,0 +1,80 @@
+{
+  "calls": 1024,
+  "L": 1,
+  "method": "qaoa",
+  "x": [
+    0.3022714782875931,
+    -0.38981006201651164
+  ],
+  "best_E": -4.350554561127776,
+  "F": 0.6710245565854477,
+  "norm": 1.0,
+  "updates_per_trajectory": 227,
+  "prefix_padding_queries": 2,
+  "prefix_best_E": -4.350553722911087,
+  "gain_multiplier": 1.0,
+  "query_roles": {
+    "initial": 2,
+    "calibration_plus": 8,
+    "calibration_minus": 8,
+    "spsa_plus": 454,
+    "spsa_minus": 454,
+    "candidate_monitor": 90,
+    "charged_prefix_padding_remeasurement": 2,
+    "readout_late_iterate": 6
+  },
+  "initial_points": [
+    [
+      0.003333765770076977,
+      -0.3398176773729226
+    ],
+    [
+      -0.5243598725547117,
+      -1.4677098801863433
+    ]
+  ],
+  "direction_hashes": [
+    "5f5cfb0675ee907df6841959cf7d3dbdbea3d7ca78def4a62cd9dfed71bf1843",
+    "be43a4cf3eac9c9e5fd852974349d1891df0b9470c57e6d8b90efe96535a287f"
+  ],
+  "parameter_count": 2,
+  "schedule": {
+    "Q": 1024,
+    "T": 227,
+    "prefix_queries": 1016,
+    "padding": 2,
+    "readouts": 6,
+    "L": 1,
+    "roles": {
+      "initial": 2,
+      "calibration_plus": 8,
+      "calibration_minus": 8,
+      "spsa_plus": 454,
+      "spsa_minus": 454,
+      "candidate_monitor": 90,
+      "charged_prefix_padding_remeasurement": 2,
+      "readout_late_iterate": 6
+    },
+    "total": 1024
+  },
+  "fidelity_only_after_all_energy_selection": true,
+  "init_scheme": "TWO_COLD_NARROW_0.16_BROAD_0.6_NO_WARM_NO_LAYER_TRANSFER",
+  "task": "spsa",
+  "N": 6,
+  "seed": 831106029,
+  "cohort": "MAIN",
+  "index": 29,
+  "b": 0.561,
+  "E0": -4.890391219032776,
+  "plus_E": -3.3660000000000005,
+  "plus_F": 0.39027507147038476,
+  "energy_error": 0.539836657905,
+  "energy_error_over_N": 0.0899727763175,
+  "wall_s": 0.05782604217529297,
+  "CPU_s": 0.05781827500000247,
+  "peak_RSS_kib": 132216,
+  "pid": 2726856,
+  "query_log_sha256": "039daee18f68bc9c3f776f9b6693bb50ba5702f79ad58f5c5712175f0f940d0e",
+  "coupling_variance": "1/N",
+  "valid_for_fits": true
+}

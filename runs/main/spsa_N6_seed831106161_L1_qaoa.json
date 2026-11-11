@@ -1,0 +1,80 @@
+{
+  "calls": 1024,
+  "L": 1,
+  "method": "qaoa",
+  "x": [
+    -0.4219510073408647,
+    -1.1527358492752533
+  ],
+  "best_E": -3.3913086837765554,
+  "F": 0.6274834400821182,
+  "norm": 0.9999999999999999,
+  "updates_per_trajectory": 227,
+  "prefix_padding_queries": 2,
+  "prefix_best_E": -3.391308308454959,
+  "gain_multiplier": 1.0129918220436716,
+  "query_roles": {
+    "initial": 2,
+    "calibration_plus": 8,
+    "calibration_minus": 8,
+    "spsa_plus": 454,
+    "spsa_minus": 454,
+    "candidate_monitor": 90,
+    "charged_prefix_padding_remeasurement": 2,
+    "readout_late_iterate": 6
+  },
+  "initial_points": [
+    [
+      -0.05800524348448435,
+      -0.4762294817732792
+    ],
+    [
+      0.2489720097412531,
+      -1.0148044595309007
+    ]
+  ],
+  "direction_hashes": [
+    "d88d7f77b4d52d0f7a1d8dcda3bfb359a4c509802e8300f1b4188b2de43052d5",
+    "37f106c2c97f519fa57f54dd8d0c0c50bf93add3a6b17de97f6fc127b0fd5592"
+  ],
+  "parameter_count": 2,
+  "schedule": {
+    "Q": 1024,
+    "T": 227,
+    "prefix_queries": 1016,
+    "padding": 2,
+    "readouts": 6,
+    "L": 1,
+    "roles": {
+      "initial": 2,
+      "calibration_plus": 8,
+      "calibration_minus": 8,
+      "spsa_plus": 454,
+      "spsa_minus": 454,
+      "candidate_monitor": 90,
+      "charged_prefix_padding_remeasurement": 2,
+      "readout_late_iterate": 6
+    },
+    "total": 1024
+  },
+  "fidelity_only_after_all_energy_selection": true,
+  "init_scheme": "TWO_COLD_NARROW_0.16_BROAD_0.6_NO_WARM_NO_LAYER_TRANSFER",
+  "task": "spsa",
+  "N": 6,
+  "seed": 831106161,
+  "cohort": "MAIN",
+  "index": 161,
+  "b": 0.397,
+  "E0": -3.965125805943623,
+  "plus_E": -2.382,
+  "plus_F": 0.2975494342323889,
+  "energy_error": 0.5738171221670676,
+  "energy_error_over_N": 0.0956361870278446,
+  "wall_s": 0.059121131896972656,
+  "CPU_s": 0.05912290500003792,
+  "peak_RSS_kib": 132344,
+  "pid": 2726857,
+  "query_log_sha256": "58a43f3dad857019ba0e0505f91e8a068d9c78914748d090473bafcbe2d5d4cb",
+  "coupling_variance": "1/N",
+  "valid_for_fits": true
+}

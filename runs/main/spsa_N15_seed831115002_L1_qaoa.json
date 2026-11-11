@@ -1,0 +1,80 @@
+{
+  "calls": 1024,
+  "L": 1,
+  "method": "qaoa",
+  "x": [
+    0.23376849111152972,
+    -0.3883680537291001
+  ],
+  "best_E": -14.116152214312338,
+  "F": 0.6403247024390852,
+  "norm": 1.0,
+  "updates_per_trajectory": 227,
+  "prefix_padding_queries": 2,
+  "prefix_best_E": -14.116152214312338,
+  "gain_multiplier": 1.0,
+  "query_roles": {
+    "initial": 2,
+    "calibration_plus": 8,
+    "calibration_minus": 8,
+    "spsa_plus": 454,
+    "spsa_minus": 454,
+    "candidate_monitor": 90,
+    "charged_prefix_padding_remeasurement": 2,
+    "readout_late_iterate": 6
+  },
+  "initial_points": [
+    [
+      -0.03830084130151079,
+      -0.25523661177538326
+    ],
+    [
+      -0.9908584263461798,
+      1.463683086076491
+    ]
+  ],
+  "direction_hashes": [
+    "b1d50a6973daea364be60e84fabf8ffcc72f069581598d49cec69d23161a5411",
+    "fc6e1f48e10efe3025e7c8029b885ef20290dbd36c1099e37551e1e2505f4137"
+  ],
+  "parameter_count": 2,
+  "schedule": {
+    "Q": 1024,
+    "T": 227,
+    "prefix_queries": 1016,
+    "padding": 2,
+    "readouts": 6,
+    "L": 1,
+    "roles": {
+      "initial": 2,
+      "calibration_plus": 8,
+      "calibration_minus": 8,
+      "spsa_plus": 454,
+      "spsa_minus": 454,
+      "candidate_monitor": 90,
+      "charged_prefix_padding_remeasurement": 2,
+      "readout_late_iterate": 6
+    },
+    "total": 1024
+  },
+  "fidelity_only_after_all_energy_selection": true,
+  "init_scheme": "TWO_COLD_NARROW_0.16_BROAD_0.6_NO_WARM_NO_LAYER_TRANSFER",
+  "task": "spsa",
+  "N": 15,
+  "seed": 831115002,
+  "cohort": "MAIN",
+  "index": 2,
+  "b": 0.81,
+  "E0": -14.755416903093437,
+  "plus_E": -12.150000000000079,
+  "plus_F": 0.32193246373150564,
+  "energy_error": 0.6392646887810987,
+  "energy_error_over_N": 0.04261764591873991,
+  "wall_s": 2.0463929176330566,
+  "CPU_s": 1.7694282739999991,
+  "peak_RSS_kib": 168524,
+  "pid": 2768485,
+  "query_log_sha256": "4b105bf91e9846c58a479910eb491f63658a320627f4a386802c3a5dc4c2a085",
+  "coupling_variance": "1/N",
+  "valid_for_fits": true
+}

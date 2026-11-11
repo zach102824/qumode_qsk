@@ -1,0 +1,315 @@
+{
+  "shanghai": "2026-11-10 22:47:13 +08",
+  "allocated_cpus": {
+    "allocated_cpus": 8,
+    "allocated_cpus_float": 8.0,
+    "cap_source": "cgroup_cpuset.cpus.effective",
+    "quota_cpus": null,
+    "cpuset": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "host_os_cpu_count": 8,
+    "host_count_not_used_as_cap": true,
+    "sources": [
+      {
+        "file": "/sys/fs/cgroup/agent/cpu.max",
+        "value": "max 100000"
+      },
+      {
+        "file": "/sys/fs/cgroup/agent/cpuset.cpus.effective",
+        "value": "0-7",
+        "n": 8
+      }
+    ],
+    "cgroup": "/sys/fs/cgroup/agent"
+  },
+  "memory_at_eta": {
+    "MemTotal_kib": 16386368,
+    "MemAvailable_kib": 7317396,
+    "SwapTotal_kib": 0,
+    "cgroup": {
+      "memory_max_bytes": null,
+      "memory_current_bytes": 7088197632,
+      "memory_max_file": "/sys/fs/cgroup/agent/memory.max",
+      "memory_current_file": "/sys/fs/cgroup/agent/memory.current",
+      "memory_max_unlimited": true
+    },
+    "usable_kib": 7317396,
+    "reserve_kib": 524288,
+    "headroom_kib": 6793108
+  },
+  "rss_peak_kib_by_N": {
+    "6": 66816,
+    "9": 67424,
+    "12": 72080,
+    "15": 133200,
+    "18": 617416,
+    "21": 1933780
+  },
+  "suggested_workers_by_N": {
+    "6": 8,
+    "9": 8,
+    "12": 8,
+    "15": 8,
+    "18": 7,
+    "21": 2
+  },
+  "entropy": {
+    "6": {
+      "seconds_per_instance": 0.04300689697265625,
+      "source": "measured",
+      "n_instances": 200
+    },
+    "9": {
+      "seconds_per_instance": 0.2752833366394043,
+      "source": "measured",
+      "n_instances": 200
+    },
+    "12": {
+      "seconds_per_instance": 0.7569727897644043,
+      "source": "measured",
+      "n_instances": 200
+    },
+    "15": {
+      "seconds_per_instance": 8.66138219833374,
+      "source": "measured",
+      "n_instances": 200
+    },
+    "18": {
+      "seconds_per_instance": 100.45939326286316,
+      "source": "measured",
+      "n_instances": 200
+    },
+    "21": {
+      "seconds_per_instance": 2714.8762381076813,
+      "source": "measured",
+      "n_instances": 200
+    },
+    "serial_wall_s": 565014.4553184509
+  },
+  "spsa": {
+    "cells": {
+      "6": {
+        "L1_nov3_s": 0.15061020851135254,
+        "L1_source": "measured",
+        "l_scale": {
+          "1": 1.0,
+          "2": 4.3199670732383,
+          "3": 7.6399341464766,
+          "4": 10.959901219714899,
+          "5": 14.2798682929532,
+          "6": 17.5998353661915
+        },
+        "qaoa_over_nov3": 0.6515161349047419,
+        "serial_nov3_s": 1680.7950496673584,
+        "serial_qaoa_s": 1095.065094326301,
+        "serial_both_s": 2775.860143993659
+      },
+      "9": {
+        "L1_nov3_s": 0.3669532056729681,
+        "L1_source": "loglin_N6_N12",
+        "l_scale": {
+          "1": 1.0,
+          "2": 4.3199670732383,
+          "3": 7.6399341464766,
+          "4": 10.959901219714899,
+          "5": 14.2798682929532,
+          "6": 17.5998353661915
+        },
+        "qaoa_over_nov3": 0.6515161349047419,
+        "serial_nov3_s": 4095.1615275680488,
+        "serial_qaoa_s": 2668.0638102517337,
+        "serial_both_s": 6763.225337819782
+      },
+      "12": {
+        "L1_nov3_s": 0.8940606117248535,
+        "L1_source": "measured",
+        "l_scale": {
+          "1": 1.0,
+          "2": 4.3199670732383,
+          "3": 7.6399341464766,
+          "4": 10.959901219714899,
+          "5": 14.2798682929532,
+          "6": 17.5998353661915
+        },
+        "qaoa_over_nov3": 0.6515161349047419,
+        "serial_nov3_s": 9977.62811128724,
+        "serial_qaoa_s": 6500.585702582763,
+        "serial_both_s": 16478.213813870003
+      },
+      "15": {
+        "L1_nov3_s": 11.10021285240612,
+        "L1_source": "loglin_N12_N18",
+        "l_scale": {
+          "1": 1.0,
+          "2": 4.3199670732383,
+          "3": 7.6399341464766,
+          "4": 10.959901219714899,
+          "5": 14.2798682929532,
+          "6": 17.5998353661915
+        },
+        "qaoa_over_nov3": 0.6515161349047419,
+        "serial_nov3_s": 123877.27895066208,
+        "serial_qaoa_s": 80708.04598445189,
+        "serial_both_s": 204585.32493511395
+      },
+      "18": {
+        "L1_nov3_s": 137.81473398208618,
+        "L1_source": "measured",
+        "l_scale": {
+          "1": 1.0,
+          "2": 4.3199670732383,
+          "3": 7.6399341464766,
+          "4": 10.959901219714899,
+          "5": 14.2798682929532,
+          "6": 17.5998353661915
+        },
+        "qaoa_over_nov3": 0.6515161349047419,
+        "serial_nov3_s": 1537998.817861368,
+        "serial_qaoa_s": 1002031.0453011006,
+        "serial_both_s": 2540029.8631624687
+      },
+      "21": {
+        "L1_nov3_s": 1050.263278245926,
+        "L1_source": "measured",
+        "l_scale": {
+          "1": 1.0,
+          "2": 4.3199670732383,
+          "3": 7.6399341464766,
+          "4": 10.959901219714899,
+          "5": 14.2798682929532,
+          "6": 17.5998353661915
+        },
+        "qaoa_over_nov3": 0.6515161349047419,
+        "serial_nov3_s": 11720834.439918477,
+        "serial_qaoa_s": 7636312.752154072,
+        "serial_both_s": 19357147.192072548
+      }
+    },
+    "serial_s": 22127779.679465815,
+    "approx_parallel_wall_s": 10070260.333088333,
+    "L6_over_L1_N6_nov3": 17.5998353661915
+  },
+  "bfgs": {
+    "cells": {
+      "6": {
+        "per_start_L1_nov3_s": 0.04295015335083008,
+        "source": "measured",
+        "mean_nfev_L1": 30.5,
+        "L_scale_assumption": "time_per_start ~= L * L1_time (weak; nfev may grow)",
+        "serial_all_starts_s": 5772.5006103515625,
+        "per_L_start_s": {
+          "1": 0.04295015335083008,
+          "2": 0.08590030670166016,
+          "3": 0.12885046005249023,
+          "4": 0.1718006134033203,
+          "5": 0.2147507667541504,
+          "6": 0.25770092010498047
+        }
+      },
+      "9": {
+        "per_start_L1_nov3_s": 0.10956942584135934,
+        "source": "loglin_N6_N12",
+        "mean_nfev_L1": null,
+        "L_scale_assumption": "time_per_start ~= L * L1_time (weak; nfev may grow)",
+        "serial_all_starts_s": 14726.130833078696,
+        "per_L_start_s": {
+          "1": 0.10956942584135934,
+          "2": 0.21913885168271868,
+          "3": 0.32870827752407805,
+          "4": 0.43827770336543737,
+          "5": 0.5478471292067967,
+          "6": 0.6574165550481561
+        }
+      },
+      "12": {
+        "per_start_L1_nov3_s": 0.27952075004577637,
+        "source": "measured",
+        "mean_nfev_L1": 54.0,
+        "L_scale_assumption": "time_per_start ~= L * L1_time (weak; nfev may grow)",
+        "serial_all_starts_s": 37567.588806152344,
+        "per_L_start_s": {
+          "1": 0.27952075004577637,
+          "2": 0.5590415000915527,
+          "3": 0.8385622501373291,
+          "4": 1.1180830001831055,
+          "5": 1.3976037502288818,
+          "6": 1.6771245002746582
+        }
+      },
+      "15": {
+        "per_start_L1_nov3_s": 2.1316503720858475,
+        "source": "loglin_N12_N18",
+        "mean_nfev_L1": null,
+        "L_scale_assumption": "time_per_start ~= L * L1_time (weak; nfev may grow)",
+        "serial_all_starts_s": 286493.8100083379,
+        "per_L_start_s": {
+          "1": 2.1316503720858475,
+          "2": 4.263300744171695,
+          "3": 6.394951116257543,
+          "4": 8.52660148834339,
+          "5": 10.658251860429237,
+          "6": 12.789902232515086
+        }
+      },
+      "18": {
+        "per_start_L1_nov3_s": 16.256157398223877,
+        "source": "measured",
+        "mean_nfev_L1": 27.0,
+        "L_scale_assumption": "time_per_start ~= L * L1_time (weak; nfev may grow)",
+        "serial_all_starts_s": 2184827.554321289,
+        "per_L_start_s": {
+          "1": 16.256157398223877,
+          "2": 32.512314796447754,
+          "3": 48.76847219467163,
+          "4": 65.02462959289551,
+          "5": 81.28078699111938,
+          "6": 97.53694438934326
+        }
+      },
+      "21": {
+        "per_start_L1_nov3_s": 780.205427646637,
+        "source": "measured",
+        "mean_nfev_L1": 78.0,
+        "L_scale_assumption": "time_per_start ~= L * L1_time (weak; nfev may grow)",
+        "serial_all_starts_s": 104859609.47570801,
+        "per_L_start_s": {
+          "1": 780.205427646637,
+          "2": 1560.410855293274,
+          "3": 2340.616282939911,
+          "4": 3120.821710586548,
+          "5": 3901.027138233185,
+          "6": 4681.232565879822
+        }
+      }
+    },
+    "serial_s": 107388997.06028722,
+    "approx_parallel_wall_s": 52784992.963682145,
+    "caveat": "L>1 scaled as L * L1 start time; weak"
+  },
+  "totals": {
+    "entropy_serial_s": 565014.4553184509,
+    "spsa_serial_s": 22127779.679465815,
+    "bfgs_serial_s": 107388997.06028722,
+    "all_serial_s": 130081791.19507149,
+    "approx_parallel_wall_s": 63137760.5244297
+  },
+  "note": "Post-pilot estimate only, not a guarantee. BFGS times for L>1 and unmeasured N are extrapolated. Invalid entropy peaks would reduce fit counts. Memory pressure and other tasks will change realized wall. Scheduler admits between jobs only; this ETA is not a reservation."
+}

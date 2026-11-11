@@ -1,0 +1,80 @@
+{
+  "calls": 1024,
+  "L": 1,
+  "method": "qaoa",
+  "x": [
+    0.33094220326548834,
+    -0.3522508537262378
+  ],
+  "best_E": -2.3817961396342113,
+  "F": 0.5006476065789518,
+  "norm": 1.0000000000000002,
+  "updates_per_trajectory": 227,
+  "prefix_padding_queries": 2,
+  "prefix_best_E": -2.3817961396342113,
+  "gain_multiplier": 1.8635795085324747,
+  "query_roles": {
+    "initial": 2,
+    "calibration_plus": 8,
+    "calibration_minus": 8,
+    "spsa_plus": 454,
+    "spsa_minus": 454,
+    "candidate_monitor": 90,
+    "charged_prefix_padding_remeasurement": 2,
+    "readout_late_iterate": 6
+  },
+  "initial_points": [
+    [
+      0.25052745468373533,
+      -0.4146820020455505
+    ],
+    [
+      0.07509611537495019,
+      -0.3654480080336856
+    ]
+  ],
+  "direction_hashes": [
+    "cbaf4895e4282f4c8c3e8412120eb79839e24de45a0a4bd5faa1762e1c157728",
+    "e68252adde41518353478ed87b3254d678c6970da512cd0ebd15e8018814d70e"
+  ],
+  "parameter_count": 2,
+  "schedule": {
+    "Q": 1024,
+    "T": 227,
+    "prefix_queries": 1016,
+    "padding": 2,
+    "readouts": 6,
+    "L": 1,
+    "roles": {
+      "initial": 2,
+      "calibration_plus": 8,
+      "calibration_minus": 8,
+      "spsa_plus": 454,
+      "spsa_minus": 454,
+      "candidate_monitor": 90,
+      "charged_prefix_padding_remeasurement": 2,
+      "readout_late_iterate": 6
+    },
+    "total": 1024
+  },
+  "fidelity_only_after_all_energy_selection": true,
+  "init_scheme": "TWO_COLD_NARROW_0.16_BROAD_0.6_NO_WARM_NO_LAYER_TRANSFER",
+  "task": "spsa",
+  "N": 6,
+  "seed": 831106124,
+  "cohort": "MAIN",
+  "index": 124,
+  "b": 0.136,
+  "E0": -2.9301200220281687,
+  "plus_E": -0.8160000000000001,
+  "plus_F": 0.2422354467647075,
+  "energy_error": 0.5483238823939574,
+  "energy_error_over_N": 0.09138731373232623,
+  "wall_s": 0.05952262878417969,
+  "CPU_s": 0.0595246290000091,
+  "peak_RSS_kib": 132216,
+  "pid": 2726856,
+  "query_log_sha256": "f739549b63e0418b2352db101d22c1fb9ac56873992ac1c3f1343dcd65fe6a75",
+  "coupling_variance": "1/N",
+  "valid_for_fits": true
+}

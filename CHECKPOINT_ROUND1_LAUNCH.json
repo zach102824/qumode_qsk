@@ -1,0 +1,31 @@
+{
+  "shanghai": "2026-11-10 23:32:24 CST",
+  "kernel_audit": "PASS",
+  "audit_file": "/workspace/qumode_qsk/audits/KERNEL_AUDIT.json",
+  "cell_bench": "/workspace/qumode_qsk/audits/CELL_BENCH.json",
+  "eta_file": "/workspace/qumode_qsk/ROUND1_ETA.json",
+  "n6_preview": "/workspace/qumode_qsk/summaries/round_01_N6_preview.json",
+  "provenance": "/workspace/qumode_qsk/provenance/pre_round_scheduler_20261110_2310",
+  "staged_orchestrator_pid": 2751854,
+  "staged_orchestrator_state": "SIGSTOP (Tl) pending N21 entropy checkpoint then mixed relaunch",
+  "inflight_N21_worker": 2751862,
+  "inflight_N21_seed": 831121000,
+  "watchdog": "scripts/relaunch_mixed_after_n21_checkpoint.py",
+  "watchdog_log": "/workspace/qumode_qsk/logs/relaunch_watchdog.log",
+  "historical_untouched": [
+    1615751,
+    1744891,
+    1822112,
+    1832860,
+    1906430,
+    1906431
+  ],
+  "drained_old_main": 2726767,
+  "round1_entropy_done": {
+    "entropy_N15": 10,
+    "entropy_N6": 10,
+    "entropy_N12": 10,
+    "entropy_N9": 10,
+    "entropy_N18": 1
+  }
+}

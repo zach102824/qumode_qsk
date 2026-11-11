@@ -1,0 +1,98 @@
+{
+  "calls": 4096,
+  "L": 4,
+  "method": "qaoa",
+  "x": [
+    0.33698811091308134,
+    -0.48949999369726593,
+    0.6156600491427983,
+    -0.30054928720174523,
+    0.5706156735084301,
+    -0.12003143589172402,
+    0.36128912754811576,
+    -0.12164958090401592
+  ],
+  "best_E": -2.050926452511749,
+  "F": 0.6785228785110003,
+  "norm": 1.0000000000000004,
+  "updates_per_trajectory": 925,
+  "prefix_padding_queries": 2,
+  "prefix_best_E": -2.050926452511749,
+  "gain_multiplier": 1.0,
+  "query_roles": {
+    "initial": 2,
+    "calibration_plus": 8,
+    "calibration_minus": 8,
+    "spsa_plus": 1850,
+    "spsa_minus": 1850,
+    "candidate_monitor": 370,
+    "charged_prefix_padding_remeasurement": 2,
+    "readout_late_iterate": 6
+  },
+  "initial_points": [
+    [
+      0.1870810947777673,
+      -0.30964986625712865,
+      0.031824321913384024,
+      -0.07483446240469091,
+      0.3091184083665982,
+      0.0340525660050702,
+      -0.1346223589895445,
+      -0.4201576498760109
+    ],
+    [
+      0.5956307661264288,
+      1.202409514199012,
+      0.2676182001186103,
+      0.31922465323357807,
+      -1.1487361341877431,
+      1.1733992381782314,
+      -0.2574839660107959,
+      -0.07918818353206084
+    ]
+  ],
+  "direction_hashes": [
+    "acdc799f546c5b19d06a9c8f7fa421c686f3f3f06c05c2b238f8d294558b9ae4",
+    "97c1a8a43cd17ff022840408d44255ee6dafb533a874bd774742d70b42ab89c5"
+  ],
+  "parameter_count": 8,
+  "schedule": {
+    "Q": 4096,
+    "T": 925,
+    "prefix_queries": 4088,
+    "padding": 2,
+    "readouts": 6,
+    "L": 4,
+    "roles": {
+      "initial": 2,
+      "calibration_plus": 8,
+      "calibration_minus": 8,
+      "spsa_plus": 1850,
+      "spsa_minus": 1850,
+      "candidate_monitor": 370,
+      "charged_prefix_padding_remeasurement": 2,
+      "readout_late_iterate": 6
+    },
+    "total": 4096
+  },
+  "fidelity_only_after_all_energy_selection": true,
+  "init_scheme": "TWO_COLD_NARROW_0.16_BROAD_0.6_NO_WARM_NO_LAYER_TRANSFER",
+  "task": "spsa",
+  "N": 6,
+  "seed": 831106098,
+  "cohort": "MAIN",
+  "index": 98,
+  "b": 0.119,
+  "E0": -2.2743272511813575,
+  "plus_E": -0.714,
+  "plus_F": 0.1865831081719332,
+  "energy_error": 0.2234007986696085,
+  "energy_error_over_N": 0.03723346644493475,
+  "wall_s": 0.6092395782470703,
+  "CPU_s": 0.6092405300000223,
+  "peak_RSS_kib": 132388,
+  "pid": 2726854,
+  "query_log_sha256": "ef2c68f5f3e54ef3e286480aab3a72761b20c94212c633f2d3e647367257f069",
+  "coupling_variance": "1/N",
+  "valid_for_fits": true
+}

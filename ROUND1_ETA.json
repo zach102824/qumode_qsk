@@ -1,0 +1,214 @@
+{
+  "shanghai": "2026-11-10 23:27:00 CST",
+  "timezone": "Asia/Shanghai (CST, UTC+8)",
+  "scope": "ROUND_1_only_indices_0_9_all_N_six_depths_four_arms",
+  "not_a_4_year_blanket": true,
+  "N6_round1": "fully reused (entropy 10, SPSA 120, BFGS 120 packs / 1920 starts); no rerun",
+  "surplus_N6_indices_10_to_199": "retained on disk, excluded from official round-1 means",
+  "measured_cell_bench": "/workspace/qumode_qsk/audits/CELL_BENCH.json",
+  "kernel_microbench": [
+    {
+      "n": 6,
+      "L": 1,
+      "method": "nov3",
+      "new_state_s": 1.2169100227765738e-05,
+      "old_state_s": 8.14704253571108e-05,
+      "speedup_state": 6.694860247039716,
+      "new_grad_s": 3.404774906812236e-05,
+      "old_grad_s": 0.00047846180095802995,
+      "speedup_grad": 14.05267055982846
+    },
+    {
+      "n": 6,
+      "L": 6,
+      "method": "nov3",
+      "new_state_s": 3.981015033787117e-05,
+      "old_state_s": 0.00040373160009039567,
+      "speedup_state": 10.141423648589644,
+      "new_grad_s": 0.00018277640047017484,
+      "old_grad_s": 0.008290061401203275,
+      "speedup_grad": 45.35630081278482
+    },
+    {
+      "n": 12,
+      "L": 1,
+      "method": "nov3",
+      "new_state_s": 0.0003807093744399026,
+      "old_state_s": 0.0007969738726387732,
+      "speedup_state": 2.0933917737415224,
+      "new_grad_s": 0.0008693217459949665,
+      "old_grad_s": 0.0043758125029853545,
+      "speedup_grad": 5.033593744945489
+    },
+    {
+      "n": 18,
+      "L": 1,
+      "method": "nov3",
+      "new_state_s": 0.03725105899502523,
+      "old_state_s": 0.0854489704943262,
+      "speedup_state": 2.293866880556004,
+      "new_grad_s": 0.08296727301785722,
+      "old_grad_s": 0.5313015720166732,
+      "speedup_grad": 6.403748763712168
+    }
+  ],
+  "end_to_end_speedups_vs_pilot_same_pilot_seeds": [
+    {
+      "what": "spsa",
+      "N": 6,
+      "L": 1,
+      "method": "nov3",
+      "new_wall_s": 0.022055864334106445,
+      "old_pilot_wall_s": 0.151,
+      "speedup": 6.846251759288285,
+      "new_CPU_s": 0.022040740000000003,
+      "new_nfev": null,
+      "new_RSS_kib": 218496
+    },
+    {
+      "what": "spsa",
+      "N": 6,
+      "L": 6,
+      "method": "nov3",
+      "new_wall_s": 0.30966877937316895,
+      "old_pilot_wall_s": 2.651,
+      "speedup": 8.560759678021626,
+      "new_CPU_s": 0.30968148500000003,
+      "new_nfev": null,
+      "new_RSS_kib": 220544
+    },
+    {
+      "what": "spsa",
+      "N": 12,
+      "L": 1,
+      "method": "nov3",
+      "new_wall_s": 0.42278432846069336,
+      "old_pilot_wall_s": 0.894,
+      "speedup": 2.1145533072499303,
+      "new_CPU_s": 0.42277041299999985,
+      "new_nfev": null,
+      "new_RSS_kib": 220800
+    },
+    {
+      "what": "spsa",
+      "N": 18,
+      "L": 1,
+      "method": "nov3",
+      "new_wall_s": 42.89851117134094,
+      "old_pilot_wall_s": 137.815,
+      "speedup": 3.2125823539552014,
+      "new_CPU_s": 42.379717034,
+      "new_nfev": null,
+      "new_RSS_kib": 268172
+    },
+    {
+      "what": "bfgs1",
+      "N": 6,
+      "L": 1,
+      "method": "nov3",
+      "new_wall_s": 0.006499290466308594,
+      "old_pilot_wall_s": 0.043,
+      "speedup": 6.616106823184152,
+      "new_CPU_s": 0.006502276999999612,
+      "new_nfev": 61,
+      "new_RSS_kib": 220672
+    },
+    {
+      "what": "bfgs1",
+      "N": 12,
+      "L": 1,
+      "method": "nov3",
+      "new_wall_s": 0.0896756649017334,
+      "old_pilot_wall_s": 0.28,
+      "speedup": 3.122363244329708,
+      "new_CPU_s": 0.08968094099999924,
+      "new_nfev": 97,
+      "new_RSS_kib": 221440
+    },
+    {
+      "what": "bfgs1",
+      "N": 18,
+      "L": 1,
+      "method": "nov3",
+      "new_wall_s": 2.70605731010437,
+      "old_pilot_wall_s": 16.256,
+      "speedup": 6.007263755760229,
+      "new_CPU_s": 2.7058460420000046,
+      "new_nfev": 30,
+      "new_RSS_kib": 296844
+    },
+    {
+      "what": "spsa",
+      "N": 12,
+      "L": 6,
+      "method": "nov3",
+      "new_wall_s": 11.128859519958496,
+      "L6_over_L1": 26.322781547928535,
+      "note": "no direct pilot L6 at N12; L-ratio used for ETA"
+    }
+  ],
+  "assumptions": {
+    "entropy": "pilot walls; eigsh-dominated, no large speedup assumed",
+    "spsa_L_ratios": "N6 live main medians 1,3.33,7.01,12.02,18.38,25.94; N12 L6/L1 measured 26.32",
+    "spsa_qaoa_over_nov3_L1_N12": 0.46494530493107145,
+    "missing_sizes": "N*2^N scale from nearest measured new-kernel L1",
+    "n21_spsa_L1_primary_s": 400.3861042658488,
+    "n21_spsa_L1_alt_apply_N18_speedup_to_pilot_s": 326.9208021101661,
+    "bfgs_L_ratios": {
+      "1": 1.0,
+      "2": 2.2,
+      "3": 3.5,
+      "4": 5.0,
+      "5": 6.2,
+      "6": 7.5
+    },
+    "n21_bfgs_L1_optimistic_N2N_s": 25.256534894307457,
+    "n21_bfgs_L1_conservative_N18_speedup_on_pilot_s": 129.87693427841904,
+    "long_pole": "N=21 cap 1 after 10 entropy scans; N=9..18 overlap with N=21 entropy",
+    "workers": "up to 8 cores total, N=21 cap 1, heavy mutex when MemAvailable<6GiB, BLAS=NUMBA=1, no 8x8"
+  },
+  "cpu_seconds_remaining": {
+    "entropy": {
+      "6": 0,
+      "9": 2.75,
+      "12": 7.57,
+      "15": 86.61,
+      "18": 1004.59,
+      "21": 27148.800000000003
+    },
+    "spsa_primary": {
+      "6": 0,
+      "9": 39.298132932186135,
+      "12": 419.1800846099854,
+      "15": 4191.800846099854,
+      "18": 42532.800607619785,
+      "21": 396972.80567111797
+    },
+    "spsa_n21_alt": 324133.79651096585,
+    "bfgs_primary_small": {
+      "6": 0,
+      "9": 50.051948764723605,
+      "12": 533.8874534903852,
+      "15": 5338.874534903851,
+      "18": 16110.614266131162
+    },
+    "bfgs_n21_optimistic": 150365.73315055753,
+    "bfgs_n21_conservative": 773227.227085806
+  },
+  "round1_wall_estimates": {
+    "entropy_N21_hours": 7.541333333333334,
+    "primary_days": 6.649159014139763,
+    "mid_days": 13.858204082834769,
+    "alt_N21_spsa_mid_bfgs_days": 13.015159995333008,
+    "primary_hours": 159.5798163393543,
+    "mid_hours": 332.5968979880344,
+    "note": "Primary long pole uses measured N18 L1 and N*2^N to N21 plus measured L-ratios. Mid uses N18 BFGS speedup (~6x) applied to the N21 pilot start. Measured-and-scaled, not a 4-year product of unvalidated linear-L assumptions. N=21 L>1 is still extrapolated (L-ratio measured at N=6 and N=12 only). nfev growth at N=21 L>1 is the main upside risk."
+  },
+  "honest_range": "Round 1 wall is most likely about 6 to 14 days on this box under the 8-core / N=21-cap-1 policy, with a plausible band of roughly 5 days (optimistic N=21 BFGS and L-scaling) to about 3 weeks if N=21 L>1 nfev grows like the old N=6 tail. It is not a 4-year estimate. After Round 1, each later 10-instance round has a similar N=21 cost; the full 200-instance cap would still be many months, but every N has 10 finished samples at the end of Round 1.",
+  "remaining_todo": {
+    "entropy": 50,
+    "spsa": 600,
+    "bfgs_packs": 600,
+    "note": "N=6 of round 1 already on disk"
+  }
+}

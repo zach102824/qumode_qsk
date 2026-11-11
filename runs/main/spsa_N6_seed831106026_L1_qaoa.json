@@ -1,0 +1,80 @@
+{
+  "calls": 1024,
+  "L": 1,
+  "method": "qaoa",
+  "x": [
+    0.32762343557108203,
+    -0.3897248148377002
+  ],
+  "best_E": -3.6568162078269513,
+  "F": 0.648631289346118,
+  "norm": 1.0,
+  "updates_per_trajectory": 227,
+  "prefix_padding_queries": 2,
+  "prefix_best_E": -3.6568158044864063,
+  "gain_multiplier": 1.0,
+  "query_roles": {
+    "initial": 2,
+    "calibration_plus": 8,
+    "calibration_minus": 8,
+    "spsa_plus": 454,
+    "spsa_minus": 454,
+    "candidate_monitor": 90,
+    "charged_prefix_padding_remeasurement": 2,
+    "readout_late_iterate": 6
+  },
+  "initial_points": [
+    [
+      -0.011665715513619335,
+      -0.19225001758190416
+    ],
+    [
+      0.15125596797000807,
+      -0.07071664695195148
+    ]
+  ],
+  "direction_hashes": [
+    "390b258e82f037fe490826ebe18a34fc5dd1a299c1c65e7c19637d6e79e14af7",
+    "5d6db2ebd7b3641bd5b0d492e8703b2a48a7376ad884438ac4edfde4809f36a2"
+  ],
+  "parameter_count": 2,
+  "schedule": {
+    "Q": 1024,
+    "T": 227,
+    "prefix_queries": 1016,
+    "padding": 2,
+    "readouts": 6,
+    "L": 1,
+    "roles": {
+      "initial": 2,
+      "calibration_plus": 8,
+      "calibration_minus": 8,
+      "spsa_plus": 454,
+      "spsa_minus": 454,
+      "candidate_monitor": 90,
+      "charged_prefix_padding_remeasurement": 2,
+      "readout_late_iterate": 6
+    },
+    "total": 1024
+  },
+  "fidelity_only_after_all_energy_selection": true,
+  "init_scheme": "TWO_COLD_NARROW_0.16_BROAD_0.6_NO_WARM_NO_LAYER_TRANSFER",
+  "task": "spsa",
+  "N": 6,
+  "seed": 831106026,
+  "cohort": "MAIN",
+  "index": 26,
+  "b": 0.393,
+  "E0": -4.42800319299977,
+  "plus_E": -2.358,
+  "plus_F": 0.3092682288115693,
+  "energy_error": 0.771186985172819,
+  "energy_error_over_N": 0.12853116419546984,
+  "wall_s": 0.05786895751953125,
+  "CPU_s": 0.05775396100000307,
+  "peak_RSS_kib": 131940,
+  "pid": 2726855,
+  "query_log_sha256": "2208a7cc246d48d12d52dc080ecc8a50a5ae16ebf46e7033673079b211894cea",
+  "coupling_variance": "1/N",
+  "valid_for_fits": true
+}

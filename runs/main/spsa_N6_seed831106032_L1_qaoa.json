@@ -1,0 +1,80 @@
+{
+  "calls": 1024,
+  "L": 1,
+  "method": "qaoa",
+  "x": [
+    0.3670100952042361,
+    -0.41235865972190033
+  ],
+  "best_E": -4.016378786742775,
+  "F": 0.5634543871221086,
+  "norm": 0.9999999999999993,
+  "updates_per_trajectory": 227,
+  "prefix_padding_queries": 2,
+  "prefix_best_E": -4.016378195225753,
+  "gain_multiplier": 1.232124195013355,
+  "query_roles": {
+    "initial": 2,
+    "calibration_plus": 8,
+    "calibration_minus": 8,
+    "spsa_plus": 454,
+    "spsa_minus": 454,
+    "candidate_monitor": 90,
+    "charged_prefix_padding_remeasurement": 2,
+    "readout_late_iterate": 6
+  },
+  "initial_points": [
+    [
+      0.3066544359137883,
+      -0.04071263259827504
+    ],
+    [
+      -0.9073356311828064,
+      -0.49439453853425785
+    ]
+  ],
+  "direction_hashes": [
+    "01592c6ced1dd1352a4f0bdafa5b1ad765b4f16517103166d5a112a7b761574e",
+    "d5a9d8267d30b11e03dc76d83fd223474fd257f2444c90b3ff8318bf38698a26"
+  ],
+  "parameter_count": 2,
+  "schedule": {
+    "Q": 1024,
+    "T": 227,
+    "prefix_queries": 1016,
+    "padding": 2,
+    "readouts": 6,
+    "L": 1,
+    "roles": {
+      "initial": 2,
+      "calibration_plus": 8,
+      "calibration_minus": 8,
+      "spsa_plus": 454,
+      "spsa_minus": 454,
+      "candidate_monitor": 90,
+      "charged_prefix_padding_remeasurement": 2,
+      "readout_late_iterate": 6
+    },
+    "total": 1024
+  },
+  "fidelity_only_after_all_energy_selection": true,
+  "init_scheme": "TWO_COLD_NARROW_0.16_BROAD_0.6_NO_WARM_NO_LAYER_TRANSFER",
+  "task": "spsa",
+  "N": 6,
+  "seed": 831106032,
+  "cohort": "MAIN",
+  "index": 32,
+  "b": 0.471,
+  "E0": -4.7978648286053796,
+  "plus_E": -2.8259999999999996,
+  "plus_F": 0.24628624413122685,
+  "energy_error": 0.7814860418626042,
+  "energy_error_over_N": 0.13024767364376735,
+  "wall_s": 0.05812954902648926,
+  "CPU_s": 0.05813095200001328,
+  "peak_RSS_kib": 132216,
+  "pid": 2726856,
+  "query_log_sha256": "5f8874702ebb3712f5fe70d6f99ab62253c5fc0492d7785ba0db863aad950566",
+  "coupling_variance": "1/N",
+  "valid_for_fits": true
+}

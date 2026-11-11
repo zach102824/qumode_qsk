@@ -1,0 +1,80 @@
+{
+  "calls": 1024,
+  "L": 1,
+  "method": "qaoa",
+  "x": [
+    0.5173098303625295,
+    -0.3734428986013449
+  ],
+  "best_E": -1.9003287784526057,
+  "F": 0.5689311598823575,
+  "norm": 1.0,
+  "updates_per_trajectory": 227,
+  "prefix_padding_queries": 2,
+  "prefix_best_E": -1.9003285537878865,
+  "gain_multiplier": 2.1653412136167964,
+  "query_roles": {
+    "initial": 2,
+    "calibration_plus": 8,
+    "calibration_minus": 8,
+    "spsa_plus": 454,
+    "spsa_minus": 454,
+    "candidate_monitor": 90,
+    "charged_prefix_padding_remeasurement": 2,
+    "readout_late_iterate": 6
+  },
+  "initial_points": [
+    [
+      0.007356518637239268,
+      -0.15538463430148236
+    ],
+    [
+      -0.6805600515857526,
+      0.5050940386967772
+    ]
+  ],
+  "direction_hashes": [
+    "4d57163b4d634cebba4de9f52bde83b569fa1a8cc21c7e429d69fc5a7b9cb8f4",
+    "e6743c3d1478cb3eaf5c44bf3353426f9697890b9d7080d04d40e52cc6fd7284"
+  ],
+  "parameter_count": 2,
+  "schedule": {
+    "Q": 1024,
+    "T": 227,
+    "prefix_queries": 1016,
+    "padding": 2,
+    "readouts": 6,
+    "L": 1,
+    "roles": {
+      "initial": 2,
+      "calibration_plus": 8,
+      "calibration_minus": 8,
+      "spsa_plus": 454,
+      "spsa_minus": 454,
+      "candidate_monitor": 90,
+      "charged_prefix_padding_remeasurement": 2,
+      "readout_late_iterate": 6
+    },
+    "total": 1024
+  },
+  "fidelity_only_after_all_energy_selection": true,
+  "init_scheme": "TWO_COLD_NARROW_0.16_BROAD_0.6_NO_WARM_NO_LAYER_TRANSFER",
+  "task": "spsa",
+  "N": 6,
+  "seed": 831106006,
+  "cohort": "MAIN",
+  "index": 6,
+  "b": 0.173,
+  "E0": -2.340221260880869,
+  "plus_E": -1.0379999999999998,
+  "plus_F": 0.27330214023048577,
+  "energy_error": 0.4398924824282633,
+  "energy_error_over_N": 0.07331541373804389,
+  "wall_s": 0.05777764320373535,
+  "CPU_s": 0.05777242699999974,
+  "peak_RSS_kib": 131172,
+  "pid": 2726855,
+  "query_log_sha256": "adae427b9f018f98c035d433577472877592fadd0f219b515f382e1bf806616c",
+  "coupling_variance": "1/N",
+  "valid_for_fits": true
+}

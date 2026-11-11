@@ -1,0 +1,80 @@
+{
+  "calls": 1024,
+  "L": 1,
+  "method": "qaoa",
+  "x": [
+    0.45725796734973495,
+    -0.3763560724218285
+  ],
+  "best_E": -2.419463585207357,
+  "F": 0.391081950954182,
+  "norm": 0.9999999999999998,
+  "updates_per_trajectory": 227,
+  "prefix_padding_queries": 2,
+  "prefix_best_E": -2.419463585207357,
+  "gain_multiplier": 1.0839457129128311,
+  "query_roles": {
+    "initial": 2,
+    "calibration_plus": 8,
+    "calibration_minus": 8,
+    "spsa_plus": 454,
+    "spsa_minus": 454,
+    "candidate_monitor": 90,
+    "charged_prefix_padding_remeasurement": 2,
+    "readout_late_iterate": 6
+  },
+  "initial_points": [
+    [
+      0.05129399334918279,
+      -0.43894804621318595
+    ],
+    [
+      1.167838461958584,
+      -0.40852629238672783
+    ]
+  ],
+  "direction_hashes": [
+    "4977fdc04db46ddf5d1fb815d6ea617741bb5c845777771bbcb6bededb42311d",
+    "2490ca0df764596b6682bba29971b105180da1c1a02a4d9e1ce208526a534a3c"
+  ],
+  "parameter_count": 2,
+  "schedule": {
+    "Q": 1024,
+    "T": 227,
+    "prefix_queries": 1016,
+    "padding": 2,
+    "readouts": 6,
+    "L": 1,
+    "roles": {
+      "initial": 2,
+      "calibration_plus": 8,
+      "calibration_minus": 8,
+      "spsa_plus": 454,
+      "spsa_minus": 454,
+      "candidate_monitor": 90,
+      "charged_prefix_padding_remeasurement": 2,
+      "readout_late_iterate": 6
+    },
+    "total": 1024
+  },
+  "fidelity_only_after_all_energy_selection": true,
+  "init_scheme": "TWO_COLD_NARROW_0.16_BROAD_0.6_NO_WARM_NO_LAYER_TRANSFER",
+  "task": "spsa",
+  "N": 6,
+  "seed": 831106034,
+  "cohort": "MAIN",
+  "index": 34,
+  "b": 0.227,
+  "E0": -3.3584904623464324,
+  "plus_E": -1.362,
+  "plus_F": 0.1439470653998909,
+  "energy_error": 0.9390268771390753,
+  "energy_error_over_N": 0.15650447952317922,
+  "wall_s": 0.057779788970947266,
+  "CPU_s": 0.05778197700000476,
+  "peak_RSS_kib": 132216,
+  "pid": 2726856,
+  "query_log_sha256": "66588a1416ddb3b1cd9664a99de586451e2be9ff809b4a971f12eaa66b82d7a3",
+  "coupling_variance": "1/N",
+  "valid_for_fits": true
+}

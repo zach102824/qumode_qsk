@@ -1,0 +1,1098 @@
+{
+  "verdict": "PASS",
+  "shanghai": "2026-11-10 22:47:13 +08",
+  "wall_s": 5818.9604115486145,
+  "audits": "/workspace/qumode_qsk/audits/AUDIT_SUMMARY.json",
+  "protocol": "/workspace/qumode_qsk/protocol/PROTOCOL_FROZEN.json",
+  "entropy": [
+    {
+      "task": "entropy",
+      "N": 6,
+      "seed": 831106800,
+      "b": 0.362,
+      "S": 0.737385253788341,
+      "E0": -4.076412075283906,
+      "gap": 0.04773589259667155,
+      "label": "interior_unique_GS_entropy_peak",
+      "valid_for_fits": true,
+      "wall_s": 0.04300689697265625,
+      "CPU_s": 0.043007997,
+      "peak_RSS_kib": 66816,
+      "result_file": "/workspace/qumode_qsk/runs/pilot/entropy_N6_seed831106800.json"
+    },
+    {
+      "task": "entropy",
+      "N": 9,
+      "seed": 831109800,
+      "b": 0.491,
+      "S": 0.7465642202234215,
+      "E0": -6.36472977859813,
+      "gap": 0.028707481345674246,
+      "label": "interior_unique_GS_entropy_peak",
+      "valid_for_fits": true,
+      "wall_s": 0.2752833366394043,
+      "CPU_s": 0.270384991,
+      "peak_RSS_kib": 67424,
+      "result_file": "/workspace/qumode_qsk/runs/pilot/entropy_N9_seed831109800.json"
+    },
+    {
+      "task": "entropy",
+      "N": 12,
+      "seed": 831112800,
+      "b": 0.474,
+      "S": 0.8897346954818557,
+      "E0": -8.504468048459758,
+      "gap": 0.0075627300739906644,
+      "label": "interior_unique_GS_entropy_peak",
+      "valid_for_fits": true,
+      "wall_s": 0.7569727897644043,
+      "CPU_s": 0.749907275,
+      "peak_RSS_kib": 72080,
+      "result_file": "/workspace/qumode_qsk/runs/pilot/entropy_N12_seed831112800.json"
+    },
+    {
+      "task": "entropy",
+      "N": 15,
+      "seed": 831115800,
+      "b": 0.645,
+      "S": 1.081984672408392,
+      "E0": -12.249926131636137,
+      "gap": 0.07212396218103656,
+      "label": "interior_unique_GS_entropy_peak",
+      "valid_for_fits": true,
+      "wall_s": 8.66138219833374,
+      "CPU_s": 8.66017329,
+      "peak_RSS_kib": 133200,
+      "result_file": "/workspace/qumode_qsk/runs/pilot/entropy_N15_seed831115800.json"
+    },
+    {
+      "task": "entropy",
+      "N": 18,
+      "seed": 831118800,
+      "b": 0.722,
+      "S": 1.3981256352012288,
+      "E0": -16.078036379686363,
+      "gap": 0.09074113854425647,
+      "label": "interior_unique_GS_entropy_peak",
+      "valid_for_fits": true,
+      "wall_s": 100.45939326286316,
+      "CPU_s": 100.437073094,
+      "peak_RSS_kib": 617416,
+      "result_file": "/workspace/qumode_qsk/runs/pilot/entropy_N18_seed831118800.json"
+    },
+    {
+      "task": "entropy",
+      "N": 21,
+      "seed": 831121800,
+      "b": 0.83,
+      "S": 1.405086977181892,
+      "E0": -21.097578401908983,
+      "gap": 0.10264812351218922,
+      "label": "interior_unique_GS_entropy_peak",
+      "valid_for_fits": true,
+      "wall_s": 2714.8762381076813,
+      "CPU_s": 1829.197079114,
+      "peak_RSS_kib": 1933780,
+      "result_file": "/workspace/qumode_qsk/runs/pilot/entropy_N21_seed831121800.json"
+    }
+  ],
+  "spsa": [
+    {
+      "task": "spsa",
+      "N": 6,
+      "seed": 831106800,
+      "L": 1,
+      "method": "nov3",
+      "b": 0.362,
+      "E0": -4.076412075283906,
+      "best_E": -3.814302672340702,
+      "F": 0.7953160386520036,
+      "calls": 1024,
+      "wall_s": 0.15061020851135254,
+      "CPU_s": 0.12880473399999998,
+      "peak_RSS_kib": 59220,
+      "result_file": "/workspace/qumode_qsk/runs/pilot/spsa_N6_seed831106800_L1_nov3.json",
+      "energy_error_over_N": 0.04368490049053397
+    },
+    {
+      "task": "spsa",
+      "N": 6,
+      "seed": 831106800,
+      "L": 1,
+      "method": "qaoa",
+      "b": 0.362,
+      "E0": -4.076412075283906,
+      "best_E": -3.466528539124432,
+      "F": 0.6707571026680214,
+      "calls": 1024,
+      "wall_s": 0.09812498092651367,
+      "CPU_s": 0.07421922199999999,
+      "peak_RSS_kib": 59272,
+      "result_file": "/workspace/qumode_qsk/runs/pilot/spsa_N6_seed831106800_L1_qaoa.json",
+      "energy_error_over_N": 0.10164725602657894
+    },
+    {
+      "task": "spsa",
+      "N": 6,
+      "seed": 831106800,
+      "L": 6,
+      "method": "nov3",
+      "b": 0.362,
+      "E0": -4.076412075283906,
+      "best_E": -3.9766142165643483,
+      "F": 0.883594174760206,
+      "calls": 6144,
+      "wall_s": 2.650714874267578,
+      "CPU_s": 2.6321357020000002,
+      "peak_RSS_kib": 62184,
+      "result_file": "/workspace/qumode_qsk/runs/pilot/spsa_N6_seed831106800_L6_nov3.json",
+      "energy_error_over_N": 0.016632976453259563
+    },
+    {
+      "task": "spsa",
+      "N": 12,
+      "seed": 831112800,
+      "L": 1,
+      "method": "nov3",
+      "b": 0.474,
+      "E0": -8.504468048459758,
+      "best_E": -7.584853537660909,
+      "F": 0.5176060204613838,
+      "calls": 1024,
+      "wall_s": 0.8940606117248535,
+      "CPU_s": 0.891212548,
+      "peak_RSS_kib": 60548,
+      "result_file": "/workspace/qumode_qsk/runs/pilot/spsa_N12_seed831112800_L1_nov3.json",
+      "energy_error_over_N": 0.07663454256657072
+    },
+    {
+      "task": "spsa",
+      "N": 18,
+      "seed": 831118800,
+      "L": 1,
+      "method": "nov3",
+      "b": 0.722,
+      "E0": -16.078036379686363,
+      "best_E": -15.54948892612244,
+      "F": 0.6576716486085551,
+      "calls": 1024,
+      "wall_s": 137.81473398208618,
+      "CPU_s": 103.481732359,
+      "peak_RSS_kib": 114096,
+      "result_file": "/workspace/qumode_qsk/runs/pilot/spsa_N18_seed831118800_L1_nov3.json",
+      "energy_error_over_N": 0.02936374742021799
+    },
+    {
+      "task": "spsa",
+      "N": 21,
+      "seed": 831121800,
+      "L": 1,
+      "method": "nov3",
+      "b": 0.83,
+      "E0": -21.097578401908983,
+      "best_E": -20.48356020343925,
+      "F": 0.6481228179227202,
+      "calls": 1024,
+      "wall_s": 1050.263278245926,
+      "CPU_s": 960.760214854,
+      "peak_RSS_kib": 470940,
+      "result_file": "/workspace/qumode_qsk/runs/pilot/spsa_N21_seed831121800_L1_nov3.json",
+      "energy_error_over_N": 0.02923896183189204
+    }
+  ],
+  "bfgs": [
+    {
+      "task": "bfgs",
+      "N": 6,
+      "seed": 831106800,
+      "L": 1,
+      "method": "nov3",
+      "start_index": 0,
+      "b": 0.362,
+      "E0": -4.076412075283906,
+      "best_E": -3.8348874025840205,
+      "F": 0.8056109378627437,
+      "nit": 24,
+      "nfev": 29,
+      "success": true,
+      "tightly_converged": true,
+      "wall_s": 0.043387651443481445,
+      "CPU_s": 0.036465668,
+      "peak_RSS_kib": 59208,
+      "result_file": "/workspace/qumode_qsk/runs/pilot/bfgs_N6_seed831106800_L1_nov3_start0.json",
+      "energy_error_over_N": 0.040254112116647534
+    },
+    {
+      "task": "bfgs",
+      "N": 6,
+      "seed": 831106800,
+      "L": 1,
+      "method": "nov3",
+      "start_index": 1,
+      "b": 0.362,
+      "E0": -4.076412075283906,
+      "best_E": -3.83488740258402,
+      "F": 0.8056109378797054,
+      "nit": 21,
+      "nfev": 32,
+      "success": false,
+      "tightly_converged": false,
+      "wall_s": 0.04251265525817871,
+      "CPU_s": 0.03543555,
+      "peak_RSS_kib": 59104,
+      "result_file": "/workspace/qumode_qsk/runs/pilot/bfgs_N6_seed831106800_L1_nov3_start1.json",
+      "energy_error_over_N": 0.04025411211664761
+    },
+    {
+      "task": "bfgs",
+      "N": 12,
+      "seed": 831112800,
+      "L": 1,
+      "method": "nov3",
+      "start_index": 0,
+      "b": 0.474,
+      "E0": -8.504468048459758,
+      "best_E": -7.5895898001908435,
+      "F": 0.5295972918189001,
+      "nit": 20,
+      "nfev": 54,
+      "success": false,
+      "tightly_converged": false,
+      "wall_s": 0.27952075004577637,
+      "CPU_s": 0.276832232,
+      "peak_RSS_kib": 61364,
+      "result_file": "/workspace/qumode_qsk/runs/pilot/bfgs_N12_seed831112800_L1_nov3_start0.json",
+      "energy_error_over_N": 0.07623985402240956
+    },
+    {
+      "task": "bfgs",
+      "N": 18,
+      "seed": 831118800,
+      "L": 1,
+      "method": "nov3",
+      "start_index": 0,
+      "b": 0.722,
+      "E0": -16.078036379686363,
+      "best_E": -15.553503652383737,
+      "F": 0.66415781194263,
+      "nit": 20,
+      "nfev": 27,
+      "success": true,
+      "tightly_converged": true,
+      "wall_s": 16.256157398223877,
+      "CPU_s": 16.235125081,
+      "peak_RSS_kib": 189484,
+      "result_file": "/workspace/qumode_qsk/runs/pilot/bfgs_N18_seed831118800_L1_nov3_start0.json",
+      "energy_error_over_N": 0.029140707072368106
+    },
+    {
+      "task": "bfgs",
+      "N": 21,
+      "seed": 831121800,
+      "L": 1,
+      "method": "nov3",
+      "start_index": 0,
+      "b": 0.83,
+      "E0": -21.097578401908983,
+      "best_E": -20.48757355046741,
+      "F": 0.655075722294647,
+      "nit": 23,
+      "nfev": 78,
+      "success": false,
+      "tightly_converged": false,
+      "wall_s": 780.205427646637,
+      "CPU_s": 495.345814914,
+      "peak_RSS_kib": 977972,
+      "result_file": "/workspace/qumode_qsk/runs/pilot/bfgs_N21_seed831121800_L1_nov3_start0.json",
+      "energy_error_over_N": 0.029047850068646346
+    }
+  ],
+  "waves": [
+    {
+      "wave": "entropy_N6_9_12",
+      "reused": 3,
+      "files": [
+        "/workspace/qumode_qsk/runs/pilot/entropy_N6_seed831106800.json",
+        "/workspace/qumode_qsk/runs/pilot/entropy_N9_seed831109800.json",
+        "/workspace/qumode_qsk/runs/pilot/entropy_N12_seed831112800.json"
+      ]
+    },
+    {
+      "wave": "entropy_N15",
+      "reused": 1,
+      "files": [
+        "/workspace/qumode_qsk/runs/pilot/entropy_N15_seed831115800.json"
+      ]
+    },
+    {
+      "wave": "entropy_N18",
+      "reused": 1,
+      "files": [
+        "/workspace/qumode_qsk/runs/pilot/entropy_N18_seed831118800.json"
+      ]
+    },
+    {
+      "wave": "entropy_N21",
+      "wall_s": 2714.909938812256,
+      "n": 1,
+      "decisions_tail": [
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 1,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=1",
+            "mem_total=3",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 9860324,
+          "headroom_kib": 8811748,
+          "external_cpu_frac": 0.010591900311526473,
+          "own_cpu_frac": 0.12461059190031153,
+          "host_busy_frac": 0.135202492211838,
+          "shanghai": "2026-11-10 21:55:21 +08"
+        },
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 1,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=1",
+            "mem_total=3",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 9783148,
+          "headroom_kib": 8734572,
+          "external_cpu_frac": 0.013647642679900734,
+          "own_cpu_frac": 0.12344913151364764,
+          "host_busy_frac": 0.13709677419354838,
+          "shanghai": "2026-11-10 21:55:23 +08"
+        },
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 1,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=1",
+            "mem_total=3",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 9772452,
+          "headroom_kib": 8723876,
+          "external_cpu_frac": 0.011801242236024884,
+          "own_cpu_frac": 0.1248447204968944,
+          "host_busy_frac": 0.1366459627329193,
+          "shanghai": "2026-11-10 21:55:25 +08"
+        },
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 1,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=1",
+            "mem_total=3",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 9756640,
+          "headroom_kib": 8708064,
+          "external_cpu_frac": 0.011838006230529635,
+          "own_cpu_frac": 0.12398753894080997,
+          "host_busy_frac": 0.1358255451713396,
+          "shanghai": "2026-11-10 21:55:27 +08"
+        },
+        {
+          "event": "pool_done",
+          "n_tasks": 1,
+          "shanghai": "2026-11-10 21:55:29 +08"
+        }
+      ],
+      "class_rss_kib": 2000000
+    },
+    {
+      "wave": "spsa_N6",
+      "wall_s": 2.6803836822509766,
+      "n": 3,
+      "decisions_tail": [
+        {
+          "event": "decision",
+          "action": "admit",
+          "target": 4,
+          "in_flight": 3,
+          "pending": 0,
+          "launched": 3,
+          "reason": [
+            "cpu_cap=4",
+            "mem_total=78",
+            "running=0",
+            "init"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 9980268,
+          "headroom_kib": 9455980,
+          "external_cpu_frac": null,
+          "own_cpu_frac": null,
+          "host_busy_frac": null,
+          "shanghai": "2026-11-10 21:55:29 +08"
+        },
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 4,
+          "in_flight": 2,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=4",
+            "mem_total=80",
+            "running=2",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 9975676,
+          "headroom_kib": 9451388,
+          "external_cpu_frac": 0.08490566037735853,
+          "own_cpu_frac": 0.24528301886792453,
+          "host_busy_frac": 0.33018867924528306,
+          "shanghai": "2026-11-10 21:55:29 +08"
+        },
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 4,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=4",
+            "mem_total=79",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 9961472,
+          "headroom_kib": 9437184,
+          "external_cpu_frac": 0.029411764705882304,
+          "own_cpu_frac": 0.2647058823529412,
+          "host_busy_frac": 0.2941176470588235,
+          "shanghai": "2026-11-10 21:55:29 +08"
+        },
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 4,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=4",
+            "mem_total=79",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 9930928,
+          "headroom_kib": 9406640,
+          "external_cpu_frac": 0.03589108910891087,
+          "own_cpu_frac": 0.12438118811881188,
+          "host_busy_frac": 0.16027227722772275,
+          "shanghai": "2026-11-10 21:55:31 +08"
+        },
+        {
+          "event": "pool_done",
+          "n_tasks": 3,
+          "shanghai": "2026-11-10 21:55:32 +08"
+        }
+      ],
+      "class_rss_kib": 80179
+    },
+    {
+      "wave": "spsa_N12",
+      "wall_s": 0.9127874374389648,
+      "n": 1,
+      "decisions_tail": [
+        {
+          "event": "pool_start",
+          "pool_n": 2,
+          "n_tasks": 1,
+          "class_rss_kib": 86496,
+          "nice": 10,
+          "note": "between_job_admission_only_no_midjob_SIGSTOP",
+          "shanghai": "2026-11-10 21:55:32 +08"
+        },
+        {
+          "event": "decision",
+          "action": "admit",
+          "target": 2,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 1,
+          "reason": [
+            "cpu_cap=2",
+            "mem_total=72",
+            "running=0",
+            "init"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 9955452,
+          "headroom_kib": 9431164,
+          "external_cpu_frac": null,
+          "own_cpu_frac": null,
+          "host_busy_frac": null,
+          "shanghai": "2026-11-10 21:55:32 +08"
+        },
+        {
+          "event": "pool_done",
+          "n_tasks": 1,
+          "shanghai": "2026-11-10 21:55:33 +08"
+        }
+      ],
+      "class_rss_kib": 86496
+    },
+    {
+      "wave": "spsa_N18",
+      "wall_s": 137.8998670578003,
+      "n": 1,
+      "decisions_tail": [
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 1,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=1",
+            "mem_total=3",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 2940760,
+          "headroom_kib": 2416472,
+          "external_cpu_frac": 0.028535980148883422,
+          "own_cpu_frac": 0.12406947890818859,
+          "host_busy_frac": 0.152605459057072,
+          "shanghai": "2026-11-10 21:57:43 +08"
+        },
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 1,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=1",
+            "mem_total=3",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 2953240,
+          "headroom_kib": 2428952,
+          "external_cpu_frac": 0.014888337468982646,
+          "own_cpu_frac": 0.12468982630272953,
+          "host_busy_frac": 0.13957816377171217,
+          "shanghai": "2026-11-10 21:57:45 +08"
+        },
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 1,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=1",
+            "mem_total=3",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 2952932,
+          "headroom_kib": 2428644,
+          "external_cpu_frac": 0.014869888475836465,
+          "own_cpu_frac": 0.12391573729863693,
+          "host_busy_frac": 0.1387856257744734,
+          "shanghai": "2026-11-10 21:57:47 +08"
+        },
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 1,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=1",
+            "mem_total=3",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 2945264,
+          "headroom_kib": 2420976,
+          "external_cpu_frac": 0.016109045848822764,
+          "own_cpu_frac": 0.12391573729863693,
+          "host_busy_frac": 0.1400247831474597,
+          "shanghai": "2026-11-10 21:57:50 +08"
+        },
+        {
+          "event": "pool_done",
+          "n_tasks": 1,
+          "shanghai": "2026-11-10 21:57:51 +08"
+        }
+      ],
+      "class_rss_kib": 740899
+    },
+    {
+      "wave": "spsa_N21",
+      "wall_s": 1580.0535643100739,
+      "n": 1,
+      "decisions_tail": [
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 1,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=1",
+            "mem_total=1",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 3225300,
+          "headroom_kib": 2176724,
+          "external_cpu_frac": 0.006234413965087254,
+          "own_cpu_frac": 0.1259351620947631,
+          "host_busy_frac": 0.13216957605985036,
+          "shanghai": "2026-11-10 22:24:04 +08"
+        },
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 1,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=1",
+            "mem_total=1",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 3193792,
+          "headroom_kib": 2145216,
+          "external_cpu_frac": 0.0143123833229621,
+          "own_cpu_frac": 0.1238332296204107,
+          "host_busy_frac": 0.1381456129433728,
+          "shanghai": "2026-11-10 22:24:06 +08"
+        },
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 1,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=1",
+            "mem_total=1",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 3193272,
+          "headroom_kib": 2144696,
+          "external_cpu_frac": 0.00934579439252338,
+          "own_cpu_frac": 0.12461059190031153,
+          "host_busy_frac": 0.1339563862928349,
+          "shanghai": "2026-11-10 22:24:08 +08"
+        },
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 1,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=1",
+            "mem_total=1",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 3160432,
+          "headroom_kib": 2111856,
+          "external_cpu_frac": 0.009328358208955279,
+          "own_cpu_frac": 0.125,
+          "host_busy_frac": 0.13432835820895528,
+          "shanghai": "2026-11-10 22:24:10 +08"
+        },
+        {
+          "event": "pool_done",
+          "n_tasks": 1,
+          "shanghai": "2026-11-10 22:24:11 +08"
+        }
+      ],
+      "class_rss_kib": 2320536
+    },
+    {
+      "wave": "bfgs_N6",
+      "wall_s": 0.06368136405944824,
+      "n": 2,
+      "decisions_tail": [
+        {
+          "event": "pool_start",
+          "pool_n": 4,
+          "n_tasks": 2,
+          "class_rss_kib": 86860,
+          "nice": 10,
+          "note": "between_job_admission_only_no_midjob_SIGSTOP",
+          "shanghai": "2026-11-10 22:24:11 +08"
+        },
+        {
+          "event": "decision",
+          "action": "admit",
+          "target": 4,
+          "in_flight": 2,
+          "pending": 0,
+          "launched": 2,
+          "reason": [
+            "cpu_cap=4",
+            "mem_total=23",
+            "running=0",
+            "init"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 3529156,
+          "headroom_kib": 3004868,
+          "external_cpu_frac": null,
+          "own_cpu_frac": null,
+          "host_busy_frac": null,
+          "shanghai": "2026-11-10 22:24:11 +08"
+        },
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 4,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=4",
+            "mem_total=24",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 3521620,
+          "headroom_kib": 2997332,
+          "external_cpu_frac": 0.10638297872340427,
+          "own_cpu_frac": 0.1276595744680851,
+          "host_busy_frac": 0.23404255319148937,
+          "shanghai": "2026-11-10 22:24:11 +08"
+        },
+        {
+          "event": "pool_done",
+          "n_tasks": 2,
+          "shanghai": "2026-11-10 22:24:11 +08"
+        }
+      ],
+      "class_rss_kib": 86860
+    },
+    {
+      "wave": "bfgs_N12",
+      "wall_s": 0.2936074733734131,
+      "n": 1,
+      "decisions_tail": [
+        {
+          "event": "pool_start",
+          "pool_n": 2,
+          "n_tasks": 1,
+          "class_rss_kib": 93704,
+          "nice": 10,
+          "note": "between_job_admission_only_no_midjob_SIGSTOP",
+          "shanghai": "2026-11-10 22:24:11 +08"
+        },
+        {
+          "event": "decision",
+          "action": "admit",
+          "target": 2,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 1,
+          "reason": [
+            "cpu_cap=2",
+            "mem_total=21",
+            "running=0",
+            "init"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 3521620,
+          "headroom_kib": 2997332,
+          "external_cpu_frac": null,
+          "own_cpu_frac": null,
+          "host_busy_frac": null,
+          "shanghai": "2026-11-10 22:24:11 +08"
+        },
+        {
+          "event": "pool_done",
+          "n_tasks": 1,
+          "shanghai": "2026-11-10 22:24:11 +08"
+        }
+      ],
+      "class_rss_kib": 93704
+    },
+    {
+      "wave": "bfgs_N18",
+      "wall_s": 16.27073073387146,
+      "n": 1,
+      "decisions_tail": [
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 1,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=1",
+            "mem_total=3",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 3415360,
+          "headroom_kib": 2891072,
+          "external_cpu_frac": 0.008706467661691586,
+          "own_cpu_frac": 0.125,
+          "host_busy_frac": 0.13370646766169159,
+          "shanghai": "2026-11-10 22:24:21 +08"
+        },
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 1,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=1",
+            "mem_total=3",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 3414868,
+          "headroom_kib": 2890580,
+          "external_cpu_frac": 0.009975062344139696,
+          "own_cpu_frac": 0.12468827930174564,
+          "host_busy_frac": 0.13466334164588534,
+          "shanghai": "2026-11-10 22:24:23 +08"
+        },
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 1,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=1",
+            "mem_total=3",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 3414896,
+          "headroom_kib": 2890608,
+          "external_cpu_frac": 0.009950248756218957,
+          "own_cpu_frac": 0.12437810945273632,
+          "host_busy_frac": 0.13432835820895528,
+          "shanghai": "2026-11-10 22:24:25 +08"
+        },
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 1,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=1",
+            "mem_total=3",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 3437860,
+          "headroom_kib": 2913572,
+          "external_cpu_frac": 0.01180124223602487,
+          "own_cpu_frac": 0.12422360248447205,
+          "host_busy_frac": 0.13602484472049692,
+          "shanghai": "2026-11-10 22:24:27 +08"
+        },
+        {
+          "event": "pool_done",
+          "n_tasks": 1,
+          "shanghai": "2026-11-10 22:24:27 +08"
+        }
+      ],
+      "class_rss_kib": 802640
+    },
+    {
+      "wave": "bfgs_N21",
+      "wall_s": 1365.8605036735535,
+      "n": 1,
+      "decisions_tail": [
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 1,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=1",
+            "mem_total=2",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 7096012,
+          "headroom_kib": 6047436,
+          "external_cpu_frac": 0.22387136672850955,
+          "own_cpu_frac": 0.12430426716141002,
+          "host_busy_frac": 0.34817563388991957,
+          "shanghai": "2026-11-10 22:47:07 +08"
+        },
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 1,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=1",
+            "mem_total=2",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 6864208,
+          "headroom_kib": 5815632,
+          "external_cpu_frac": 0.1591331269349845,
+          "own_cpu_frac": 0.1238390092879257,
+          "host_busy_frac": 0.2829721362229102,
+          "shanghai": "2026-11-10 22:47:09 +08"
+        },
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 1,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=1",
+            "mem_total=2",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 6310504,
+          "headroom_kib": 5261928,
+          "external_cpu_frac": 0.13816604708798016,
+          "own_cpu_frac": 0.12329615861214374,
+          "host_busy_frac": 0.2614622057001239,
+          "shanghai": "2026-11-10 22:47:11 +08"
+        },
+        {
+          "event": "decision",
+          "action": "drain",
+          "target": 1,
+          "in_flight": 1,
+          "pending": 0,
+          "launched": 0,
+          "reason": [
+            "cpu_cap=1",
+            "mem_total=2",
+            "running=1",
+            "hold"
+          ],
+          "allocated_cpus": 8,
+          "cap_source": "cgroup_cpuset.cpus.effective",
+          "MemAvailable_kib": 6909792,
+          "headroom_kib": 5861216,
+          "external_cpu_frac": 0.14399999999999996,
+          "own_cpu_frac": 0.1236923076923077,
+          "host_busy_frac": 0.2676923076923077,
+          "shanghai": "2026-11-10 22:47:13 +08"
+        },
+        {
+          "event": "pool_done",
+          "n_tasks": 1,
+          "shanghai": "2026-11-10 22:47:13 +08"
+        }
+      ],
+      "class_rss_kib": 2513914
+    }
+  ],
+  "eta_file": "/workspace/qumode_qsk/ETA_AND_PROBE.json",
+  "main_not_started": true,
+  "note": "Disjoint pilot only. Main 200-instance campaign is approved but waits for this checkpoint to be relayed."
+}

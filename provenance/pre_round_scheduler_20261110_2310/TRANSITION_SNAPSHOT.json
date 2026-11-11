@@ -1,0 +1,17 @@
+{
+  "shanghai": "2026-11-10 23:10:43 +0800",
+  "reason": "graceful_transition_to_round_scheduler_and_kernel_rewrite",
+  "authorization": [
+    "pt3496u",
+    "pt3497u",
+    "pt3498u"
+  ],
+  "live_pid": 2726767,
+  "result_counts": {
+    "spsa_N6": 2400,
+    "bfgs_N6": 6323,
+    "entropy_N6": 200
+  },
+  "n6_entropy_indices_complete": 200,
+  "note": "Results under runs/main and data/*/main are preserved in place; this directory is a source/protocol snapshot only. No deletions."
+}

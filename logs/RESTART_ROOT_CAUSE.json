@@ -1,0 +1,27 @@
+{
+  "shanghai": "2026-11-10 21:27:38 CST",
+  "title": "Phase-1 N=21 first-attempt restart root cause (evidence)",
+  "not_a_cpu_saturation_claim": true,
+  "no_evidence_cpu_policy_caused_the_interruption": true,
+  "what_happened": [
+    "Audits PASS at 20:22 Asia/Shanghai. Entropy N=6,9,12,15,18 completed and were written under runs/pilot/.",
+    "N=21 entropy was admitted immediately at 20:24:16 (scheduler action=admit, in_flight=1, not a RAM-admission hold). The orchestrator then correctly entered drain and waited.",
+    "ACTIVE_STATUS/PHASE1_STATUS were only updated at wave start (20:24:16) and therefore looked stale. No N=21 result file was written because the scan writes only at the end.",
+    "The first worker (pid 2666358, parent 2664904) kept all per-field full-space ground-state vectors (2^21 complex, ~32 MiB each). RSS grew to ~4.2 GiB (ru_maxrss ~4.08e6 KiB at 20:56) with no field-level progress log.",
+    "Those processes were still running at 21:07 when they were believed gone. After identity checks (cwd=/workspace/qumode_qsk, cmdline=python3 -u scripts/run_phase1.py, lock pid=2664904), they were SIGTERM-stopped at 21:08:56 and the owned stale lock was removed.",
+    "logs/phase1_stderr.log contains BrokenProcessPool: process terminated abruptly. That traceback is from the SIGTERM of the first worker, appended to the same log, not a spontaneous runtime crash and not a CPU-policy fault.",
+    "The scan was then fixed to retain only the peak GS, reuse the previous even-sector vector as eigsh v0 (same tolerances), and log each field. Resume skipped completed audits and N<=18 entropy.",
+    "The second N=21 attempt (parent 2684987, worker 2684998) is a single nice=19 worker. Mid-scan RSS is flat at 1933780 KiB (~1.84 GiB). That is the evidence the leak, not CPU capping, was the first-attempt problem."
+  ],
+  "first_attempt_pids": [
+    2664904,
+    2666358
+  ],
+  "stderr_excerpt": "ode_qsk/scripts/run_phase1.py\", line 276, in main\n    rows, meta = run_wave(name, tasks, rss, mx)\n                 ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/qumode_qsk/scripts/run_phase1.py\", line 232, in run_wave\n    rows = pool.map(dispatch, tasks, max_pool=config_max)\n  File \"/workspace/qumode_qsk/src/scheduler.py\", line 248, in map\n    results[idx] = fut.result()\n                   ~~~~~~~~~~^^\n  File \"/usr/lib/python3.13/concurrent/futures/_base.py\", line 449, in result\n    return self.__get_result()\n           ~~~~~~~~~~~~~~~~~^^\n  File \"/usr/lib/python3.13/concurrent/futures/_base.py\", line 401, in __get_result\n    raise self._exception\nconcurrent.futures.process.BrokenProcessPool: A process in the process pool was terminated abruptly while the future was running or pending.",
+  "current_attempt_pids": [
+    2684987,
+    2684998
+  ],
+  "current_rss_kib_flat": 1933780,
+  "science_protocol_unchanged": true
+}
